@@ -310,8 +310,8 @@ function CampaignDataSetup(name, map, variable, value)
 end
 
 CampaignDataSetup()
-CampaignDataSetup("Lucas Kage")
-CampaignDataSetup("Lucas Kage", "Dunath Plains")
+CampaignDataSetup("Shane Wolfe")
+CampaignDataSetup("Shane Wolfe", "Dunath Plains")
 GameDefinitionSetup("initialise")
 
 -- Override with game settings

@@ -60,9 +60,9 @@ Load("scripts/wc2-config.lua")
 
 wargus.Name = _("Wargus")
 wargus.Homepage = "https://wargus.github.io"
-wargus.Copyright = _("(c) 1998-2021 by The Stratagus Project.")
+wargus.Copyright = _("(c) 1998-2020 by The Stratagus Project.")
 
-wargus.Version = "3.0.1"
+wargus.Version = "3.0.0"
 wargus.Licence = "GPL v2+"
 
 
@@ -512,6 +512,7 @@ Load("scripts/buttons.lua")
 Load("scripts/ui.lua")
 Load("scripts/commands.lua")
 Load("scripts/cheats.lua")
+Load("scripts/formations.lua")
 
 --=============================================================================
 --
@@ -576,5 +577,7 @@ Load("scripts/ai/ai_redribbon_2012.lua")
 Load("scripts/ai/ai_redribbon_2014.lua")
 Load("scripts/ai/ai_redribbon_2015.lua")
 Load("scripts/ai/names.lua")
+Load("scripts/characters/characters.lua")
+
 
 DebugPrint("... ready!\n")

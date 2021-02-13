@@ -1,0 +1,9 @@
+DefinePlayerTypes("nobody", "nobody", "nobody", "computer", "person", "nobody", "computer", "nobody", "nobody", "nobody", "nobody", "rescue-active", "nobody", "nobody", "rescue-active")
+PresentMap("3rd Level Mythic Campaign", 1, 128, 128, 6)
+DefineMapSetup("campaigns/human-tales/level03h_c.sms")
+
+SetMapTeams(3, 1, 1)
+SetMapTeams(11, 1, 2)
+SetMapTeams(6, 2, 1)
+SetMapTeams(14, 2, 2)
+SetMapTeams(4, 2, 3)

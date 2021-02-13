@@ -8,7 +8,7 @@
 --                        T H E   W A R   B E G I N S
 --         Stratagus - A free fantasy real time strategy game engine
 --
---	(c) Copyright 2014 by Kyran Jackson
+--					(c) Copyright 2014 by Kyran Jackson
 --
 --      This program is free software; you can redistribute it and/or modify
 --      it under the terms of the GNU General Public License as published by
@@ -142,8 +142,8 @@ function AiRedRibbon_Auto_Origin_2014(player, target, x, y, class)
 	for i=1, 15 do
 		if (UnitDatabase[player][i]["Origin"] == target) then
 			AiRedRibbon_Define_Origin_2014(player, i, x, y)
-		end
-		if ((target == "all") or (UnitDatabase[player][i]["Unit"] == target) or (UnitDatabase[player][i]["Class"] == target) or (UnitDatabase[player][i]["Rank"] == target) or (UnitDatabase[player][i]["Category"] == target)) then
+			-- Next line changed from end .. if to elseif (29/02/2016)
+		elseif ((target == "all") or (UnitDatabase[player][i]["Unit"] == target) or (UnitDatabase[player][i]["Class"] == target) or (UnitDatabase[player][i]["Rank"] == target) or (UnitDatabase[player][i]["Category"] == target)) then
 			AiRedRibbon_Define_Origin_2014(player, i, x, y, class)
 		end
 	end
@@ -359,16 +359,17 @@ function AiRedRibbon_Survival_2014()
 	AiNephrite_2013()
 end
 
-function AiRedRibbon_Diplomacy_Neutral_2014(a,b,n,s,w)
+function AiRedRibbon_Diplomacy_Neutral_2014(a,b,n,s,w,v)
 	if (s ~= "enemy") then s = "allied" end
 	if (w == nil) then w = "both" end
+	if (v == nil) then v = false end
 	for i=a,b do
 		if ((w == "right") or (w == "both")) then
-			SetSharedVision(i, false, n)
+			SetSharedVision(i, v, n)
 			SetDiplomacy(i, s, n)
 		end
 		if ((w == "left") or (w == "both")) then
-			SetSharedVision(n, false, i)
+			SetSharedVision(n, v, i)
 			SetDiplomacy(n, s, i)
 		end
 	end
@@ -446,7 +447,7 @@ function AiRed_Check_Unit_2014(player, i)
 end
 
 function AiRed_Check_Building_2014(player, i)
-	if (((GetNumUnitsAt(player, UnitDatabase[ftm_team[player]][i]["Origin"], {(UnitDatabase[player][i]["X"] - 3), (UnitDatabase[player][i]["Y"] - 3)}, {(UnitDatabase[player][i]["X"] + 3), (UnitDatabase[player][i]["Y"] + 3)}) > 0) 
+	if ((GameDefinition["Name"] ~= "For the Motherland") or ((GetNumUnitsAt(player, UnitDatabase[ftm_team[player]][i]["Origin"], {(UnitDatabase[player][i]["X"] - 3), (UnitDatabase[player][i]["Y"] - 3)}, {(UnitDatabase[player][i]["X"] + 3), (UnitDatabase[player][i]["Y"] + 3)}) > 0) 
 		or (((UnitDatabase[player][i]["Origin"] == AiCityCenter()) or (UnitDatabase[player][i]["Origin"] == AiBetterCityCenter()) 
 		or (UnitDatabase[player][i]["Origin"] == AiBestCityCenter())) 
 		and ((GetNumUnitsAt(player, AiCityCenter(), {(UnitDatabase[player][i]["X"] - 3), (UnitDatabase[player][i]["Y"] - 3)}, {(UnitDatabase[player][i]["X"] + 3), (UnitDatabase[player][i]["Y"] + 3)}) > 0) 

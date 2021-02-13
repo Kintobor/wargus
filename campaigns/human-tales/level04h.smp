@@ -1,0 +1,7 @@
+DefinePlayerTypes("person","computer","computer","nobody","nobody","nobody","computer")
+PresentMap("4th Level Mythic Campaign", 3, 64, 64, 1)
+DefineMapSetup("campaigns/human-tales/level04h_c.sms")
+SetMapTeams(0, 1, 1)
+SetMapTeams(6, 1, 2)
+SetMapTeams(1, 2, 1)
+SetMapTeams(2, 2, 2)

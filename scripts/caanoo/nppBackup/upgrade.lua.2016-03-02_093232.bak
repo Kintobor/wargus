@@ -1,0 +1,222 @@
+--       _________ __                 __
+--      /   _____//  |_____________ _/  |______     ____  __ __  ______
+--      \_____  \\   __\_  __ \__  \\   __\__  \   / ___\|  |  \/  ___/
+--      /        \|  |  |  | \// __ \|  |  / __ \_/ /_/  >  |  /\___ \
+--     /_______  /|__|  |__|  (____  /__| (____  /\___  /|____//____  >
+--             \/                  \/          \//_____/            \/
+--  ______________________                           ______________________
+--                        T H E   W A R   B E G I N S
+--         Stratagus - A free fantasy real time strategy game engine
+--
+--      upgrade.ccl - Define the human dependencies and upgrades.
+--
+--      (c) Copyright 2014 by Kyran Jackson
+--
+--      This program is free software; you can redistribute it and/or modify
+--      it under the terms of the GNU General Public License as published by
+--      the Free Software Foundation; either version 2 of the License, or
+--      (at your option) any later version.
+--
+--      This program is distributed in the hope that it will be useful,
+--      but WITHOUT ANY WARRANTY; without even the implied warranty of
+--      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+--      GNU General Public License for more details.
+--
+--      You should have received a copy of the GNU General Public License
+--      along with this program; if not, write to the Free Software
+--      Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+--
+
+local upgrades = {
+  {"spell-unit-footman1", "icon-battle-axe2",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-archer", "icon-battle-axe3",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-ballista", "icon-throwing-axe2",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-knight", "icon-throwing-axe3",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-female-hero", "icon-orc-shield2",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-knight-rider", "icon-orc-shield3",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-peasant", "icon-orc-ship-cannon2",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-ranger", "icon-orc-ship-cannon3",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-yeoman", "icon-orc-ship-armor2",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-gryphon-rider", "icon-orc-ship-armor3",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-arthor-literios", "icon-catapult1",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-mage", "icon-catapult2",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-paladin", "icon-berserker",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-attack-peasant", "icon-light-axes",
+    {   0,   0,   0,     0,     0,     0,     0}},
+  {"spell-unit-dwarves", "icon-light-axes",
+    {   0,   0,   0,     0,     0,     0,     0}},
+}
+
+for i = 1,table.getn(upgrades) do
+  u = CUpgrade:New(upgrades[i][1])
+  u.Icon = Icons[upgrades[i][2]]
+  for j = 1,table.getn(upgrades[i][3]) do
+    u.Costs[j - 1] = upgrades[i][3][j]
+  end
+end
+
+DefineModifier("upgrade-sword1",
+  {"Level", 1},
+  {"PiercingDamage", 2},
+  {"apply-to", "unit-caanoo-oathbreaker"}, {"apply-to", "unit-human-adventurer"}, {"apply-to", "unit-order-paladin"})
+
+DefineModifier("upgrade-sword2",
+  {"Level", 1},
+  {"PiercingDamage", 2},
+  {"apply-to", "unit-caanoo-oathbreaker"}, {"apply-to", "unit-human-adventurer"}, {"apply-to", "unit-order-paladin"})
+
+DefineModifier("upgrade-arrow1",
+  {"Level", 1},
+  {"PiercingDamage", 1},
+  {"apply-to", "unit-yeoman"})
+
+DefineModifier("upgrade-arrow2",
+  {"Level", 1},
+  {"PiercingDamage", 1},
+  {"apply-to", "unit-yeoman"})
+
+DefineModifier("upgrade-human-shield1",
+  {"Level", 1},
+  {"Armor", 2},
+  {"apply-to", "unit-caanoo-oathbreaker"}, {"apply-to", "unit-human-adventurer"}, {"apply-to", "unit-order-paladin"})
+
+DefineModifier("upgrade-human-shield2",
+  {"Level", 1},
+  {"Armor", 2},
+  {"apply-to", "unit-caanoo-oathbreaker"}, {"apply-to", "unit-human-adventurer"}, {"apply-to", "unit-order-paladin"})
+
+DefineModifier("upgrade-longbow",
+  {"Level", 1},
+  {"SightRange", 1},
+  {"AttackRange", 1},
+  {"apply-to", "unit-yeoman"})
+
+DefineModifier("upgrade-ranger-scouting",
+  {"Level", 1},
+  {"SightRange", 3},
+  {"apply-to", "unit-yeoman"})
+
+DefineModifier("upgrade-ranger-marksmanship",
+  {"Level", 1},
+  {"PiercingDamage", 3},
+  {"apply-to", "unit-yeoman"})
+
+DefineModifier("upgrade-holy-vision",
+  {"Level", 1},
+  {"apply-to", "unit-order-paladin"})
+
+DefineModifier("upgrade-healing",
+  {"Level", 1},
+  {"apply-to", "unit-order-paladin"})
+
+DefineModifier("upgrade-exorcism",
+  {"Level", 1},
+  {"apply-to", "unit-order-paladin"})
+  
+DefineModifier("upgrade-throwing-axe1",
+  {"Level", 1},
+  {"PiercingDamage", 1},
+  {"apply-to", "unit-nomad"})
+
+DefineModifier("upgrade-throwing-axe2",
+  {"Level", 1},
+  {"PiercingDamage", 1},
+  {"apply-to", "unit-nomad"})
+
+DefineModifier("upgrade-light-axes",
+  {"Level", 1},
+  {"SightRange", 1},
+  {"AttackRange", 1},
+  {"apply-to", "unit-nomad"})
+
+DefineModifier("upgrade-berserker-scouting",
+  {"Level", 1},
+  {"SightRange", 3},
+  {"apply-to", "unit-nomad"})
+
+DefineModifier("upgrade-berserker-regeneration",
+  {"Level", 1},
+  {"regeneration-rate", 1},
+  {"apply-to", "unit-nomad"})
+  
+DefineModifier("spell-unit-footman1",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-archer",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-ballista",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-knight",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+-- Wise Man Spells
+
+DefineModifier("spell-unit-female-hero",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-knight-rider",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-peasant",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-ranger",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-yeoman",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-gryphon-rider",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-arthor-literios",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-mage",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-paladin",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-attack-peasant",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+DefineModifier("spell-unit-dwarves",
+  {"Level", 1},
+  {"apply-to", "unit-caanoo-wiseman"})
+  
+-- Wise Skeleton Spells
+  
+  
+  
+  
+  

@@ -93,7 +93,7 @@ function AiJadeite_Intermittent_2010(cycle)
 	if ((GetPlayerData(AiPlayer(), "UnitTypesCount", AiWorker()) < 5) and ((GameCycle > cycle + 500) and (GameCycle < cycle + 5000))) then
 		AiSet(AiWorker(), 8)
 		if (GameCycle > cycle + 4500) then
-			AiSet(AiFarm(), 8)
+			AiJadeite_Build_2010(AiFarm(), 8)
 		end
 		
 	elseif ((GetPlayerData(AiPlayer(), "UnitTypesCount", AiWorker()) < 10) and ((GameCycle > cycle + 5000) and (GameCycle < cycle + 6000)) and (GetPlayerData(AiPlayer(), "Resources", "gold") > cycle + 2000)) then
@@ -324,6 +324,11 @@ function AiJadeite_Force_2010(force, unit1, quantity1, unit2, quantity2, unit3, 
 			AiForce(force, {unit1, quantity1, unit2, quantity2, unit3, quantity3, unit4, quantity4}, true)
 		end
 		AiJadeite_Ticker_2010(5)
+	end
+	if (((unit1 == nil) or (GetPlayerData(AiPlayer(), "UnitTypesCount", unit1) >= quantity1)) and ((unit2 == nil) or (GetPlayerData(AiPlayer(), "UnitTypesCount", unit2) >= quantity2)) and ((unit3 == nil) or (GetPlayerData(AiPlayer(), "UnitTypesCount", unit3) >= quantity3))) then
+		return true
+	else
+		return false
 	end
 end
 

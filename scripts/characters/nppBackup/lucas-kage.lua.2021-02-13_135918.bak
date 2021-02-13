@@ -1,0 +1,577 @@
+--       _________ __                 __
+--      /   _____//  |_____________ _/  |______     ____  __ __  ______
+--      \_____  \\   __\_  __ \__  \\   __\__  \   / ___\|  |  \/  ___/
+--      /        \|  |  |  | \// __ \|  |  / __ \_/ /_/  >  |  /\___ \ 
+--     /_______  /|__|  |__|  (____  /__| (____  /\___  /|____//____  >
+--             \/                  \/          \//_____/            \/ 
+--  ______________________                           ______________________
+--                        T H E   W A R   B E G I N S
+--         Stratagus - A free fantasy real time strategy game engine
+--
+--	(c) Copyright 2015 by Kyran Jackson
+--
+--      This program is free software; you can redistribute it and/or modify
+--      it under the terms of the GNU General Public License as published by
+--      the Free Software Foundation; either version 2 of the License, or
+--      (at your option) any later version.
+--  
+--      This program is distributed in the hope that it will be useful,
+--      but WITHOUT ANY WARRANTY; without even the implied warranty of
+--      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+--      GNU General Public License for more details.
+--  
+--      You should have received a copy of the GNU General Public License
+--      along with this program; if not, write to the Free Software
+--      Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+--
+
+--  ______________________                           ______________________
+--                            A P P E A R A N C E    
+
+CharacterSetup("Lucas Kage", 17, "Red House", "Mythic")
+--CharacterSetup("Lucas Kage", "Skin", "Neutral", "char_kaminari_full", 1)
+
+--  ______________________                           ______________________
+--                           T E M P E R A M E N T   
+
+CharacterSetup("Lucas Kage", "Mood", "Neutral", "Grumpy", "char_kaminari_full_annoyed.png")
+CharacterSetup("Lucas Kage", "Mood", "Neutral", "Surprised")
+CharacterSetup("Lucas Kage", "Mood", "Neutral", "Unsure")
+CharacterSetup("Lucas Kage", "Mood", "Neutral", "Happy", "char_kaminari_full_content.png")
+CharacterSetup("Lucas Kage", "Mood", "Neutral", "Sly")
+
+CharacterAction("Lucas Kage", "Pose", "Neutral", "Unsure")
+
+--  ______________________                           ______________________
+--                          I N T E L L I G E N C E  
+
+function AiLucas_2015()
+	AiCharacter_Set_Name_2015("Lucas Kage")
+	--Check game type.
+	if (GameDefinition["Name"] == "For the Motherland") then
+		AiShane_FtM_2015(AiPlayer())
+	elseif (GameDefinition["Name"] == "Nightmare") then
+		AiNathan_Nightmare_2015(AiPlayer())
+	elseif (GameDefinition["Name"] == "Skirmish") then
+		AiLucas_Skirmish_2015()
+	elseif (GameDefinition["Name"] == "Escape") then
+		AiLucas_Escape_2015()
+	end
+end
+
+--  ______________________                           ______________________
+--                                E S C A P E        
+
+function AiLucas_Escape_2015()
+	if (GameDefinition["Map"]["Name"] == "Shameful Display") then
+		AiLucas_Escape_Shameful_Display_2015()
+	end
+end
+
+function AiLucas_Escape_Shameful_Display_2015()
+	if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiHeroSoldier()) > 0) then
+		if (LucasTimer == nil) then 
+			LucasTimer = 30
+			AiForce(0, {AiShooter(), GetPlayerData(AiPlayer(), "UnitTypesCount", AiShooter()), AiSoldier(), GetPlayerData(AiPlayer(), "UnitTypesCount", AiSoldier())})
+		elseif (LucasTimer < 1) then 
+			if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiSoldier()) == 0) then
+				if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiShooter()) == 0) then
+					LucasTimer = 5
+				else
+					LucasTimer = 10
+				end
+			else
+				if (GetPlayerData(4, "UnitTypesCount", AiHeroSoldier(4)) == 0) then
+					LucasTimer = 7
+				else
+					LucasTimer = 16
+				end
+			end
+		else 
+			LucasTimer = LucasTimer - 1 
+		end
+		if (LucasTimer == 1) then
+			if (GameCycle < 1000) then LucasSize = 3 elseif (GameCycle < 2000) then LucasSize = 4 elseif (GameCycle < 4000) then LucasSize = 5 elseif (GameCycle < 8000) then LucasSize = 6 elseif (GameCycle < 15000) then LucasSize = 10 elseif (GameCycle < 20000) then LucasSize = 20 end
+			if (MoveArmySafe(AiPlayer(), 6, 55, 1, 68, 1, 2) == true) then 
+			-- Move forward!
+			elseif (MoveArmySafe(AiPlayer(), 23, 113, 46, 123, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 36, 35, 40, 53, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 4, 2, 41, 3, 1, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 41, 3, 35, 34, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 116, 76, 107, 100, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 107, 100, 105, 116, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 60, 86, 79, 84, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 83, 76, 79, 84, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 79, 84, 80, 93, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 91, 76, 80, 93, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 0, 0, 8, 91, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 125, 1, 102, 41, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 49, 18, 53, 30, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 2, 1, 11, 25, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 119, 77, 107, 99, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 120, 61, 119, 77, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 124, 42, 120, 61, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 123, 2, 124, 42, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 11, 25, 7, 36, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 7, 36, 6, 57, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 6, 57, 20, 78, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 0, 0, 0, 0, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 0, 0, 0, 0, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 0, 0, 0, 0, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 40, 35, 35, 64, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 45, 91, 91, 77, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 84, 109, 9, 91, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 107, 100, 107, 78, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 107, 78, 116, 77, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 116, 77, 105, 64, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 105, 64, 102, 41, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 102, 41, 90, 33, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 90, 33, 75, 17, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 4, 102, 9, 91, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 124, 44, 119, 61, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 123, 5, 104, 40, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 104, 40, 125, 43, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 33, 24, 10, 26, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 49, 16, 33, 24, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 53, 30, 36, 35, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 20, 78, 10, 91, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 35, 64, 20, 78, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 124, 41, 116, 61, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 116, 61, 116, 76, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 91, 77, 79, 84, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 105, 62, 91, 77, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 115, 76, 119, 94, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 54, 67, 58, 79, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 67, 58, 54, 67, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 41, 54, 54, 67, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 45, 91, 62, 88, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 35, 81, 45, 91, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 39, 54, 35, 81, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 13, 69, 35, 81, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 116, 78, 91, 89, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 120, 61, 116, 71, 3, 2) == true) then 
+			-- Move back!
+			elseif (MoveArmySafe(AiPlayer(), 107, 100, 80, 93, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 80, 93, 79, 110, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 79, 110, 43, 102, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 43, 102, 8, 91, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 104, 115, 81, 108, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 44, 101, 12, 90, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 34, 35, 36, 35, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 41, 3, 49, 16, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 1, 2, 49, 16, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 8, 91, 10, 90, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 34, 64, 45, 91, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 91, 77, 90, 90, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 61, 87, 90, 90, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 90, 90, 107, 100, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 90, 77, 105, 64, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 75, 17, 49, 20, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 10, 90, 28, 101, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 28, 101, 28, 112, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 28, 112, 17, 123, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 2, 2, 49, 18, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 13, 89, 4, 91, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 4, 91, 3, 102, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 3, 102, 17, 112, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 104, 115, 10, 90, 5, 2) == true) then
+			elseif (MoveArmySafe(AiPlayer(), 6, 56, 1, 75, 5, 2) == true) then
+			elseif (MoveArmySafe(AiPlayer(), 11, 90, 6, 55, 1, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 86, 92, 79, 85, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 107, 100, 86, 92, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 79, 84, 53, 107, LucasSize, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 91, 91, 82, 77, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 119, 94, 82, 77, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 42, 123, 17, 122, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 54, 108, 42, 123, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 83, 107, 54, 108, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 62, 88, 54, 67, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 13, 89, 35, 81, 3, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 105, 114, 83, 107, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 107, 100, 105, 114, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 35, 64, 34, 81, 2, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 41, 54, 35, 64, 2, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 60, 88, 11, 90, 2, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 54, 72, 60, 87, 2, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 34, 81, 60, 87, 2, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 46, 91, 34, 81, 2, 2) == true) then 
+			end
+		elseif ((UnitNear(4, AiHeroSoldier(4), 35, 82, 2) == true) or (UnitNear(4, AiSoldier(4), 32, 75, 2) == true) or (UnitNear(4, AiShooter(4), 35, 64, 2) == true)) then
+			if (MoveArmyQuick(AiPlayer(), 35, 65, 25, 87, 25) == true) then 
+			elseif (MoveArmyQuick(AiPlayer(), 35, 65, 25, 107, 25) == true) then 
+			end
+		elseif (UnitNear(4, AiHeroSoldier(4), 62, 87, 6)) then
+			if (MoveArmyQuick(AiPlayer(), 62, 87, 25, 107, 25) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 54, 68, 62, 87, 5, 2) == true) then 
+			elseif (MoveArmyQuick(AiPlayer(), 62, 87, 25, 87, 25) == true) then 
+			end
+		elseif ((LucasTimer > 14) and ((UnitNear(4, AiHeroSoldier(4), 35, 64, 8)) or (UnitNear(4, AiHeroSoldier(4), 32, 75, 8)) or (UnitNear(4, AiHeroSoldier(4), 61, 88, 8)) or (UnitNear(4, AiHeroSoldier(4), 56, 77, 8)))) then
+			if (MoveArmySafe(AiPlayer(), 60, 88, 17, 122, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 36, 82, 20, 78, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 35, 64, 34, 81, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 41, 53, 54, 73, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 66, 59, 54, 73, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 41, 54, 35, 64, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 60, 88, 11, 90, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 54, 72, 60, 87, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 34, 81, 60, 87, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 46, 91, 34, 81, 4, 2) == true) then 
+			end
+		elseif ((UnitNear(4, AiHeroSoldier(4), 57, 111, 3) == true) or (UnitNear(4, AiHeroSoldier(4), 70, 114, 4) == true) or (UnitNear(4, AiHeroSoldier(4), 105, 115, 8) == true) or (UnitNear(4, AiHeroSoldier(4), 24, 24, 25) == true)) then
+			if (MoveArmySafe(AiPlayer(), 42, 123, 17, 122, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 79, 84, 54, 73, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 104, 114, 11, 89, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 104, 114, 28, 102, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 54, 108, 42, 123, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 83, 107, 54, 108, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 105, 114, 83, 107, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 107, 100, 105, 114, 4, 2) == true) then 
+			elseif (MoveArmySafe(AiPlayer(), 107, 100, 80, 88, 5, 2) == true) then 
+			end
+		end
+	end
+end
+
+--  ______________________                           ______________________
+--                            M O T H E R L A N D    
+
+--  ______________________                           ______________________
+--                             N I G H T M A R E     
+
+--  ______________________                           ______________________
+--                              S K I R M I S H      
+
+function AiLucas_Skirmish_2015()
+	if ((GameDefinition["Map"]["Name"] == "Northern Swamp") or (GameDefinition["Map"]["Name"] == "Southern Swamp")) then
+		AiLucas_Skirmish_Northern_Swamp_2015()
+	elseif (GameDefinition["Map"]["Name"] == "Reclaiming Genesis Castle") then
+		AiLucas_Skirmish_Reclaiming_Genesis_2015()
+	elseif (GameDefinition["Map"]["Name"] == "Fall of Genesis Castle") then
+		AiLucas_Skirmish_Fall_Genesis_2015()
+	else
+		AiLucas_Skirmish_Standard_2015()
+	end
+end
+
+function AiLucas_Skirmish_Fall_Genesis_2015()
+	-- Mythic Defender
+	AiJadeite_Intermittent_2010()
+	if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiSoldier()) > 3) then
+		AiJadeite_Force_2010(3, AiSoldier(), 20)
+		if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiSoldier()) > 18) then
+			AiJadeite_Upgrade_2010(AiSoldier())
+			AiJadeite_Upgrade_2010(AiShooter())
+			AiJadeite_Attack_2010(3)
+		end
+	else
+		AiJadeite_Force_2010(0, AiSoldier(), 4)
+	end
+end
+
+function AiLucas_Skirmish_Reclaiming_Genesis_2015()
+	if (GameCycle < 2000) then
+		AiJadeite_Worker_2010()
+		if (GameCycle < 1000) then
+			if (MoveUnitQuick(AiPlayer(), AiCavalry(), 116, 12, 68, 1) == true) then 
+			elseif (MoveUnitQuick(AiPlayer(), AiCavalry(), 113, 20, 116, 12) == true) then 
+			elseif (MoveUnitQuick(AiPlayer(), AiSoldier(), 82, 17, 67, 1) == true) then 
+			elseif (MoveUnitQuick(AiPlayer(), AiShooter(), 57, 62, 16, 58) == true) then 
+			end
+		elseif (GameCycle < 1500) then
+			if (MoveUnitQuick(AiPlayer(), AiSoldier(), 88, 15, 63, 1) == true) then 
+			elseif (MoveUnitQuick(AiPlayer(), AiShooter(), 88, 11, 62, 0) == true) then 
+			elseif (MoveUnitQuick(AiPlayer(), AiCavalry(), 112, 23, 61, 1) == true) then 
+			end
+		else
+			MoveArmyQuick(AiPlayer(), 84, 15, 64, 1, 5)
+			AiJadeite_Force_2010(0, AiSoldier(), 4)
+		end
+	else
+		AiLucas_Skirmish_Standard_2015(0, 0, 5, 3)
+	end
+end
+
+function AiLucas_Skirmish_Northern_Swamp_2015()
+	-- We should make it that if Sandria has Lucas playing, the Wilds attack Sandria instead.
+	if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiScout()) > 0) then
+		if (MoveUnitQuick(AiPlayer(), AiScout(), 121, 32, 105, 8, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 19, 43, 121, 32, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 16, 58, 19, 43, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 57, 62, 16, 58, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 64, 112, 57, 62, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 8, 116, 64, 112, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 22, 102, 8, 116, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 121, 123, 22, 102, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 118, 7, 121, 123, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 6, 47, 118, 7, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 39, 8, 6, 47, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 39, 3, 39, 8, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 44, 3, 39, 3, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 67, 99, 44, 3, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 105, 8, 67, 99, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 67, 8, 105, 8, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 115, 80, 67, 8, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 13, 77, 115, 80, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 91, 50, 13, 77, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 113, 6, 91, 50, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 105, 8, 113, 6, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 19, 43, 122, 114, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 105, 8, 103, 19, nil, "move") == true) then 
+		elseif (MoveUnitQuick(AiPlayer(), AiScout(), 115, 80, 91, 96, nil, "move") == true) then 
+		end
+	elseif ((GetPlayerData(AiPlayer(), "Resources", "gold") > 2000) and (GameCycle > 2250) and (GetPlayerData(AiPlayer(), "UnitTypesCount", AiScientific()) > 0)) then
+		if (AiPlayer() == 0) then
+			if (GameDefinition["Map"]["Name"] == "Northern Swamp") then
+				CreateUnit(AiScout(), AiPlayer(), {105, 8})
+			else
+				CreateUnit(AiScout(), AiPlayer(), {103, 19})
+			end
+			SetPlayerData(AiPlayer(), "Resources", "gold", GetPlayerData(AiPlayer(), "Resources", "gold") - 500)
+			SetPlayerData(AiPlayer(), "Resources", "wood", GetPlayerData(AiPlayer(), "Resources", "wood") - 100)
+		elseif (AiPlayer() == 2) then
+			if (GameDefinition["Map"]["Name"] == "Northern Swamp") then
+				CreateUnit(AiScout(), AiPlayer(), {122, 114})
+			else
+				CreateUnit(AiScout(), AiPlayer(), {91, 96})
+			end
+			SetPlayerData(AiPlayer(), "Resources", "gold", GetPlayerData(AiPlayer(), "Resources", "gold") - 500)
+			SetPlayerData(AiPlayer(), "Resources", "wood", GetPlayerData(AiPlayer(), "Resources", "wood") - 100)
+		end
+	end
+	if (GetPlayerData(AiPlayer(), "Name") == "Kiah Stone") then
+		if ((GameCycle < 2500) and (GameDefinition["Map"]["Name"] == "Northern Swamp")) then
+			if (GameCycle < 200) then
+				OrderUnitSquare(AiPlayer(), AiSoldier(), 112, 70, 3, 1, 108, 47, "attack")
+				OrderUnitSquare(AiPlayer(), AiSoldier(), 98, 75, 3, 1, 104, 47, "attack")
+				OrderUnitSquare(AiPlayer(), AiSoldier(), 94, 75, 3, 1, 101, 47, "attack")
+				OrderUnitSquare(AiPlayer(), AiSoldier(), 82, 73, 3, 1, 98, 47, "attack")
+				OrderUnitSquare(AiPlayer(), AiShooter(), 112, 71, 3, 1, 108, 48, "move")
+				OrderUnitSquare(AiPlayer(), AiShooter(), 98, 76, 3, 1, 104, 48, "move")
+				OrderUnitSquare(AiPlayer(), AiShooter(), 94, 76, 3, 1, 101, 48, "move")
+				OrderUnitSquare(AiPlayer(), AiShooter(), 82, 74, 3, 1, 98, 48, "move")
+			elseif ((GameCycle > 1300) and (GameCycle < 1800)) then
+				MoveUnitQuick(AiPlayer(), AiCavalry(), 108, 26, 112, 95, 5)
+				MoveUnitQuick(AiPlayer(), AiCavalry(), 104, 26, 106, 87, 5)
+			elseif ((GameCycle > 1800) and (GameCycle < 2500)) then
+				MoveUnitQuick(AiPlayer(), AiSoldier(), 108, 27, 108, 47, 5)
+				MoveUnitQuick(AiPlayer(), AiSoldier(), 104, 27, 104, 47, 5)
+				MoveUnitQuick(AiPlayer(), AiSoldier(), 101, 27, 101, 47, 5)
+				MoveUnitQuick(AiPlayer(), AiSoldier(), 98, 27, 98, 47, 5)
+				if (GameCycle > 1900) then
+					MoveUnitQuick(AiPlayer(), AiShooter(), 108, 28, 108, 48, 5)
+					MoveUnitQuick(AiPlayer(), AiShooter(), 104, 28, 104, 48, 5)
+					MoveUnitQuick(AiPlayer(), AiShooter(), 101, 28, 101, 48, 5)
+					MoveUnitQuick(AiPlayer(), AiShooter(), 98, 28, 98, 48, 5)
+				end
+			end
+		elseif (GameDefinition["Map"]["Name"] == "Southern Swamp") then
+			if (GameCycle < 100) then
+				OrderUnitSquare(AiPlayer(), AiSoldier(), 105, 86, 1, 3, 99, 65, "move")
+				OrderUnitSquare(AiPlayer(), AiSoldier(), 93, 91, 1, 3, 91, 60, "move")
+			elseif ((GameCycle > 400) and (GameCycle < 500)) then
+				OrderUnitSquare(AiPlayer(), AiSoldier(), 89, 91, 1, 3, 79, 74, "move")
+			elseif (((GameCycle > 1100) and (GameCycle < 1200)) or ((GameCycle > 4500) and (GameCycle < 4600)) or ((GameCycle > 6500) and (GameCycle < 6600)) or ((GameCycle > 9800) and (GameCycle < 9900)) or ((GameCycle > 14600) and (GameCycle < 15000))) then
+				OrderUnitSquare(AiPlayer(), AiSoldier(), 101, 86, 1, 3, 67, 87, "move")
+				MoveUnitQuick(AiPlayer(), AiCavalry(), 99, 68, 103, 87, 6)
+				MoveUnitQuick(AiPlayer(), AiCavalry(), 96, 68, 91, 92, 6)
+				if (GameCycle > 14600) then
+					MoveUnitQuick(AiPlayer(), AiEliteShooter(), 99, 68, 103, 87, 5)
+					MoveUnitQuick(AiPlayer(), AiEliteShooter(), 96, 68, 91, 92, 5)
+				end
+			elseif (GameCycle < 5000) then
+				AiJadeite_Cavalry_2010()
+			elseif ((GetPlayerData(4, "UnitTypesCount", AiBetterCityCenter(4)) == 0) and (GetPlayerData(0, "UnitTypesCount", AiBetterCityCenter(0)) == 0)) then
+				if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiAirport()) ~= 0) then
+					if (GetPlayerData(AiPlayer(), "Resources", "gold") > 2499) then
+						CreateUnit(AiFlyer(), AiPlayer(), {102, 90})
+						SetPlayerData(AiPlayer(), "Resources", "gold", GetPlayerData(AiPlayer(), "Resources", "gold") - 2500)
+						if (GetPlayerData(AiPlayer(), "Resources", "gold") < 5000) then
+							AiNephrite_Attack_2013("force")
+						end
+					end
+				end
+			elseif (GetPlayerData(15, "UnitTypesCount", "unit-gold-mine") < 0) then
+				-- Only one mine left.
+				if (GetPlayerData(0, "UnitTypesCount", AiBarracks(0)) == 0) then
+					if ((GetPlayerData(4, "UnitTypesCount", AiCavalry(4)) < 4) and (GetPlayerData(4, "UnitTypesCount", AiEliteShooter(4)) < 4) and (GetPlayerData(4, "UnitTypesCount", AiSoldier(4)) < 4)) then
+						-- Attack Player 4!
+						if (UnitNear(AiPlayer(), AiEliteShooter(), 98, 89, 8)) then
+							MoveUnitQuick(AiPlayer(), AiEliteShooter(), 20, 26, 98, 89, 8)
+							MoveUnitQuick(AiPlayer(), AiCavalry(), 20, 26, 98, 89, 8)
+							AiNephrite_Attack_2013("force")
+						end
+					end
+				else
+					MoveUnitQuick(AiPlayer(), AiEliteShooter(), 71, 88, 98, 89, 4)
+					MoveUnitQuick(AiPlayer(), AiCavalry(), 71, 88, 98, 89, 4)
+				end
+			elseif (UnitNear(AiPlayer(), AiGuardTower(), 95, 62, 1) == true) then 
+				-- First line of defence.
+				if ((GameCycle > 16100) and (GameCycle < 16100)) then
+					MoveUnitQuick(AiPlayer(), AiEliteShooter(), 99, 68, 103, 87, 6)
+					MoveUnitQuick(AiPlayer(), AiEliteShooter(), 96, 68, 91, 92, 6)
+				elseif (((GameCycle > 10500) and (GameCycle < 10600)) or ((GameCycle > 11000) and (GameCycle < 11100)) or ((GameCycle > 12000) and (GameCycle < 12100)) or ((GameCycle > 13000) and (GameCycle < 13100)) or ((GameCycle > 14000) and (GameCycle < 14100)) or ((GameCycle > 15000) and (GameCycle < 15100)) or ((GameCycle > 25000) and (GameCycle < 25100))) then
+					AiNephrite_Attack_2013("force")
+				elseif ((GameCycle > 10500) and (GameCycle < 17000)) then
+					AiLucas_Skirmish_Standard_2015()
+				else
+					AiJadeite_Shooter_2010()
+				end
+			elseif (((UnitNear(0, AiCavalry(0), 100, 90, 10) == true) or (UnitNear(0, AiEliteShooter(0), 100, 90, 10) == true)) or ((UnitNear(4, AiCavalry(4), 100, 90, 10) == true) or (UnitNear(4, AiEliteShooter(4), 100, 90, 10) == true))) then 
+				-- Fall back to defend the barracks.
+				MoveUnitQuick(AiPlayer(), AiCavalry(), 100, 77, 79, 71, 6)
+				MoveUnitQuick(AiPlayer(), AiEliteShooter(), 100, 77, 79, 71, 6)
+				MoveUnitQuick(AiPlayer(), AiEliteShooter(), 100, 77, 79, 71, 6)
+			elseif ((UnitNear(AiPlayer(), AiGuardTower(), 80, 70, 2) == true) and (((UnitNear(0, AiCavalry(0), 80, 70, 10) == true) or (UnitNear(0, AiEliteShooter(0), 80, 70, 10) == true)) or ((UnitNear(4, AiCavalry(4), 80, 70, 10) == true) or (UnitNear(4, AiEliteShooter(4), 80, 70, 10) == true)))) then 
+				-- Second line of defence.
+				MoveUnitQuick(AiPlayer(), AiCavalry(), 82, 76, 91, 92, 6)
+				MoveUnitQuick(AiPlayer(), AiEliteShooter(), 82, 76, 91, 92, 6)
+				MoveUnitQuick(AiPlayer(), AiSoldier(), 82, 76, 99, 83, 2)
+				MoveUnitQuick(AiPlayer(), AiEliteShooter(), 82, 76, 99, 83, 2)
+				MoveUnitQuick(AiPlayer(), AiCavalry(), 82, 76, 98, 77, 3)
+			end
+		end
+	else
+		if ((GetPlayerData(2, "UnitTypesCount", AiFlyer(2)) > 0) or (GetPlayerData(3, "UnitTypesCount", AiFlyer(3)) > 0)) then 
+			if ((GetPlayerData(AiPlayer(), "UnitTypesCount", AiShooter()) < 6) or (GetPlayerData(AiPlayer(), "UnitTypesCount", AiEliteShooter()) < 6)) then
+				AiJadeite_Force_2010(0, AiShooter(), 6, AiSoldier(), 1)
+				AiJadeite_Upgrade_2010(AiShooter())
+			else
+				AiJadeite_Upgrade_2010(AiEliteShooter())
+			end
+			if ((UnitNear(3, AiFlyer(3), 59, 5, 5) == true) or (UnitNear(2, AiFlyer(2), 59, 5, 5) == true)) then 
+				MoveUnitQuick(AiPlayer(), AiShooter(), 62, 7, 109, 20, 6)
+				MoveUnitQuick(AiPlayer(), AiShooter(), 67, 3, 103, 40, 2)
+				if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiFlyer()) == 0) then
+					if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiAirport()) > 0) then
+						CreateUnit(AiFlyer(), AiPlayer(), {123, 19})
+						SetPlayerData(AiPlayer(), "Resources", "gold", GetPlayerData(AiPlayer(), "Resources", "gold") - 2500)
+					end
+				else
+					MoveUnitQuick(AiPlayer(), AiFlyer(), 66, 5, 123, 19, 4)
+					MoveUnitQuick(AiPlayer(), AiFlyer(), 66, 5, 123, 3, 4)
+				end
+			end
+		else
+			if (GameDefinition["Map"]["Name"] == "Southern Swamp") then
+				if (GameCycle < 100) then
+					OrderUnitSquare(AiPlayer(), AiSoldier(), 108, 26, 2, 1, 101, 42, "move")
+				elseif (GameCycle < 200) then
+					OrderUnitSquare(AiPlayer(), AiSoldier(), 114, 26, 2, 1, 107, 43, "move")
+				elseif (GameCycle < 300) then
+					OrderUnitSquare(AiPlayer(), AiSoldier(), 108, 25, 2, 1, 94, 41, "move")
+				elseif (GameCycle < 400) then
+					OrderUnitSquare(AiPlayer(), AiSoldier(), 113, 25, 2, 1, 109, 43, "move")
+				elseif (GameCycle < 500) then
+					OrderUnitSquare(AiPlayer(), AiSoldier(), 110, 25, 1, 2, 112, 46, "move")
+				elseif (GameCycle < 600) then
+					OrderUnitSquare(AiPlayer(), AiSoldier(), 115, 25, 1, 2, 111, 46, "move")
+				elseif (UnitNear(AiPlayer(), AiWorker(), 106, 58, 15)) then 
+					-- Workers are leaving the base.
+					if ((UnitNear(2, AiGuardTower(2), 95, 62, 2) == true) or (UnitNear(2, AiGuardTower(2), 80, 70, 2) == true)) then 
+						-- First or second enemy line of defence is still up.
+						MoveUnitQuick(AiPlayer(), AiWorker(), 101, 13, 106, 58, 15)
+					elseif ((UnitNear(3, AiGuardTower(3), 30, 62, 2) == true) or (UnitNear(3, AiGuardTower(3), 46, 70, 2) == true) or (UnitNear(2, AiSoldier(2), 80, 70, 5) == true) or (UnitNear(3, AiSoldier(3), 80, 70, 5) == true) or (UnitNear(3, AiCavalry(3), 80, 70, 5) == true) or (UnitNear(2, AiCavalry(2), 80, 70, 5) == true)) then 
+						-- Enemy grunts defending middle gold mine, or left side defences are still up.
+						MoveUnitQuick(AiPlayer(), AiWorker(), 87, 19, 106, 68, 20)
+						AiNephrite_Attack_2013("force")
+					end
+				elseif (GetPlayerData(AiPlayer(), "UnitTypesCount", AiFlyer()) > 0) then
+					if (MoveUnitQuick(AiPlayer(), AiFlyer(), 123, 3, 66, 5, 5) == true) then 
+					elseif (MoveUnitQuick(AiPlayer(), AiFlyer(), 124, 20, 123, 3, 5) == true) then 
+					elseif (MoveUnitQuick(AiPlayer(), AiFlyer(), 127, 127, 124, 20, 5) == true) then 
+					elseif (UnitNear(2, AiFarm(2), 122, 126, 1)) then 
+					else
+					end
+				elseif (UnitNear(AiPlayer(), AiCatapult(), 112, 43, 8)) then 
+					MoveUnitQuick(AiPlayer(), AiSoldier(), 97, 45, 110, 43, 4)
+				elseif (UnitNear(AiPlayer(), AiCavalry(), 103, 55, 10)) then 
+					MoveUnitQuick(AiPlayer(), AiSoldier(), 102, 57, 97, 45, 4)
+				elseif (UnitNear(AiPlayer(), AiCavalry(), 112, 20, 1)) then 
+					MoveUnitQuick(AiPlayer(), AiCavalry(), 108, 35, 112, 20, 5)
+					MoveUnitQuick(AiPlayer(), AiCatapult(), 108, 35, 112, 20, 5)
+				elseif (UnitNear(3, AiScout(3), 66, 8, 4) == true) then
+					MoveUnitQuick(AiPlayer(), AiShooter(), 63, 8, 112, 42)
+					MoveUnitQuick(AiPlayer(), AiEliteShooter(), 63, 8, 112, 42)
+				end
+			end
+			if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiSoldier()) > 14) then
+				AiLucas_Skirmish_Standard_2015(0, 0, 6, 2)
+			else
+				AiLucas_Skirmish_Standard_2015(1, 0, 8, 2)
+			end
+		end
+	end
+end
+
+-- May stop the other Ais from working!
+function AiLucas_Skirmish_Standard_2015(defendmelee, defendrange, attackmelee, attackrange)
+	if (defendmelee == nil) then defendmelee = 2 end
+	if (defendrange == nil) then defendrange = 0 end
+	if (attackmelee == nil) then attackmelee = 5 end
+	if (attackrange == nil) then attackrange = 1 end
+	-- Defend
+	if ((GameCycle > 15000) and (GetPlayerData(AiPlayer(), "UnitTypesCount", AiStables()) > 0)) then
+		AiJadeite_Force_2010(0, AiCavalry(), 2 + defendmelee, AiShooter(), 1 + defendrange)
+	elseif (GameCycle > 7500) then
+		if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiStables()) > 0) then
+			AiJadeite_Force_2010(0, AiCavalry(), 2 + defendmelee, AiShooter(), 1 + defendrange, AiSoldier(), 0)
+		else
+			AiJadeite_Force_2010(0, AiSoldier(), 2 + defendmelee, AiShooter(), 1 + defendrange)
+		end
+	elseif (GameCycle > 2500) then
+		AiJadeite_Build_2010(AiGuardTower())
+		if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiStables()) > 0) then
+			AiJadeite_Force_2010(0, AiCavalry(), 2 + defendmelee, AiShooter(), 0 + defendrange)
+		else
+			AiJadeite_Force_2010(0, AiSoldier(), 2 + defendmelee, AiShooter(), 0 + defendrange)
+		end
+	end
+	-- Attack
+	if ((GetPlayerData(AiPlayer(), "UnitTypesCount", AiBlacksmith()) > 0) or (GetPlayerData(AiPlayer(), "Resources", "gold") > 5000)) then
+		if (GameCycle > 15000) then
+			AiJadeite_Force_2010(3, AiCavalry(), 10, AiShooter(), 4, AiCatapult(), 1)
+		elseif (GameCycle > 7500) then
+			if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiStables()) > 0) then
+				AiJadeite_Force_2010(3, AiCavalry(), 5 + attackmelee, AiShooter(), 3 + attackrange, AiCatapult(), attackrange)
+			else
+				if (attackrange < 2) then
+					AiJadeite_Force_2010(3, AiSoldier(), 1 + attackmelee, AiShooter(), 2 + attackrange)
+				else
+					AiJadeite_Force_2010(3, AiSoldier(), 1 + attackmelee, AiShooter(), 1 + attackrange, AiCatapult(), attackrange)
+				end
+			end
+		else
+			if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiStables()) > 0) then
+				AiJadeite_Force_2010(3, AiCavalry(), 5 + attackmelee, AiShooter(), attackrange, AiCatapult(), attackrange)
+			else
+				AiJadeite_Force_2010(3, AiSoldier(), 5 + attackmelee, AiShooter(), attackrange)
+			end
+		end
+		AiJadeite_Attack_2010(3)
+	end
+	-- Buildings and Upgrades
+	AiJadeite_Intermittent_2010()
+	if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiSoldier()) > 2) then 
+		if ((GetPlayerData(AiPlayer(), "Resources", "gold") > 5000) or (GameCycle > 5000)) then
+			AiJadeite_Upgrade_2010(AiCavalryMage())
+		else
+			AiJadeite_Upgrade_2010(AiSoldier())
+		end
+	end
+	if (((GameCycle > 15000) and (GetPlayerData(AiPlayer(), "Resources", "gold") > 3000)) or (attackrange > 1)) then
+		AiJadeite_Upgrade_2010(AiShooter())
+		AiJadeite_Upgrade_2010(AiCatapult())
+	elseif (GameCycle > 2500) then
+		if (GetPlayerData(AiPlayer(), "UnitTypesCount", AiBlacksmith()) > 0) then 
+			AiJadeite_Build_2010(AiBarracks(), 2)
+		end
+	elseif (GameCycle < 500) then
+		AiJadeite_Force_2010(0, AiSoldier(), 2)
+	end
+end
+
+--  ______________________                           ______________________
+--                                M Y T H I C        
+
+DefineAi("Lucas Kage", "*", "ai_red_2015", AiLucas_2015)

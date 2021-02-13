@@ -19,127 +19,127 @@ msgstr ""
 #: buttons.lua:50 human/buttons.lua:294 human/buttons.lua:341
 #: orc/buttons.lua:317 orc/buttons.lua:364
 msgid "~<ESC~> CANCEL"
-msgstr "~<ESC~> ОТМЕНА"
+msgstr "~<ESC~> ┬О┬Т┬М┬Е┬Н┬А"
 
 #: buttons.lua:55
 msgid "~<ESC~> CANCEL UPGRADE"
-msgstr "~<ESC~> - ОТМЕНА МОДЕРНИЗАЦИИ"
+msgstr "~<ESC~> - ┬О┬Т┬М┬Е┬Н┬А ┬М┬О┬Д┬Е┬Р┬Н┬И┬З┬А┬Ц┬И┬И"
 
 #: buttons.lua:60
 msgid "~<ESC~> CANCEL UNIT TRAINING"
-msgstr "~<ESC~> - ОТМЕНА ОБУЧЕНИЯ ЕДИНИЦЫ"
+msgstr "~<ESC~> - ┬О┬Т┬М┬Е┬Н┬А ┬О┬Б┬У┬Ч┬Е┬Н┬И┬Я ┬Е┬Д┬И┬Н┬И┬Ц┬Ы"
 
 #: buttons.lua:65
 msgid "~<ESC~> CANCEL CONSTRUCTION"
-msgstr "~<ESC~> - ОТМЕНА СТРОИТЕЛЬСТВА"
+msgstr "~<ESC~> - ┬О┬Т┬М┬Е┬Н┬А ┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬А"
 
 #: database.lua:489 menus/campaign.lua:69
 msgid "Objectives:"
-msgstr "Цель:"
+msgstr "┬Ц┬е┬л┬╝:"
 
 #: database.lua:560
 msgid "Combat Casualties"
-msgstr "Боевые потери"
+msgstr "┬Б┬о┬е┬в┬╗┬е ┬п┬о┬▓┬е┬░┬и"
 
 #: database.lua:561
 msgid "Infantry"
-msgstr "Пехота"
+msgstr "┬П┬е┬╡┬о┬▓┬а"
 
 #: database.lua:562
 msgid "Artillery"
-msgstr "Артиллерия"
+msgstr "┬А┬░┬▓┬и┬л┬л┬е┬░┬и┬┐"
 
 #: database.lua:563
 msgid "Cavalry"
-msgstr "Кавалерия"
+msgstr "┬К┬а┬в┬а┬л┬е┬░┬и┬┐"
 
 #: database.lua:713 menus/campaign.lua:85 menus/campaign.lua:170
 #: menus/credits.lua:160 menus/results.lua:408
 msgid "~!Continue"
-msgstr "Дальше"
+msgstr "┬Д┬а┬л┬╝┬╕┬е"
 
 #: database.lua:721
 msgid "E~!xit"
-msgstr "Выйти"
+msgstr "┬В┬╗┬й┬▓┬и"
 
 #: guichan.lua:760
 msgid "-Destroy the enemy"
-msgstr "-Уничтожить всех врагов"
+msgstr "-┬У┬н┬и┬╖┬▓┬о┬ж┬и┬▓┬╝ ┬в┬▒┬е┬╡ ┬в┬░┬а┬г┬о┬в"
 
 #: guichan.lua:781 guichan.lua:1061 guichan.lua:1066 guichan.lua:1067
 #: guichan.lua:1069 menus/network.lua:204 menus/network.lua:213
 #: menus/network.lua:219 menus/network.lua:656 menus/network.lua:667
 #: menus/network.lua:677 stratagus.lua:84 wc2.lua:164
 msgid "Map Default"
-msgstr "По умолчанию"
+msgstr "┬П┬о ┬│┬м┬о┬л┬╖┬а┬н┬и┬╛"
 
 #: guichan.lua:843
 msgid "Nation of Stromgarde"
-msgstr "Нация Стромгарде"
+msgstr "┬Н┬а┬╢┬и┬┐ ┬С┬▓┬░┬о┬м┬г┬а┬░┬д┬е"
 
 #: guichan.lua:845
 msgid "Nation of Azeroth"
-msgstr "Нация Азерота"
+msgstr "┬Н┬а┬╢┬и┬┐ ┬А┬з┬е┬░┬о┬▓┬а"
 
 #: guichan.lua:847
 msgid "Nation of Kul Tiras"
-msgstr "Нация Куль Тираса"
+msgstr "┬Н┬а┬╢┬и┬┐ ┬К┬│┬л┬╝ ┬Т┬и┬░┬а┬▒┬а"
 
 #: guichan.lua:849
 msgid "Nation of Dalaran"
-msgstr "Нация Даларана"
+msgstr "┬Н┬а┬╢┬и┬┐ ┬Д┬а┬л┬а┬░┬а┬н┬а"
 
 #: guichan.lua:851
 msgid "Nation of Alterac"
-msgstr "Нация Альтерака"
+msgstr "┬Н┬а┬╢┬и┬┐ ┬А┬л┬╝┬▓┬е┬░┬а┬к┬а"
 
 #: guichan.lua:853
 msgid "Nation of Gilneas"
-msgstr "Нация Гилнеаса"
+msgstr "┬Н┬а┬╢┬и┬┐ ┬Г┬и┬л┬н┬е┬а┬▒┬а"
 
 #: guichan.lua:855
 msgid "Nation of Lordaeron"
-msgstr "Нация Лордерона"
+msgstr "┬Н┬а┬╢┬и┬┐ ┬Л┬о┬░┬д┬е┬░┬о┬н┬а"
 
 #: guichan.lua:857
 msgid "Alliance Traitors"
-msgstr "Предатели Альянса"
+msgstr "┬П┬░┬е┬д┬а┬▓┬е┬л┬и ┬А┬л┬╝┬┐┬н┬▒┬а"
 
 #: guichan.lua:861
 msgid "Blackrock Clan"
-msgstr "Клан Черной Скалы"
+msgstr "┬К┬л┬а┬н ┬Ч┬е┬░┬н┬о┬й ┬С┬к┬а┬л┬╗"
 
 #: guichan.lua:863
 msgid "Stormreaver Clan"
-msgstr "Клан Похитителей"
+msgstr "┬К┬л┬а┬н ┬П┬о┬╡┬и┬▓┬и┬▓┬е┬л┬е┬й"
 
 #: guichan.lua:865
 msgid "Bleeding Hollow Clan"
-msgstr "Клан Кровоточащих Десен"
+msgstr "┬К┬л┬а┬н ┬К┬░┬о┬в┬о┬▓┬о┬╖┬а┬╣┬и┬╡ ┬Д┬е┬▒┬е┬н"
 
 #: guichan.lua:867
 msgid "Twilight's Hammer Clan"
-msgstr "Клан Сумеречного Молота"
+msgstr "┬К┬л┬а┬н ┬С┬│┬м┬е┬░┬е┬╖┬н┬о┬г┬о ┬М┬о┬л┬о┬▓┬а"
 
 #: guichan.lua:869
 msgid "Burning Blade Clan"
-msgstr "Клан Горящего Клинка"
+msgstr "┬К┬л┬а┬н ┬Г┬о┬░┬┐┬╣┬е┬г┬о ┬К┬л┬и┬н┬к┬а"
 
 #: guichan.lua:871
 msgid "Black Tooth Grin Clan"
-msgstr "Клан Гнилозубых"
+msgstr "┬К┬л┬а┬н ┬Г┬н┬и┬л┬о┬з┬│┬б┬╗┬╡"
 
 #: guichan.lua:873
 msgid "Dragonmaw Clan"
-msgstr "Клан Драконьей Утробы"
+msgstr "┬К┬л┬а┬н ┬Д┬░┬а┬к┬о┬н┬╝┬е┬й ┬У┬▓┬░┬о┬б┬╗"
 
 #: guichan.lua:875
 msgid "Laughing Skull Clan"
-msgstr "Клан Смеющегося Черепа"
+msgstr "┬К┬л┬а┬н ┬С┬м┬е┬╛┬╣┬е┬г┬о┬▒┬┐ ┬Ч┬е┬░┬е┬п┬а"
 
 #: guichan.lua:957
 msgid "Select scenario"
-msgstr "Выбор миссии"
+msgstr "┬В┬╗┬б┬о┬░ ┬м┬и┬▒┬▒┬и┬и"
 
 #: guichan.lua:981 guichan.lua:1036 guichan.lua:1573 guichan.lua:1598
 #: menus/diplomacy.lua:118 menus/editor.lua:36 menus/editor.lua:81
@@ -151,273 +151,273 @@ msgstr "Выбор миссии"
 #: menus/options.lua:374 menus/options.lua:464 menus/options.lua:662
 #: menus/replay.lua:25 menus/replay.lua:67 menus/save.lua:77
 msgid "~!Cancel"
-msgstr "Отмена"
+msgstr "┬О┬▓┬м┬е┬н┬а"
 
 #: guichan.lua:1003
 msgid "~<Single Player~>"
-msgstr "~<Одиночная игра~>"
+msgstr "~<┬О┬д┬и┬н┬о┬╖┬н┬а┬┐ ┬и┬г┬░┬а~>"
 
 #: guichan.lua:1005
 msgid "~!Standard Game"
-msgstr "Миссия пользователя"
+msgstr "┬М┬и┬▒┬▒┬и┬┐ ┬п┬о┬л┬╝┬з┬о┬в┬а┬▓┬е┬л┬┐"
 
 #: guichan.lua:1007
 msgid "~!Campaign Game"
-msgstr "Кампания"
+msgstr "┬К┬а┬м┬п┬а┬н┬и┬┐"
 
 #: guichan.lua:1009
 msgid "~!Load Game"
-msgstr "~!Прочитать игру"
+msgstr "~!┬П┬░┬о┬╖┬и┬▓┬а┬▓┬╝ ┬и┬г┬░┬│"
 
 #: guichan.lua:1011 menus/campaign.lua:301 menus/network.lua:990
 msgid "~!Previous Menu"
-msgstr "Назад"
+msgstr "┬Н┬а┬з┬а┬д"
 
 #: guichan.lua:1024
 msgid "Standard Game"
-msgstr "Миссия пользователя"
+msgstr "┬М┬и┬▒┬▒┬и┬┐ ┬п┬о┬л┬╝┬з┬о┬в┬а┬▓┬е┬л┬┐"
 
 #: guichan.lua:1059
 msgid "~red~Red"
-msgstr "~red~Красный"
+msgstr "~red~┬К┬░┬а┬▒┬н┬╗┬й"
 
 #: guichan.lua:1059
 msgid "~blue~Blue"
-msgstr "~blue~Синий"
+msgstr "~blue~┬С┬и┬н┬и┬й"
 
 #: guichan.lua:1059
 msgid "~green~Green"
-msgstr "~green~Зеленый"
+msgstr "~green~┬З┬е┬л┬е┬н┬╗┬й"
 
 #: guichan.lua:1059
 msgid "~violet~Violet"
-msgstr "~violet~Лиловый"
+msgstr "~violet~┬Л┬и┬л┬о┬в┬╗┬й"
 
 #: guichan.lua:1059
 msgid "~orange~Orange"
-msgstr "~orange~Оранжевый"
+msgstr "~orange~┬О┬░┬а┬н┬ж┬е┬в┬╗┬й"
 
 #: guichan.lua:1059
 msgid "~black~Black"
-msgstr "~black~Черный"
+msgstr "~black~┬Ч┬е┬░┬н┬╗┬й"
 
 #: guichan.lua:1060
 msgid "~white~White"
-msgstr "~white~Белый"
+msgstr "~white~┬Б┬е┬л┬╗┬й"
 
 #: guichan.lua:1060
 msgid "~yellow~Yellow"
-msgstr "~yellow~Желтый"
+msgstr "~yellow~┬Ж┬е┬л┬▓┬╗┬й"
 
 #: guichan.lua:1061 menus/editor.lua:225 menus/network.lua:204
 #: menus/network.lua:656 wc2.lua:48
 msgid "Human"
-msgstr "Люди"
+msgstr "┬Л┬╛┬д┬и"
 
 #: guichan.lua:1061 menus/editor.lua:225 menus/network.lua:204
 #: menus/network.lua:656 wc2.lua:52
 msgid "Orc"
-msgstr "Орки"
+msgstr "┬О┬░┬к┬и"
 
 #: guichan.lua:1061
 msgid "Random"
-msgstr "Случ."
+msgstr "┬С┬л┬│┬╖."
 
 #: guichan.lua:1063 menus/network.lua:121
 msgid "Player"
-msgstr "Игрок"
+msgstr "┬И┬г┬░┬о┬к"
 
 #: guichan.lua:1063 menus/editor.lua:223
 msgid "Computer"
-msgstr "Компьютер"
+msgstr "┬К┬о┬м┬п┬╝┬╛┬▓┬е┬░"
 
 #: guichan.lua:1063 menus/editor.lua:223
 msgid "Rescue-passive"
-msgstr "Пассивный союзник"
+msgstr "┬П┬а┬▒┬▒┬и┬в┬н┬╗┬й ┬▒┬о┬╛┬з┬н┬и┬к"
 
 #: guichan.lua:1063 menus/editor.lua:223
 msgid "Rescue-active"
-msgstr "Активный союзник"
+msgstr "┬А┬к┬▓┬и┬в┬н┬╗┬й ┬▒┬о┬╛┬з┬н┬и┬к"
 
 #: guichan.lua:1063
 msgid "None"
-msgstr "Нет"
+msgstr "┬Н┬е┬▓"
 
 #: guichan.lua:1064
 msgid "Default"
-msgstr "По умолчанию"
+msgstr "┬П┬о ┬│┬м┬о┬л┬╖┬а┬н┬и┬╛"
 
 #: guichan.lua:1064
 msgid "Explored"
-msgstr "Исследована"
+msgstr "┬И┬▒┬▒┬л┬е┬д┬о┬в┬а┬н┬а"
 
 #: guichan.lua:1064
 msgid "Revealed"
-msgstr "Открыта"
+msgstr "┬О┬▓┬к┬░┬╗┬▓┬а"
 
 #: guichan.lua:1065
 msgid "Use map settings"
-msgstr "Настройки карты"
+msgstr "┬Н┬а┬▒┬▓┬░┬о┬й┬к┬и ┬к┬а┬░┬▓┬╗"
 
 #: guichan.lua:1065
 msgid "Melee"
-msgstr "Бой"
+msgstr "┬Б┬о┬й"
 
 #: guichan.lua:1065
 msgid "Free for all"
-msgstr "Каждый сам за себя"
+msgstr "┬К┬а┬ж┬д┬╗┬й ┬▒┬а┬м ┬з┬а ┬▒┬е┬б┬┐"
 
 #: guichan.lua:1065
 msgid "Top vs bottom"
-msgstr "Сверху против снизу"
+msgstr "┬С┬в┬е┬░┬╡┬│ ┬п┬░┬о┬▓┬и┬в ┬▒┬н┬и┬з┬│"
 
 #: guichan.lua:1065
 msgid "Left vs right"
-msgstr "Слева против справа"
+msgstr "┬С┬л┬е┬в┬а ┬п┬░┬о┬▓┬и┬в ┬▒┬п┬░┬а┬в┬а"
 
 #: guichan.lua:1065
 msgid "Man vs Machine"
-msgstr "Люди против CPU"
+msgstr "┬Л┬╛┬д┬и ┬п┬░┬о┬▓┬и┬в CPU"
 
 #: guichan.lua:1066 menus/editor.lua:8 menus/editor.lua:328
 msgid "Summer"
-msgstr "Лес"
+msgstr "┬Л┬е┬▒"
 
 #: guichan.lua:1066 menus/editor.lua:8 menus/editor.lua:328
 msgid "Swamp"
-msgstr "Болото"
+msgstr "┬Б┬о┬л┬о┬▓┬о"
 
 #: guichan.lua:1066 menus/editor.lua:8 menus/editor.lua:328
 msgid "Wasteland"
-msgstr "Пустыня"
+msgstr "┬П┬│┬▒┬▓┬╗┬н┬┐"
 
 #: guichan.lua:1066 menus/editor.lua:8 menus/editor.lua:328
 msgid "Winter"
-msgstr "Зима"
+msgstr "┬З┬и┬м┬а"
 
 #: guichan.lua:1067 menus/network.lua:213 menus/network.lua:667
 msgid "One Peasant Only"
-msgstr "Один крестьянин"
+msgstr "┬О┬д┬и┬н ┬к┬░┬е┬▒┬▓┬╝┬┐┬н┬и┬н"
 
 #: guichan.lua:1068 menus/campaign.lua:269
 msgid "Easy"
-msgstr "Легкий"
+msgstr "┬Л┬е┬г┬к┬и┬й"
 
 #: guichan.lua:1068 menus/campaign.lua:269
 msgid "Normal"
-msgstr "Средний"
+msgstr "┬С┬░┬е┬д┬н┬и┬й"
 
 #: guichan.lua:1068 menus/campaign.lua:269
 msgid "Hard"
-msgstr "Сложный"
+msgstr "┬С┬л┬о┬ж┬н┬╗┬й"
 
 #: guichan.lua:1068 menus/campaign.lua:269
 msgid "Nightmare"
-msgstr "Кошмар"
+msgstr "┬К┬о┬╕┬м┬а┬░"
 
 #: guichan.lua:1068 menus/campaign.lua:269
 msgid "Hell"
-msgstr "Ад"
+msgstr "┬А┬д"
 
 #: guichan.lua:1069 menus/network.lua:219 menus/network.lua:677
 msgid "High"
-msgstr "Обширные"
+msgstr "┬О┬б┬╕┬и┬░┬н┬╗┬е"
 
 #: guichan.lua:1069 menus/network.lua:219 menus/network.lua:677
 msgid "Medium"
-msgstr "Средние"
+msgstr "┬С┬░┬е┬д┬н┬и┬е"
 
 #: guichan.lua:1069 menus/network.lua:219 menus/network.lua:677
 msgid "Low"
-msgstr "Скудные"
+msgstr "┬С┬к┬│┬д┬н┬╗┬е"
 
 #: guichan.lua:1069
 msgid "Quick Start"
-msgstr "Быстрый старт"
+msgstr "┬Б┬╗┬▒┬▓┬░┬╗┬й ┬▒┬▓┬а┬░┬▓"
 
 #: guichan.lua:1083
 msgid "~<Single Player Game Setup~>"
-msgstr "~<Установки пользовательской игры~>"
+msgstr "~<┬У┬▒┬▓┬а┬н┬о┬в┬к┬и ┬п┬о┬л┬╝┬з┬о┬в┬а┬▓┬е┬л┬╝┬▒┬к┬о┬й ┬и┬г┬░┬╗~>"
 
 #: guichan.lua:1096 menus/network.lua:53
 msgid "Error:"
-msgstr "Ошибка:"
+msgstr "┬О┬╕┬и┬б┬к┬а:"
 
 #: guichan.lua:1168
 msgid "Scenario:"
-msgstr "Миссия:"
+msgstr "┬М┬и┬▒┬▒┬и┬┐:"
 
 #: guichan.lua:1173
 msgid "S~!elect Scenario"
-msgstr "~!Выбор миссии"
+msgstr "~!┬В┬╗┬б┬о┬░ ┬м┬и┬▒┬▒┬и┬и"
 
 #: guichan.lua:1182 menus/network.lua:769
 msgid "~!Start Game"
-msgstr "~!Начать игру"
+msgstr "~!┬Н┬а┬╖┬а┬▓┬╝ ┬и┬г┬░┬│"
 
 #: guichan.lua:1188
 msgid "Need more than 1 team"
-msgstr "Нужно более 1 команды"
+msgstr "┬Н┬│┬ж┬н┬о ┬б┬о┬л┬е┬е 1 ┬к┬о┬м┬а┬н┬д┬╗"
 
 #: guichan.lua:1190
 msgid "No players selected"
-msgstr "Нет игроков"
+msgstr "┬Н┬е┬▓ ┬и┬г┬░┬о┬к┬о┬в"
 
 #: guichan.lua:1192
 msgid "Need at least 1 person player"
-msgstr "Нужен 1 игрок-человек"
+msgstr "┬Н┬│┬ж┬е┬н 1 ┬и┬г┬░┬о┬к-┬╖┬е┬л┬о┬в┬е┬к"
 
 #: guichan.lua:1194
 msgid "Need at least 2 players"
-msgstr "Нужно минимум 2 игрока"
+msgstr "┬Н┬│┬ж┬н┬о ┬м┬и┬н┬и┬м┬│┬м 2 ┬и┬г┬░┬о┬к┬а"
 
 #: guichan.lua:1280
 msgid "~<Color:~>"
-msgstr "~<Цвет:~>"
+msgstr "~<┬Ц┬в┬е┬▓:~>"
 
 #: guichan.lua:1301
 msgid "~<Type:~>"
-msgstr "~<Тип:~>"
+msgstr "~<┬Т┬и┬п:~>"
 
 #: guichan.lua:1324
 msgid "~<Race:~>"
-msgstr "~<Раса:~>"
+msgstr "~<┬Р┬а┬▒┬а:~>"
 
 #: guichan.lua:1345
 msgid "~<Teams:~>"
-msgstr "~<Команда:~>"
+msgstr "~<┬К┬о┬м┬а┬н┬д┬а:~>"
 
 #: guichan.lua:1361
 msgid "~<AI Script:~>"
-msgstr "~<Скрипт ИИ:~>"
+msgstr "~<┬С┬к┬░┬и┬п┬▓ ┬И┬И:~>"
 
 #: guichan.lua:1409
 msgid "~!Cancel Game"
-msgstr "~!Отмена игры"
+msgstr "~!┬О┬▓┬м┬е┬н┬а ┬и┬г┬░┬╗"
 
 #: guichan.lua:1411
 msgid "~<Fog of War:~>"
-msgstr "~<Карта:~>"
+msgstr "~<┬К┬а┬░┬▓┬а:~>"
 
 #: guichan.lua:1423
 msgid "~<Game Type:~>"
-msgstr "~<Тип игры:~>"
+msgstr "~<┬Т┬и┬п ┬и┬г┬░┬╗:~>"
 
 #: guichan.lua:1435
 msgid "~<Resources:~>"
-msgstr "~<Ресурсы:~>"
+msgstr "~<┬Р┬е┬▒┬│┬░┬▒┬╗:~>"
 
 #: guichan.lua:1447 menus/campaign.lua:278
 msgid "~<AI Difficulty:~>"
-msgstr "~<Сложность ИИ:~>"
+msgstr "~<┬С┬л┬о┬ж┬н┬о┬▒┬▓┬╝ ┬И┬И:~>"
 
 #: guichan.lua:1460
 msgid "~<Tileset:~>"
-msgstr "~<Местность:~>"
+msgstr "~<┬М┬е┬▒┬▓┬н┬о┬▒┬▓┬╝:~>"
 
 #: guichan.lua:1471
 msgid "~<Units:~>"
-msgstr "~<Еденицы:~>"
+msgstr "~<┬Е┬д┬е┬н┬и┬╢┬╗:~>"
 
 #: guichan.lua:1517
 msgid " V"
@@ -425,43 +425,43 @@ msgstr " V"
 
 #: guichan.lua:1520
 msgid "~!Single Player Game"
-msgstr "Одиночная игра"
+msgstr "┬О┬д┬и┬н┬о┬╖┬н┬а┬┐ ┬и┬г┬░┬а"
 
 #: guichan.lua:1522
 msgid "~!Multi Player Game"
-msgstr "Сетевая игра"
+msgstr "┬С┬е┬▓┬е┬в┬а┬┐ ┬и┬г┬░┬а"
 
 #: guichan.lua:1524
 msgid "~!Replay Game"
-msgstr "Пересмотреть игру"
+msgstr "┬П┬е┬░┬е┬▒┬м┬о┬▓┬░┬е┬▓┬╝ ┬и┬г┬░┬│"
 
 #: guichan.lua:1526
 msgid "~!Options"
-msgstr "Опции"
+msgstr "┬О┬п┬╢┬и┬и"
 
 #: guichan.lua:1528
 msgid "~!Load Mod"
-msgstr "Загрузить мод"
+msgstr "┬З┬а┬г┬░┬│┬з┬и┬▓┬╝ ┬м┬о┬д"
 
 #: guichan.lua:1530
 msgid "Map ~!Editor"
-msgstr "Редактор"
+msgstr "┬Р┬е┬д┬а┬к┬▓┬о┬░"
 
 #: guichan.lua:1532
 msgid "S~!how Credits"
-msgstr "Авторы"
+msgstr "┬А┬в┬▓┬о┬░┬╗"
 
 #: guichan.lua:1534 menus/endscenario.lua:14 menus/endscenario.lua:70
 msgid "E~!xit Program"
-msgstr "Выйти из программы"
+msgstr "┬В┬╗┬й┬▓┬и ┬и┬з ┬п┬░┬о┬г┬░┬а┬м┬м┬╗"
 
 #: guichan.lua:1561
 msgid "Load Mod"
-msgstr "Загрузить мод"
+msgstr "┬З┬а┬г┬░┬│┬з┬и┬▓┬╝ ┬м┬о┬д"
 
 #: guichan.lua:1586
 msgid "Campaign Game"
-msgstr "Новая кампания"
+msgstr "┬Н┬о┬в┬а┬┐ ┬к┬а┬м┬п┬а┬н┬и┬┐"
 
 #: guichan.lua:1590
 msgid "~!OK"
@@ -470,13 +470,13 @@ msgstr "~!OK"
 #: human/buttons.lua:41 human/buttons.lua:503 orc/buttons.lua:34
 #: orc/buttons.lua:524
 msgid "~!MOVE"
-msgstr "~!ИДТИ"
+msgstr "~!┬И┬Д┬Т┬И"
 
 #: human/buttons.lua:52 human/buttons.lua:64 human/buttons.lua:72
 #: human/buttons.lua:510 orc/buttons.lua:45 orc/buttons.lua:57
 #: orc/buttons.lua:65 orc/buttons.lua:530
 msgid "~!STOP"
-msgstr "~!СТОП"
+msgstr "~!┬С┬Т┬О┬П"
 
 #: human/buttons.lua:79 human/buttons.lua:89 human/buttons.lua:97
 #: human/buttons.lua:104 human/buttons.lua:110 human/buttons.lua:116
@@ -486,180 +486,180 @@ msgstr "~!СТОП"
 #: orc/buttons.lua:122 orc/buttons.lua:556 orc/buttons.lua:562
 #: orc/buttons.lua:568
 msgid "~!ATTACK"
-msgstr "~!АТАКОВАТЬ"
+msgstr "~!┬А┬Т┬А┬К┬О┬В┬А┬Т┬Ь"
 
 #: human/buttons.lua:122 human/buttons.lua:131 human/buttons.lua:554
 #: orc/buttons.lua:128 orc/buttons.lua:137 orc/buttons.lua:573
 msgid "~!PATROL"
-msgstr "ПАТ~!РУЛИРОВАТЬ"
+msgstr "┬П┬А┬Т~!┬Р┬У┬Л┬И┬Р┬О┬В┬А┬Т┬Ь"
 
 #: human/buttons.lua:140 orc/buttons.lua:146
 msgid "S~!TAND GROUND"
-msgstr "ДЕРЖАТЬ М~!ЕСТНОСТЬ"
+msgstr "┬Д┬Е┬Р┬Ж┬А┬Т┬Ь ┬М~!┬Е┬С┬Т┬Н┬О┬С┬Т┬Ь"
 
 #: human/buttons.lua:149 orc/buttons.lua:155
 msgid "ATTACK ~!GROUND"
-msgstr "АТАКОВАТЬ ~!МЕСТНОСТЬ"
+msgstr "┬А┬Т┬А┬К┬О┬В┬А┬Т┬Ь ~!┬М┬Е┬С┬Т┬Н┬О┬С┬Т┬Ь"
 
 #: human/buttons.lua:155 orc/buttons.lua:161
 msgid "~!DEMOLISH"
-msgstr "~!РАЗРУШИТЬ"
+msgstr "~!┬Р┬А┬З┬Р┬У┬Ш┬И┬Т┬Ь"
 
 #: human/buttons.lua:163
 msgid "HOLY ~!VISION"
-msgstr "СВЯТОЕ ~!ЗРЕНИЕ"
+msgstr "┬С┬В┬Я┬Т┬О┬Е ~!┬З┬Р┬Е┬Н┬И┬Е"
 
 #: human/buttons.lua:170
 msgid "~!HEALING (per 1 HP)"
-msgstr "ЛЕЧЕНИЕ (1 ед. энергии)"
+msgstr "┬Л┬Е┬Ч┬Е┬Н┬И┬Е (1 ┬е┬д. ┬╜┬н┬е┬░┬г┬и┬и)"
 
 #: human/buttons.lua:177
 msgid "~!EXORCISM"
-msgstr "~!ЭКЗОРЦИЗМ"
+msgstr "~!┬Э┬К┬З┬О┬Р┬Ц┬И┬З┬М"
 
 #: human/buttons.lua:185
 msgid "LIGHTNING ~!ATTACK"
-msgstr "~!АТАКОВАТЬ"
+msgstr "~!┬А┬Т┬А┬К┬О┬В┬А┬Т┬Ь"
 
 #: human/buttons.lua:191
 msgid "~!FIREBALL"
-msgstr "О~!ГНЕННОЕ ЯДРО"
+msgstr "┬О~!┬Г┬Н┬Е┬Н┬Н┬О┬Е ┬Я┬Д┬Р┬О"
 
 #: human/buttons.lua:197
 msgid "SL~!OW"
-msgstr "ЗА~!МЕДЛЕНИЕ"
+msgstr "┬З┬А~!┬М┬Е┬Д┬Л┬Е┬Н┬И┬Е"
 
 #: human/buttons.lua:203
 msgid "F~!LAME SHIELD"
-msgstr "ЗА~!ЩИТА ОГНЕМ"
+msgstr "┬З┬А~!┬Щ┬И┬Т┬А ┬О┬Г┬Н┬Е┬М"
 
 #: human/buttons.lua:209
 msgid "~!INVISIBILITY"
-msgstr "~!НЕВИДИМОСТЬ"
+msgstr "~!┬Н┬Е┬В┬И┬Д┬И┬М┬О┬С┬Т┬Ь"
 
 #: human/buttons.lua:215
 msgid "~!POLYMORPH"
-msgstr "~!ПРЕВРАЩЕНИЕ"
+msgstr "~!┬П┬Р┬Е┬В┬Р┬А┬Щ┬Е┬Н┬И┬Е"
 
 #: human/buttons.lua:221
 msgid "~!BLIZZARD"
-msgstr "~!БУРАН"
+msgstr "~!┬Б┬У┬Р┬А┬Н"
 
 #: human/buttons.lua:228 orc/buttons.lua:251
 msgid "~!REPAIR"
-msgstr "~!ЧИНИТЬ"
+msgstr "~!┬Ч┬И┬Н┬И┬Т┬Ь"
 
 #: human/buttons.lua:233 orc/buttons.lua:256
 msgid "~!HARVEST LUMBER/MINE GOLD"
-msgstr "ДОБЫ~!ВАТЬ ЗОЛОТО/РУБИТЬ ЛЕС"
+msgstr "┬Д┬О┬Б┬Ы~!┬В┬А┬Т┬Ь ┬З┬О┬Л┬О┬Т┬О/┬Р┬У┬Б┬И┬Т┬Ь ┬Л┬Е┬С"
 
 #: human/buttons.lua:238 human/buttons.lua:532 orc/buttons.lua:261
 #: orc/buttons.lua:551
 msgid "RETURN WITH ~!GOODS"
-msgstr "~!ВЕРНУТЬСЯ С ДОБЫЧЕЙ"
+msgstr "~!┬В┬Е┬Р┬Н┬У┬Т┬Ь┬С┬Я ┬С ┬Д┬О┬Б┬Ы┬Ч┬Е┬Й"
 
 #: human/buttons.lua:245 orc/buttons.lua:268
 msgid "~!BUILD BASIC STRUCTURE"
-msgstr "ВОЗВОДИТЬ ~!ОСНОВНЫЕ СООРУЖЕНИЯ"
+msgstr "┬В┬О┬З┬В┬О┬Д┬И┬Т┬Ь ~!┬О┬С┬Н┬О┬В┬Н┬Ы┬Е ┬С┬О┬О┬Р┬У┬Ж┬Е┬Н┬И┬Я"
 
 #: human/buttons.lua:251 orc/buttons.lua:274
 msgid "BUILD AD~!VANCED STRUCTURE"
-msgstr "ВОЗВОДИТЬ ~!ПРОДВИНУТЫЕ СООРУЖЕНИЯ"
+msgstr "┬В┬О┬З┬В┬О┬Д┬И┬Т┬Ь ~!┬П┬Р┬О┬Д┬В┬И┬Н┬У┬Т┬Ы┬Е ┬С┬О┬О┬Р┬У┬Ж┬Е┬Н┬И┬Я"
 
 #: human/buttons.lua:258
 msgid "BUILD ~!FARM"
-msgstr "СТРОИТЕЛЬСТВО ~!ФЕРМЫ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Ф┬Е┬Р┬М┬Ы"
 
 #: human/buttons.lua:263 orc/buttons.lua:286
 msgid "BUILD ~!BARRACKS"
-msgstr "СТРОИТЕЛЬСТВО ~!КАЗАРМЫ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬К┬А┬З┬А┬Р┬М┬Ы"
 
 #: human/buttons.lua:268
 msgid "BUILD TOWN ~!HALL"
-msgstr "СТРОИТЕЛЬСТВО ~!РАТУШИ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Р┬А┬Т┬У┬Ш┬И"
 
 #: human/buttons.lua:273
 msgid "BUILD ELVEN ~!LUMBER MILL"
-msgstr "СТРОИТЕЛЬСТВО Ф~!АБРИКИ/ПИЛОРАМЫ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬Ф~!┬А┬Б┬Р┬И┬К┬И/┬П┬И┬Л┬О┬Р┬А┬М┬Ы"
 
 #: human/buttons.lua:278 orc/buttons.lua:301
 msgid "BUILD BLACK~!SMITH"
-msgstr "СТРОИТЕЛЬСТВО КУЗ~!НИЦЫ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬К┬У┬З~!┬Н┬И┬Ц┬Ы"
 
 #: human/buttons.lua:283 orc/buttons.lua:306
 msgid "BUILD ~!TOWER"
-msgstr "СТРОИТЕЛЬСТВО~! БАШНИ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О~! ┬Б┬А┬Ш┬Н┬И"
 
 #: human/buttons.lua:289 orc/buttons.lua:312
 msgid "BUILD ~!WALL"
-msgstr "СТРОИТЕЛЬСТВО ~!СТЕНЫ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬С┬Т┬Е┬Н┬Ы"
 
 #: human/buttons.lua:301 orc/buttons.lua:324
 msgid "BUILD ~!SHIPYARD"
-msgstr "СТРОИТЕЛЬСТВО СУДО~!ВЕРФИ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬С┬У┬Д┬О~!┬В┬Е┬Р┬Ф┬И"
 
 #: human/buttons.lua:306 orc/buttons.lua:329
 msgid "BUILD ~!FOUNDRY"
-msgstr "СТРОИТЕЛЬСТВО ~!ЛИТЕЙНОЙ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Л┬И┬Т┬Е┬Й┬Н┬О┬Й"
 
 #: human/buttons.lua:311 orc/buttons.lua:334
 msgid "BUILD ~!REFINERY"
-msgstr "СТРОИТЕЛЬСТВО ОЧИСТНОГО ~!ЗАВОДА"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬О┬Ч┬И┬С┬Т┬Н┬О┬Г┬О ~!┬З┬А┬В┬О┬Д┬А"
 
 #: human/buttons.lua:316
 msgid "BUILD GNOMISH ~!INVENTOR"
-msgstr "ХИЖИНА ГНОМА ~!ИЗОБРЕТАТЕЛЯ"
+msgstr "┬Х┬И┬Ж┬И┬Н┬А ┬Г┬Н┬О┬М┬А ~!┬И┬З┬О┬Б┬Р┬Е┬Т┬А┬Т┬Е┬Л┬Я"
 
 #: human/buttons.lua:321
 msgid "BUILD ST~!ABLES"
-msgstr "СТРОИТЕЛЬСТВО КО~!НЮШНИ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬К┬О~!┬Н┬Ю┬Ш┬Н┬И"
 
 #: human/buttons.lua:326
 msgid "BUILD ~!MAGE TOWER"
-msgstr "СТРОИТЕЛЬСТВО БАШНИ ~!МАГОВ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬Б┬А┬Ш┬Н┬И ~!┬М┬А┬Г┬О┬В"
 
 #: human/buttons.lua:331
 msgid "BUILD ~!CHURCH"
-msgstr "СТРОИТЕЛЬСТВО ~!ЦЕРКВИ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Ц┬Е┬Р┬К┬В┬И"
 
 #: human/buttons.lua:336
 msgid "BUILD ~!GRYPHON AVIARY"
-msgstr "СТРОИТЕЛЬСТВО ~!ВОЛЬЕРЫ ГРИФОНОВ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬В┬О┬Л┬Ь┬Е┬Р┬Ы ┬Г┬Р┬И┬Ф┬О┬Н┬О┬В"
 
 #: human/buttons.lua:349 orc/buttons.lua:372
 msgid "TRAIN ~!CRITTER"
-msgstr "ОБУЧЕНИЕ СУЩЕСТВА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ┬С┬У┬Щ┬Е┬С┬Т┬В┬А"
 
 #: human/buttons.lua:356
 msgid "TRAIN ~!PEASANT"
-msgstr "ОБУЧЕНИЕ ~!КРЕСТЬЯНИНА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬К┬Р┬Е┬С┬Т┬Ь┬Я┬Н┬И┬Н┬А"
 
 #: human/buttons.lua:364
 msgid "UPGRADE TO ~!KEEP"
-msgstr "ВОЗВЕДЕНИЕ ~!ДВОРЦА"
+msgstr "┬В┬О┬З┬В┬Е┬Д┬Е┬Н┬И┬Е ~!┬Д┬В┬О┬Р┬Ц┬А"
 
 #: human/buttons.lua:370
 msgid "UPGRADE TO ~!CASTLE"
-msgstr "ВОЗВЕДЕНИЕ ~!ЗАМКА"
+msgstr "┬В┬О┬З┬В┬Е┬Д┬Е┬Н┬И┬Е ~!┬З┬А┬М┬К┬А"
 
 #: human/buttons.lua:377 orc/buttons.lua:400
 msgid "SET ~!HARVEST LUMBER/MINE GOLD"
-msgstr "ТОЧКА СБОРА РЕСУРСОВ"
+msgstr "┬Т┬О┬Ч┬К┬А ┬С┬Б┬О┬Р┬А ┬Р┬Е┬С┬У┬Р┬С┬О┬В"
 
 #: human/buttons.lua:382 human/buttons.lua:561 orc/buttons.lua:405
 #: orc/buttons.lua:580
 msgid "SET ~!MOVE"
-msgstr "ТОЧКА СБОРА"
+msgstr "┬Т┬О┬Ч┬К┬А ┬С┬Б┬О┬Р┬А"
 
 #: human/buttons.lua:388 human/buttons.lua:566 orc/buttons.lua:412
 #: orc/buttons.lua:585
 msgid "SET ~!ZTOP"
-msgstr "УДАЛИТЬ ТОЧКУ СБОРА"
+msgstr "┬У┬Д┬А┬Л┬И┬Т┬Ь ┬Т┬О┬Ч┬К┬У ┬С┬Б┬О┬Р┬А"
 
 #: human/buttons.lua:394 human/buttons.lua:571 orc/buttons.lua:419
 #: orc/buttons.lua:590
 msgid "S~!ET ATTACK"
-msgstr "ТОЧКА АТАКИ"
+msgstr "┬Т┬О┬Ч┬К┬А ┬А┬Т┬А┬К┬И"
 
 #: human/buttons.lua:402
 msgid "TRAIN ~!MINUTEMAN"
@@ -667,650 +667,650 @@ msgstr ""
 
 #: human/buttons.lua:407
 msgid "TRAIN ~!FOOTMAN"
-msgstr "ОБУЧЕНИЕ СОЛДАТА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ┬С┬О┬Л┬Д┬А┬Т┬А"
 
 #: human/buttons.lua:412
 msgid "TRAIN ~!ARCHER"
-msgstr "ОБУЧЕНИЕ ЛУЧНИКА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ┬Л┬У┬Ч┬Н┬И┬К┬А"
 
 #: human/buttons.lua:417
 msgid "TRAIN ~!RANGER"
-msgstr "ОБУЧЕНИЕ ~!РАЗВЕДЧИКА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬Р┬А┬З┬В┬Е┬Д┬Ч┬И┬К┬А"
 
 #: human/buttons.lua:422
 msgid "BUILD ~!BALLISTA"
-msgstr "СТРОИТЕЛЬСТВО ~!БАЛЛИСТЫ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Б┬А┬Л┬Л┬И┬С┬Т┬Ы"
 
 #: human/buttons.lua:427
 msgid "TRAIN ~!KNIGHT"
-msgstr "ОБУЧЕНИЕ Р~!ЫЦАРЯ"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ┬Р~!┬Ы┬Ц┬А┬Р┬Я"
 
 #: human/buttons.lua:432
 msgid "TRAIN ~!PALADIN"
-msgstr "ОБУЧЕНИЕ ~!ПАЛАДИНА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬П┬А┬Л┬А┬Д┬И┬Н┬А"
 
 #: human/buttons.lua:437
 msgid "BUILD GNOMISH ~!FLYING MACHINE"
-msgstr "СТРОИТЕЛЬСТВО ~!ВЕРТОЛЕТА"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬В┬Е┬Р┬Т┬О┬Л┬Е┬Т┬А"
 
 #: human/buttons.lua:442
 msgid "TRAIN ~!DWARVEN DEMOLITION SQUAD"
-msgstr "ОБУЧЕНИЕ ~!ОТРЯДА ПОДРЫВНИКОВ"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬О┬Т┬Р┬Я┬Д┬А ┬П┬О┬Д┬Р┬Ы┬В┬Н┬И┬К┬О┬В"
 
 #: human/buttons.lua:447
 msgid "~!TRAIN MAGE"
-msgstr "ОБУЧЕНИЕ ~!МАГА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬М┬А┬Г┬А"
 
 #: human/buttons.lua:452
 msgid "TRAIN ~!GRYPHON RIDER"
-msgstr "ОБУЧЕНИЕ ~!ВСАДНИКА ГРИФОНА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬В┬С┬А┬Д┬Н┬И┬К┬А ┬Г┬Р┬И┬Ф┬О┬Н┬А"
 
 #: human/buttons.lua:457 orc/buttons.lua:478
 msgid "BUILD ~!OIL TANKER"
-msgstr "СТРОИТЕЛЬСТВО ~!НЕФТЯНОГО ТАНКЕРА"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Н┬Е┬Ф┬Т┬Я┬Н┬О┬Г┬О ┬Т┬А┬Н┬К┬Е┬Р┬А"
 
 #: human/buttons.lua:462 orc/buttons.lua:483
 msgid "BUILD ~!DESTROYER"
-msgstr "СТРОИТЕЛЬСТВО ~!РАЗРУШИТЕЛЯ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Р┬А┬З┬Р┬У┬Ш┬И┬Т┬Е┬Л┬Я"
 
 #: human/buttons.lua:467 orc/buttons.lua:488
 msgid "BUILD ~!TRANSPORT"
-msgstr "СТРОИТЕЛЬСТВО ~!ТРАНСПОРТА"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Т┬Р┬А┬Н┬С┬П┬О┬Р┬Т┬А"
 
 #: human/buttons.lua:472
 msgid "BUILD GNOMISH ~!SUBMARINE"
-msgstr "СТРОИТЕЛЬСТВО ~!СУБМАРИНЫ ГНОМОВ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬С┬У┬Б┬М┬А┬Р┬И┬Н┬Ы ┬Г┬Н┬О┬М┬О┬В"
 
 #: human/buttons.lua:477
 msgid "BUILD ~!BATTLESHIP"
-msgstr "СТРОИТЕЛЬСТВО ~!ЛИНКОРА"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Л┬И┬Н┬К┬О┬Р┬А"
 
 #: human/buttons.lua:484 orc/buttons.lua:505
 msgid "SET ~!HAUL OIL"
-msgstr "ТОЧКА СБОРА НЕФТИ"
+msgstr "┬Т┬О┬Ч┬К┬А ┬С┬Б┬О┬Р┬А ┬Н┬Е┬Ф┬Т┬И"
 
 #: human/buttons.lua:491 orc/buttons.lua:512
 msgid "UPGRADE TO ~!GUARD TOWER"
-msgstr "МОДЕРНИЗАЦИЯ ДО ~!ДОЗОРНОЙ БАШНИ"
+msgstr "┬М┬О┬Д┬Е┬Р┬Н┬И┬З┬А┬Ц┬И┬Я ┬Д┬О ~!┬Д┬О┬З┬О┬Р┬Н┬О┬Й ┬Б┬А┬Ш┬Н┬И"
 
 #: human/buttons.lua:496 orc/buttons.lua:517
 msgid "UPGRADE TO ~!CANNON TOWER"
-msgstr "МОДЕРНИЗАЦИЯ ДО ОРУДИЙНОЙ БАШНИ"
+msgstr "┬М┬О┬Д┬Е┬Р┬Н┬И┬З┬А┬Ц┬И┬Я ┬Д┬О ┬О┬Р┬У┬Д┬И┬Й┬Н┬О┬Й ┬Б┬А┬Ш┬Н┬И"
 
 #: human/buttons.lua:517 orc/buttons.lua:536
 msgid "~!UNLOAD"
-msgstr "~!ВЫСАДИТЬ ЛЮДЕЙ"
+msgstr "~!┬В┬Ы┬С┬А┬Д┬И┬Т┬Ь ┬Л┬Ю┬Д┬Е┬Й"
 
 #: human/buttons.lua:522 orc/buttons.lua:541
 msgid "~!BUILD OIL PLATFORM"
-msgstr "С~!ТРОИТЕЛЬСТВО НЕФТЯНОЙ ВЫШКИ"
+msgstr "┬С~!┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬Н┬Е┬Ф┬Т┬Я┬Н┬О┬Й ┬В┬Ы┬Ш┬К┬И"
 
 #: human/buttons.lua:527 orc/buttons.lua:546
 msgid "~!HAUL OIL"
-msgstr "ДОБЫ~!ВАТЬ НЕФТЬ"
+msgstr "┬Д┬О┬Б┬Ы~!┬В┬А┬Т┬Ь ┬Н┬Е┬Ф┬Т┬Ь"
 
 #: human/buttons.lua:581 human/buttons.lua:587
 msgid "UPGRADE S~!WORDS (Damage +2)"
-msgstr "МОДЕРНИЗАЦИЯ МЕ~!ЧЕЙ (Поврежд.+2)"
+msgstr "┬М┬О┬Д┬Е┬Р┬Н┬И┬З┬А┬Ц┬И┬Я ┬М┬Е~!┬Ч┬Е┬Й (┬П┬о┬в┬░┬е┬ж┬д.+2)"
 
 #: human/buttons.lua:593 human/buttons.lua:599 orc/buttons.lua:612
 #: orc/buttons.lua:618
 msgid "UPGRADE ~!SHIELDS (Armor +2)"
-msgstr "МОДЕРНИЗАЦИЯ ~!ЩИТОВ (Броня +2)"
+msgstr "┬М┬О┬Д┬Е┬Р┬Н┬И┬З┬А┬Ц┬И┬Я ~!┬Щ┬И┬Т┬О┬В (┬Б┬░┬о┬н┬┐ +2)"
 
 #: human/buttons.lua:605 human/buttons.lua:611
 msgid "UPGRADE ~!BALLISTA (Damage +15)"
-msgstr "МОЩЬ ~!БАЛЛИСТЫ (Поврежд.+15)"
+msgstr "┬М┬О┬Щ┬Ь ~!┬Б┬А┬Л┬Л┬И┬С┬Т┬Ы (┬П┬о┬в┬░┬е┬ж┬д.+15)"
 
 #: human/buttons.lua:617 human/buttons.lua:623
 msgid "~!UPGRADE ARROWS (Damage +1)"
-msgstr "МОДЕРНИЗАЦИЯ СТРЕЛ (Поврежд.+1)"
+msgstr "┬М┬О┬Д┬Е┬Р┬Н┬И┬З┬А┬Ц┬И┬Я ┬С┬Т┬Р┬Е┬Л (┬П┬о┬в┬░┬е┬ж┬д.+1)"
 
 #: human/buttons.lua:629
 msgid "ELVEN ~!RANGER TRAINING"
-msgstr "ШКОЛА ЭЛЬФА-~!РАЗВЕДЧИКА"
+msgstr "┬Ш┬К┬О┬Л┬А ┬Э┬Л┬Ь┬Ф┬А-~!┬Р┬А┬З┬В┬Е┬Д┬Ч┬И┬К┬А"
 
 #: human/buttons.lua:635
 msgid "RANGER ~!SCOUTING (Sight:9)"
-msgstr "~!ЗОРКОСТЬ РАЗВЕДЧИКА (Зрение:9)"
+msgstr "~!┬З┬О┬Р┬К┬О┬С┬Т┬Ь ┬Р┬А┬З┬В┬Е┬Д┬Ч┬И┬К┬А (┬З┬░┬е┬н┬и┬е:9)"
 
 #: human/buttons.lua:641
 msgid "RESEARCH ~!LONGBOW (Range +1)"
-msgstr "ДЛИННЫЙ ~!ЛУК (Дальность +1)"
+msgstr "┬Д┬Л┬И┬Н┬Н┬Ы┬Й ~!┬Л┬У┬К (┬Д┬а┬л┬╝┬н┬о┬▒┬▓┬╝ +1)"
 
 #: human/buttons.lua:647
 msgid "RANGER ~!MARKSMANSHIP (Damage +3)"
-msgstr "~!МЕТКОСТЬ РАЗВЕДЧИКА (Поврежд.+3)"
+msgstr "~!┬М┬Е┬Т┬К┬О┬С┬Т┬Ь ┬Р┬А┬З┬В┬Е┬Д┬Ч┬И┬К┬А (┬П┬о┬в┬░┬е┬ж┬д.+3)"
 
 #: human/buttons.lua:653
 msgid "UPGRADES KNIGHTS TO ~!PALADINS"
-msgstr "ОБУЧЕНИЕ ~!ПАЛАДИНОВ"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬П┬А┬Л┬А┬Д┬И┬Н┬О┬В"
 
 #: human/buttons.lua:659
 msgid "RESEARCH ~!HEALING"
-msgstr "ИЗУЧЕНИЕ ~!ЛЕЧЕНИЯ"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ~!┬Л┬Е┬Ч┬Е┬Н┬И┬Я"
 
 #: human/buttons.lua:665
 msgid "RESEARCH ~!EXORCISM"
-msgstr "ИЗУЧЕНИЕ ~!ЭКЗОРЦИЗМА"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ~!┬Э┬К┬З┬О┬Р┬Ц┬И┬З┬М┬А"
 
 #: human/buttons.lua:671
 msgid "RESEARCH SL~!OW"
-msgstr "ИЗУЧЕНИЕ ЗА~!МЕДЛЕНИЯ"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ┬З┬А~!┬М┬Е┬Д┬Л┬Е┬Н┬И┬Я"
 
 #: human/buttons.lua:677
 msgid "RESEARCH F~!LAME SHIELD"
-msgstr "ИЗУЧЕНИЕ ЗА~!ЩИТЫ ОГНЕМ"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ┬З┬А~!┬Щ┬И┬Т┬Ы ┬О┬Г┬Н┬Е┬М"
 
 #: human/buttons.lua:683
 msgid "RESEARCH ~!INVISIBILITY"
-msgstr "ИЗУЧЕНИЕ ~!НЕВИДИМОСТИ"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ~!┬Н┬Е┬В┬И┬Д┬И┬М┬О┬С┬Т┬И"
 
 #: human/buttons.lua:689
 msgid "RESEARCH ~!POLYMORPH"
-msgstr "ИЗУЧЕНИЕ ~!ПРЕВРАЩЕНИЯ"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ~!┬П┬Р┬Е┬В┬Р┬А┬Щ┬Е┬Н┬И┬Я"
 
 #: human/buttons.lua:695
 msgid "RESEARCH ~!BLIZZARD"
-msgstr "ИЗУЧЕНИЕ ~!БУРАНА"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ~!┬Б┬У┬Р┬А┬Н┬А"
 
 #: human/buttons.lua:701 human/buttons.lua:707 orc/buttons.lua:720
 #: orc/buttons.lua:726
 msgid "UPGRADE ~!CANNONS (Damage +5)"
-msgstr "МОДЕРНИЗАЦИЯ ~!ПУШЕК (Поврежд.+5)"
+msgstr "┬М┬О┬Д┬Е┬Р┬Н┬И┬З┬А┬Ц┬И┬Я ~!┬П┬У┬Ш┬Е┬К (┬П┬о┬в┬░┬е┬ж┬д.+5)"
 
 #: human/buttons.lua:713 human/buttons.lua:719 orc/buttons.lua:732
 #: orc/buttons.lua:738
 msgid "UPGRADE SHIP ~!ARMOR (Armor +5)"
-msgstr "МОДЕРНИЗАЦИЯ ~!БРОНИ (Броня +5)"
+msgstr "┬М┬О┬Д┬Е┬Р┬Н┬И┬З┬А┬Ц┬И┬Я ~!┬Б┬Р┬О┬Н┬И (┬Б┬░┬о┬н┬┐ +5)"
 
 #: human/campaign1.lua:34 human/campaign2.lua:35 orc/campaign1.lua:34
 #: orc/campaign2.lua:35
 msgid "Act I"
-msgstr "Действие I"
+msgstr "┬Д┬е┬й┬▒┬▓┬в┬и┬е I"
 
 #: human/campaign1.lua:34
 msgid "The Shores of Lordareon"
-msgstr "Берега Лордерона"
+msgstr "┬Б┬е┬░┬е┬г┬а ┬Л┬о┬░┬д┬е┬░┬о┬н┬а"
 
 #: human/campaign1.lua:40 human/campaign2.lua:40 orc/campaign1.lua:40
 #: orc/campaign2.lua:40
 msgid "Act II"
-msgstr "Действие II"
+msgstr "┬Д┬е┬й┬▒┬▓┬в┬и┬е II"
 
 #: human/campaign1.lua:40 orc/campaign1.lua:40
 msgid "Khaz Modan"
-msgstr "Хаз Модан"
+msgstr "┬Х┬а┬з ┬М┬о┬д┬а┬н"
 
 #: human/campaign1.lua:46 human/campaign2.lua:45 orc/campaign1.lua:46
 #: orc/campaign2.lua:45
 msgid "Act III"
-msgstr "Действие III"
+msgstr "┬Д┬е┬й┬▒┬▓┬в┬и┬е III"
 
 #: human/campaign1.lua:46
 msgid "The Northlands"
-msgstr "Северные земли"
+msgstr "┬С┬е┬в┬е┬░┬н┬╗┬е ┬з┬е┬м┬л┬и"
 
 #: human/campaign1.lua:53 human/campaign2.lua:50 orc/campaign1.lua:53
 #: orc/campaign2.lua:50
 msgid "Act IV"
-msgstr "Действие IV"
+msgstr "┬Д┬е┬й┬▒┬▓┬в┬и┬е IV"
 
 #: human/campaign1.lua:53
 msgid "Return to Azeroth"
-msgstr "Возвращение в Азерот"
+msgstr "┬В┬о┬з┬в┬░┬а┬╣┬е┬н┬и┬е ┬в ┬А┬з┬е┬░┬о┬▓"
 
 #: human/campaign2.lua:35
 msgid "A Time for Heroes"
-msgstr "Время Героев"
+msgstr "┬В┬░┬е┬м┬┐ ┬Г┬е┬░┬о┬е┬в"
 
 #: human/campaign2.lua:40
 msgid "Draenor, The Red World"
-msgstr "Дренор, Красный Мир"
+msgstr "┬Д┬░┬е┬н┬о┬░, ┬К┬░┬а┬▒┬н┬╗┬й ┬М┬и┬░"
 
 #: human/campaign2.lua:45
 msgid "War in the Shadows"
-msgstr "Война во Мраке"
+msgstr "┬В┬о┬й┬н┬а ┬в┬о ┬М┬░┬а┬к┬е"
 
 #: human/campaign2.lua:50
 msgid "The Measure of Valor"
-msgstr "Мера доблести"
+msgstr "┬М┬е┬░┬а ┬д┬о┬б┬л┬е┬▒┬▓┬и"
 
 #: human/ui_pandora.lua:300 human/ui_tales.lua:286 orc/ui_pandora.lua:300
 #: orc/ui_tales.lua:286
 msgid "Menu (~<F10~>)"
-msgstr "Меню (~<F10~>)"
+msgstr "┬М┬е┬н┬╛ (~<F10~>)"
 
 #: human/ui_pandora.lua:313 human/ui_tales.lua:299 orc/ui_pandora.lua:313
 #: orc/ui_tales.lua:299
 msgid "Menu"
-msgstr "Меню"
+msgstr "┬М┬е┬н┬╛"
 
 #: human/ui_pandora.lua:319 human/ui_tales.lua:305 menus/diplomacy.lua:5
 #: orc/ui_pandora.lua:319 orc/ui_tales.lua:305
 msgid "Diplomacy"
-msgstr "Дипломатия"
+msgstr "┬Д┬и┬п┬л┬о┬м┬а┬▓┬и┬┐"
 
 #: human/units.lua:36 menus/results.lua:10
 msgid "Footman"
-msgstr "Солдат"
+msgstr "┬С┬о┬л┬д┬а┬▓"
 
 #: human/units.lua:65 menus/results.lua:8
 msgid "Peasant"
-msgstr "Крестьянин"
+msgstr "┬К┬░┬е┬▒┬▓┬╝┬┐┬н┬и┬н"
 
 #: human/units.lua:111
 msgid "Minuteman"
-msgstr "Крестьянин"
+msgstr "┬К┬░┬е┬▒┬▓┬╝┬┐┬н┬и┬н"
 
 #: human/units.lua:141 human/units.lua:169
 msgid "Ballista"
-msgstr "Баллиста"
+msgstr "┬Б┬а┬л┬л┬и┬▒┬▓┬а"
 
 #: human/units.lua:197 menus/results.lua:16 menus/results.lua:38
 msgid "Knight"
-msgstr "Рыцарь"
+msgstr "┬Р┬╗┬╢┬а┬░┬╝"
 
 #: human/units.lua:226
 msgid "Archer"
-msgstr "Эльф лучник"
+msgstr "┬Э┬л┬╝┬┤ ┬л┬│┬╖┬н┬и┬к"
 
 #: human/units.lua:255
 msgid "Mage"
-msgstr "Маг"
+msgstr "┬М┬а┬г"
 
 #: human/units.lua:292
 msgid "Paladin"
-msgstr "Паладин"
+msgstr "┬П┬а┬л┬а┬д┬и┬н"
 
 #: human/units.lua:324
 msgid "Dwarves"
-msgstr "Взвод подрывников"
+msgstr "┬В┬з┬в┬о┬д ┬п┬о┬д┬░┬╗┬в┬н┬и┬к┬о┬в"
 
 #: human/units.lua:354
 msgid "Ranger"
-msgstr "Разведчик"
+msgstr "┬Р┬а┬з┬в┬е┬д┬╖┬и┬к"
 
 #: human/units.lua:384
 msgid "Alleria"
-msgstr "Аллерия"
+msgstr "┬А┬л┬л┬е┬░┬и┬┐"
 
 #: human/units.lua:413
 msgid "Gryphon Rider"
-msgstr "Всадник грифона"
+msgstr "┬В┬▒┬а┬д┬н┬и┬к ┬г┬░┬и┬┤┬о┬н┬а"
 
 #: human/units.lua:443
 msgid "Kurdan and Sky'ree"
-msgstr "Курдран и Скай'ри"
+msgstr "┬К┬│┬░┬д┬░┬а┬н ┬и ┬С┬к┬а┬й'┬░┬и"
 
 #: human/units.lua:473
 msgid "Khadgar"
-msgstr "Хэдгар"
+msgstr "┬Х┬╜┬д┬г┬а┬░"
 
 #: human/units.lua:510 orc/units.lua:493
 msgid "Oil tanker"
-msgstr "Нефтяной танкер"
+msgstr "┬Н┬е┬┤┬▓┬┐┬н┬о┬й ┬▓┬а┬н┬к┬е┬░"
 
 #: human/units.lua:544 orc/units.lua:527
 msgid "Transport"
-msgstr "Транспорт"
+msgstr "┬Т┬░┬а┬н┬▒┬п┬о┬░┬▓"
 
 #: human/units.lua:574
 msgid "Elven Destroyer"
-msgstr "Разрушитель Эльфов"
+msgstr "┬Р┬а┬з┬░┬│┬╕┬и┬▓┬е┬л┬╝ ┬Э┬л┬╝┬┤┬о┬в"
 
 #: human/units.lua:603
 msgid "Battleship"
-msgstr "Линкор"
+msgstr "┬Л┬и┬н┬к┬о┬░"
 
 #: human/units.lua:638
 msgid "Gnomish Submarine"
-msgstr "Субмарина Гномов"
+msgstr "┬С┬│┬б┬м┬а┬░┬и┬н┬а ┬Г┬н┬о┬м┬о┬в"
 
 #: human/units.lua:668
 msgid "Gnomish Flying Machine"
-msgstr "Вертолет Гномов"
+msgstr "┬В┬е┬░┬▓┬о┬л┬е┬▓ ┬Г┬н┬о┬м┬о┬в"
 
 #: human/units.lua:694
 msgid "Turalyon"
-msgstr "Туральон"
+msgstr "┬Т┬│┬░┬а┬л┬╝┬о┬н"
 
 #: human/units.lua:725
 msgid "Danath"
-msgstr "Данат"
+msgstr "┬Д┬а┬н┬а┬▓"
 
 #: human/units.lua:754
 msgid "Lothar"
-msgstr "Лотар"
+msgstr "┬Л┬о┬▓┬а┬░"
 
 #: human/units.lua:786
 msgid "Uther Lightbringer"
-msgstr "Уттер Просветитель"
+msgstr "┬У┬▓┬▓┬е┬░ ┬П┬░┬о┬▒┬в┬е┬▓┬и┬▓┬е┬л┬╝"
 
 #: human/units.lua:824
 msgid "Farm"
-msgstr "Ферма"
+msgstr "┬Ф┬е┬░┬м┬а"
 
 #: human/units.lua:857 orc/units.lua:957
 msgid "Barracks"
-msgstr "Казарма"
+msgstr "┬К┬а┬з┬а┬░┬м┬а"
 
 #: human/units.lua:890
 msgid "Church"
-msgstr "Церковь"
+msgstr "┬Ц┬е┬░┬к┬о┬в┬╝"
 
 #: human/units.lua:922
 msgid "Scout Tower"
-msgstr "Смотровая башня"
+msgstr "┬С┬м┬о┬▓┬░┬о┬в┬а┬┐ ┬б┬а┬╕┬н┬┐"
 
 #: human/units.lua:956
 msgid "Stables"
-msgstr "Конюшня"
+msgstr "┬К┬о┬н┬╛┬╕┬н┬┐"
 
 #: human/units.lua:988
 msgid "Gnomish Inventor"
-msgstr "Гном Изобретатель"
+msgstr "┬Г┬н┬о┬м ┬И┬з┬о┬б┬░┬е┬▓┬а┬▓┬е┬л┬╝"
 
 #: human/units.lua:1020
 msgid "Gryphon Aviary"
-msgstr "Вольера грифонов"
+msgstr "┬В┬о┬л┬╝┬е┬░┬а ┬г┬░┬и┬┤┬о┬н┬о┬в"
 
 #: human/units.lua:1052 orc/units.lua:1152
 msgid "Shipyard"
-msgstr "Верфь"
+msgstr "┬В┬е┬░┬┤┬╝"
 
 #: human/units.lua:1091
 msgid "Elven Lumber Mill"
-msgstr "Фабрика Эльфов"
+msgstr "┬Ф┬а┬б┬░┬и┬к┬а ┬Э┬л┬╝┬┤┬о┬в"
 
 #: human/units.lua:1125 orc/units.lua:1262
 msgid "Foundry"
-msgstr "Литейная"
+msgstr "┬Л┬и┬▓┬е┬й┬н┬а┬┐"
 
 #: human/units.lua:1158
 msgid "Town Hall"
-msgstr "Ратуша"
+msgstr "┬Р┬а┬▓┬│┬╕┬а"
 
 #: human/units.lua:1195
 msgid "Mage Tower"
-msgstr "Башня Магов"
+msgstr "┬Б┬а┬╕┬н┬┐ ┬М┬а┬г┬о┬в"
 
 #: human/units.lua:1226 orc/units.lua:1327
 msgid "Blacksmith"
-msgstr "Кузница"
+msgstr "┬К┬│┬з┬н┬и┬╢┬а"
 
 #: human/units.lua:1258 orc/units.lua:1359
 msgid "Refinery"
-msgstr "Очистной завод"
+msgstr "┬О┬╖┬и┬▒┬▓┬н┬о┬й ┬з┬а┬в┬о┬д"
 
 #: human/units.lua:1298 orc/units.lua:1400
 msgid "Oil Platform"
-msgstr "Нефтяная вышка"
+msgstr "┬Н┬е┬┤┬▓┬┐┬н┬а┬┐ ┬в┬╗┬╕┬к┬а"
 
 #: human/units.lua:1330
 msgid "Keep"
-msgstr "Дворец"
+msgstr "┬Д┬в┬о┬░┬е┬╢"
 
 #: human/units.lua:1368
 msgid "Castle"
-msgstr "Замок"
+msgstr "┬З┬а┬м┬о┬к"
 
 #: human/units.lua:1400 orc/units.lua:1502
 msgid "Start Location"
-msgstr "Стартовая локация"
+msgstr "┬С┬▓┬а┬░┬▓┬о┬в┬а┬┐ ┬л┬о┬к┬а┬╢┬и┬┐"
 
 #: human/units.lua:1427 human/units.lua:1460 orc/units.lua:1529
 #: orc/units.lua:1564
 msgid "Guard Tower"
-msgstr "Дозорная башня"
+msgstr "┬Д┬о┬з┬о┬░┬н┬а┬┐ ┬б┬а┬╕┬н┬┐"
 
 #: human/units.lua:1493 human/units.lua:1528 orc/units.lua:1599
 #: orc/units.lua:1634
 msgid "Cannon Tower"
-msgstr "Орудийная башня"
+msgstr "┬О┬░┬│┬д┬и┬й┬н┬а┬┐ ┬б┬а┬╕┬н┬┐"
 
 #: human/units.lua:1561 orc/units.lua:1669
 msgid "Wall"
-msgstr "Стена"
+msgstr "┬С┬▓┬е┬н┬а"
 
 #: menus/campaign.lua:271
 msgid "~<Mission list~>"
-msgstr "Список миссий"
+msgstr "┬С┬п┬и┬▒┬о┬к ┬м┬и┬▒┬▒┬и┬й"
 
 #: menus/campaign.lua:284
 msgid "~!Play mission"
-msgstr "Начать миссию"
+msgstr "┬Н┬а┬╖┬а┬▓┬╝ ┬м┬и┬▒┬▒┬и┬╛"
 
 #: menus/compactmode.lua:242 menus/network.lua:956
 msgid "Nickname :"
-msgstr "Ник"
+msgstr "┬Н┬и┬к"
 
 #: menus/diplomacy.lua:7
 msgid "Allied"
-msgstr "Союзник"
+msgstr "┬С┬о┬╛┬з┬н┬и┬к"
 
 #: menus/diplomacy.lua:8
 msgid "Enemy"
-msgstr "Враг"
+msgstr "┬В┬░┬а┬г"
 
 #: menus/diplomacy.lua:9
 msgid "Shared Vision"
-msgstr "Общий обзор"
+msgstr "┬О┬б┬╣┬и┬й ┬о┬б┬з┬о┬░"
 
 #: menus/editor.lua:10
 msgid "TileSet : "
-msgstr "Местность :"
+msgstr "┬М┬е┬▒┬▓┬н┬о┬▒┬▓┬╝ :"
 
 #: menus/editor.lua:11
 msgid "Size :"
-msgstr "Размер :"
+msgstr "┬Р┬а┬з┬м┬е┬░ :"
 
 #: menus/editor.lua:13
 msgid "Map description :"
-msgstr "Описание :"
+msgstr "┬О┬п┬и┬▒┬а┬н┬и┬е :"
 
 #: menus/editor.lua:25 menus/editor.lua:107
 msgid "~!New map"
-msgstr "~!Новая карта"
+msgstr "~!┬Н┬о┬в┬а┬┐ ┬к┬а┬░┬▓┬а"
 
 #: menus/editor.lua:52
 msgid "File : "
-msgstr "Файл : "
+msgstr "┬Ф┬а┬й┬л : "
 
 #: menus/editor.lua:55
 msgid "Players : "
-msgstr "Игроков : "
+msgstr "┬И┬г┬░┬о┬к┬о┬в : "
 
 #: menus/editor.lua:58
 msgid "Scenario : "
-msgstr "Карта : "
+msgstr "┬К┬а┬░┬▓┬а : "
 
 #: menus/editor.lua:61
 msgid "Size : "
-msgstr "Размер : "
+msgstr "┬Р┬а┬з┬м┬е┬░ : "
 
 #: menus/editor.lua:70
 msgid "~!Select map"
-msgstr "~!Выбор карты"
+msgstr "~!┬В┬╗┬б┬о┬░ ┬к┬а┬░┬▓┬╗"
 
 #: menus/editor.lua:80
 msgid "~!Edit map"
-msgstr "~!Редактировать"
+msgstr "~!┬Р┬е┬д┬а┬к┬▓┬и┬░┬о┬в┬а┬▓┬╝"
 
 #: menus/editor.lua:105
 msgid "~<Map Editor~>"
-msgstr "~<Редактор карт~>"
+msgstr "~<┬Р┬е┬д┬а┬к┬▓┬о┬░ ┬к┬а┬░┬▓~>"
 
 #: menus/editor.lua:108
 msgid "~!Load map"
-msgstr "~!Прочитать карту"
+msgstr "~!┬П┬░┬о┬╖┬и┬▓┬а┬▓┬╝ ┬к┬а┬░┬▓┬│"
 
 #: menus/editor.lua:118
 msgid "Cannot save map to file:"
-msgstr "Нельзя сохранить в файл:"
+msgstr "┬Н┬е┬л┬╝┬з┬┐ ┬▒┬о┬╡┬░┬а┬н┬и┬▓┬╝ ┬в ┬┤┬а┬й┬л:"
 
 #: menus/editor.lua:123
 msgid "Saved map to: "
-msgstr "Сохранено в: "
+msgstr "┬С┬о┬╡┬░┬а┬н┬е┬н┬о ┬в: "
 
 #: menus/editor.lua:136 menus/save.lua:39
 msgid "Save Game"
-msgstr "Сохранить игру"
+msgstr "┬С┬о┬╡┬░┬а┬н┬и┬▓┬╝ ┬и┬г┬░┬│"
 
 #: menus/editor.lua:149 menus/replay.lua:47 menus/save.lua:51
 msgid "~!Save"
-msgstr "~!Сохранить"
+msgstr "~!┬С┬о┬╡┬░┬а┬н┬и┬▓┬╝"
 
 #: menus/editor.lua:172 menus/save.lua:21
 msgid "File exists, are you sure ?"
-msgstr "Файл существует, продолжить?"
+msgstr "┬Ф┬а┬й┬л ┬▒┬│┬╣┬е┬▒┬▓┬в┬│┬е┬▓, ┬п┬░┬о┬д┬о┬л┬ж┬и┬▓┬╝?"
 
 #: menus/editor.lua:212
 msgid "Players properties"
-msgstr "Параметры игроков"
+msgstr "┬П┬а┬░┬а┬м┬е┬▓┬░┬╗ ┬и┬г┬░┬о┬к┬о┬в"
 
 #: menus/editor.lua:223 wc2.lua:42 wc2.lua:56
 msgid "Neutral"
-msgstr "Нейтрал"
+msgstr "┬Н┬е┬й┬▓┬░┬а┬л"
 
 #: menus/editor.lua:223
 msgid "Nobody"
-msgstr "Нет"
+msgstr "┬Н┬е┬▓"
 
 #: menus/editor.lua:223
 msgid "Person"
-msgstr "Человек"
+msgstr "┬Ч┬е┬л┬о┬в┬е┬к"
 
 #: menus/editor.lua:230
 msgid "Type"
-msgstr "Тип"
+msgstr "┬Т┬и┬п"
 
 #: menus/editor.lua:231
 msgid "Race"
-msgstr "Раса"
+msgstr "┬Р┬а┬▒┬а"
 
 #: menus/editor.lua:232
 msgid "AI"
-msgstr "ИИ"
+msgstr "┬И┬И"
 
 #: menus/editor.lua:233
 msgid "Gold"
-msgstr "Золото"
+msgstr "┬З┬о┬л┬о┬▓┬о"
 
 #: menus/editor.lua:234
 msgid "Lumber"
-msgstr "Лес"
+msgstr "┬Л┬е┬▒"
 
 #: menus/editor.lua:235
 msgid "Oil"
-msgstr "Нефть"
+msgstr "┬Н┬е┬┤┬▓┬╝"
 
 #: menus/editor.lua:315
 msgid "Map properties"
-msgstr "Параметры карты"
+msgstr "┬П┬а┬░┬а┬м┬е┬▓┬░┬╗ ┬к┬а┬░┬▓┬╗"
 
 #: menus/editor.lua:317
 msgid "Map descritption : "
-msgstr "Описание карты :"
+msgstr "┬О┬п┬и┬▒┬а┬н┬и┬е ┬к┬а┬░┬▓┬╗ :"
 
 #: menus/editor.lua:320
 msgid "Size    : "
-msgstr "Размер   : "
+msgstr "┬Р┬а┬з┬м┬е┬░   : "
 
 #: menus/editor.lua:326
 msgid "Tileset : "
-msgstr "Местность :"
+msgstr "┬М┬е┬▒┬▓┬н┬о┬▒┬▓┬╝ :"
 
 #: menus/editor.lua:356
 msgid "Editor Menu"
-msgstr "Меню редактора"
+msgstr "┬М┬е┬н┬╛ ┬░┬е┬д┬а┬к┬▓┬о┬░┬а"
 
 #: menus/editor.lua:358 menus/game.lua:39
 msgid "Save (~<F11~>)"
-msgstr "Сохр.(~<F11~>)"
+msgstr "┬С┬о┬╡┬░.(~<F11~>)"
 
 #: menus/editor.lua:360 menus/game.lua:41
 msgid "Load (~<F12~>)"
-msgstr "Чтен.(~<F12~>)"
+msgstr "┬Ч┬▓┬е┬н.(~<F12~>)"
 
 #: menus/editor.lua:361
 msgid "Map Properties (~<F5~>)"
-msgstr "Параметры карты (~<F5~>)"
+msgstr "┬П┬а┬░┬а┬м┬е┬▓┬░┬╗ ┬к┬а┬░┬▓┬╗ (~<F5~>)"
 
 #: menus/editor.lua:362
 msgid "Player Properties (~<F6~>)"
-msgstr "Параметры игроков (~<F6~>)"
+msgstr "┬П┬а┬░┬а┬м┬е┬▓┬░┬╗ ┬и┬г┬░┬о┬к┬о┬в (~<F6~>)"
 
 #: menus/editor.lua:366
 msgid "E~!xit to Menu"
-msgstr "~!Выйти в меню"
+msgstr "~!┬В┬╗┬й┬▓┬и ┬в ┬м┬е┬н┬╛"
 
 #: menus/editor.lua:368
 msgid "Return to Editor (~<Esc~>)"
-msgstr "Вернуться в редактор (~<Esc~>)"
+msgstr "┬В┬е┬░┬н┬│┬▓┬╝┬▒┬┐ ┬в ┬░┬е┬д┬а┬к┬▓┬о┬░ (~<Esc~>)"
 
 #: menus/editor.lua:387
 msgid "Unit properties"
-msgstr "Параметры юнита"
+msgstr "┬П┬а┬░┬а┬м┬е┬▓┬░┬╗ ┬╛┬н┬и┬▓┬а"
 
 #: menus/editor.lua:390
 msgid "Artificial Intelligence"
-msgstr "Интеллект"
+msgstr "┬И┬н┬▓┬е┬л┬л┬е┬к┬▓"
 
 #: menus/editor.lua:397 stratagus.lua:204
 msgid "gold"
-msgstr "золота"
+msgstr "┬з┬о┬л┬о┬▓┬а"
 
 #: menus/editor.lua:397 stratagus.lua:204
 msgid "wood"
-msgstr "леса"
+msgstr "┬л┬е┬▒┬а"
 
 #: menus/editor.lua:397 stratagus.lua:204
 msgid "oil"
-msgstr "нефти"
+msgstr "┬н┬е┬┤┬▓┬и"
 
 #: menus/editor.lua:399
 msgid "Amount of "
-msgstr "Количество"
+msgstr "┬К┬о┬л┬и┬╖┬е┬▒┬▓┬в┬о"
 
 #: menus/endscenario.lua:4
 msgid "End Scenario"
-msgstr "Прервать миссию"
+msgstr "┬П┬░┬е┬░┬в┬а┬▓┬╝ ┬м┬и┬▒┬▒┬и┬╛"
 
 #: menus/endscenario.lua:5 menus/endscenario.lua:28
 msgid "~!Restart Scenario"
-msgstr "~!Начало миссии"
+msgstr "~!┬Н┬а┬╖┬а┬л┬о ┬м┬и┬▒┬▒┬и┬и"
 
 #: menus/endscenario.lua:10 menus/endscenario.lua:42
 msgid "~!Surrender"
-msgstr "~!Сдаться"
+msgstr "~!┬С┬д┬а┬▓┬╝┬▒┬┐"
 
 #: menus/endscenario.lua:12 menus/endscenario.lua:56
 msgid "~!Quit to Menu"
-msgstr "~!Выйти в меню"
+msgstr "~!┬В┬╗┬й┬▓┬и ┬в ┬м┬е┬н┬╛"
 
 #: menus/endscenario.lua:16 menus/help.lua:9 menus/help.lua:88
 #: menus/options.lua:705
 msgid "Previous (~<Esc~>)"
-msgstr "Предыдущее (~<Esc~>)"
+msgstr "┬П┬░┬е┬д┬╗┬д┬│┬╣┬е┬е (~<Esc~>)"
 
 #: menus/endscenario.lua:25 menus/endscenario.lua:39 menus/endscenario.lua:53
 #: menus/endscenario.lua:67
 msgid "Are you sure you"
-msgstr "Вы уверены, что"
+msgstr "┬В┬╗ ┬│┬в┬е┬░┬е┬н┬╗, ┬╖┬▓┬о"
 
 #: menus/endscenario.lua:26
 msgid "want to restart"
-msgstr "хотите начать"
+msgstr "┬╡┬о┬▓┬и┬▓┬е ┬н┬а┬╖┬а┬▓┬╝"
 
 #: menus/endscenario.lua:27
 msgid "the scenario?"
-msgstr "миссию снова?"
+msgstr "┬м┬и┬▒┬▒┬и┬╛ ┬▒┬н┬о┬в┬а?"
 
 #: menus/endscenario.lua:30 menus/endscenario.lua:44 menus/endscenario.lua:58
 #: menus/endscenario.lua:72 menus/network.lua:386 menus/network.lua:925
 msgid "Cancel (~<Esc~>)"
-msgstr "Отмена (~<Esc~>)"
+msgstr "┬О┬▓┬м┬е┬н┬а (~<Esc~>)"
 
 #: menus/endscenario.lua:40
 msgid "want to withdraw"
@@ -1322,103 +1322,103 @@ msgstr ""
 
 #: menus/endscenario.lua:54
 msgid "want to quit to"
-msgstr "хотите выйти"
+msgstr "┬╡┬о┬▓┬и┬▓┬е ┬в┬╗┬й┬▓┬и"
 
 #: menus/endscenario.lua:55
 msgid "the main menu?"
-msgstr "в главное меню?"
+msgstr "┬в ┬г┬л┬а┬в┬н┬о┬е ┬м┬е┬н┬╛?"
 
 #: menus/endscenario.lua:68
 msgid "want to exit"
-msgstr "хотите выйти из"
+msgstr "┬╡┬о┬▓┬и┬▓┬е ┬в┬╗┬й┬▓┬и ┬и┬з"
 
 #: menus/endscenario.lua:69
 msgid "Stratagus?"
-msgstr "программы Wargus?"
+msgstr "┬п┬░┬о┬г┬░┬а┬м┬м┬╗ Wargus?"
 
 #: menus/game.lua:37
 msgid "Game Menu"
-msgstr "Игровое меню"
+msgstr "┬И┬г┬░┬о┬в┬о┬е ┬м┬е┬н┬╛"
 
 #: menus/game.lua:43
 msgid "Options (~<F5~>)"
-msgstr "Опции (~<F5~>)"
+msgstr "┬О┬п┬╢┬и┬и (~<F5~>)"
 
 #: menus/game.lua:45
 msgid "Help (~<F1~>)"
-msgstr "Помощь (~<F1~>)"
+msgstr "┬П┬о┬м┬о┬╣┬╝ (~<F1~>)"
 
 #: menus/game.lua:47
 msgid "Scenario ~!Objectives"
-msgstr "~!Цели миссии"
+msgstr "~!┬Ц┬е┬л┬и ┬м┬и┬▒┬▒┬и┬и"
 
 #: menus/game.lua:49
 msgid "~!End Scenario"
-msgstr "~!Прервать миссию"
+msgstr "~!┬П┬░┬е┬░┬в┬а┬▓┬╝ ┬м┬и┬▒┬▒┬и┬╛"
 
 #: menus/game.lua:51
 msgid "Return to Game (~<Esc~>)"
-msgstr "Вернуться в игру (~<Esc~>)"
+msgstr "┬В┬е┬░┬н┬│┬▓┬╝┬▒┬┐ ┬в ┬и┬г┬░┬│ (~<Esc~>)"
 
 #: menus/help.lua:4
 msgid "Help Menu"
-msgstr "Помощь"
+msgstr "┬П┬о┬м┬о┬╣┬╝"
 
 #: menus/help.lua:5
 msgid "Keystroke ~!Help"
-msgstr "Горячие клавиши"
+msgstr "┬Г┬о┬░┬┐┬╖┬и┬е ┬к┬л┬а┬в┬и┬╕┬и"
 
 #: menus/help.lua:7
 msgid "~!Tips"
-msgstr "~!Советы"
+msgstr "~!┬С┬о┬в┬е┬▓┬╗"
 
 #: menus/help.lua:16
 msgid "- toggle full screen"
-msgstr "- полноэкранный режим"
+msgstr "- ┬п┬о┬л┬н┬о┬╜┬к┬░┬а┬н┬н┬╗┬й ┬░┬е┬ж┬и┬м"
 
 #: menus/help.lua:17
 msgid "- toggle grab mouse"
-msgstr "- захват мыши"
+msgstr "- ┬з┬а┬╡┬в┬а┬▓ ┬м┬╗┬╕┬и"
 
 #: menus/help.lua:18
 msgid "- mute sound"
-msgstr "- выключить звук"
+msgstr "- ┬в┬╗┬к┬л┬╛┬╖┬и┬▓┬╝ ┬з┬в┬│┬к"
 
 #: menus/help.lua:19
 msgid "- mute music"
-msgstr "- выключить музыку"
+msgstr "- ┬в┬╗┬к┬л┬╛┬╖┬и┬▓┬╝ ┬м┬│┬з┬╗┬к┬│"
 
 #: menus/help.lua:20
 msgid "- increase game speed"
-msgstr "- увеличить скорость игры"
+msgstr "- ┬│┬в┬е┬л┬и┬╖┬и┬▓┬╝ ┬▒┬к┬о┬░┬о┬▒┬▓┬╝ ┬и┬г┬░┬╗"
 
 #: menus/help.lua:21
 msgid "- decrease game speed"
-msgstr "- уменьшить скорость игры"
+msgstr "- ┬│┬м┬е┬н┬╝┬╕┬и┬▓┬╝ ┬▒┬к┬о┬░┬о┬▒┬▓┬╝ ┬и┬г┬░┬╗"
 
 #: menus/help.lua:22 menus/help.lua:23
 msgid "- pause game"
-msgstr "- пауза"
+msgstr "- ┬п┬а┬│┬з┬а"
 
 #: menus/help.lua:24
 msgid "- make screen shot"
-msgstr "- сделать скриншот"
+msgstr "- ┬▒┬д┬е┬л┬а┬▓┬╝ ┬▒┬к┬░┬и┬н┬╕┬о┬▓"
 
 #: menus/help.lua:25
 msgid "- help menu"
-msgstr "- помощь"
+msgstr "- ┬п┬о┬м┬о┬╣┬╝"
 
 #: menus/help.lua:26
 msgid "- restart scenario"
-msgstr "- начать заново"
+msgstr "- ┬н┬а┬╖┬а┬▓┬╝ ┬з┬а┬н┬о┬в┬о"
 
 #: menus/help.lua:27
 msgid "- quit to main menu"
-msgstr "- выйти в главное меню"
+msgstr "- ┬в┬╗┬й┬▓┬и ┬в ┬г┬л┬а┬в┬н┬о┬е ┬м┬е┬н┬╛"
 
 #: menus/help.lua:28
 msgid "- quit game"
-msgstr "- выход из игры"
+msgstr "- ┬в┬╗┬╡┬о┬д ┬и┬з ┬и┬г┬░┬╗"
 
 #: menus/help.lua:29
 msgid "- toggle expand map"
@@ -1426,39 +1426,39 @@ msgstr ""
 
 #: menus/help.lua:30 menus/help.lua:52 menus/help.lua:53
 msgid "- game menu"
-msgstr "- игровое меню"
+msgstr "- ┬и┬г┬░┬о┬в┬о┬е ┬м┬е┬н┬╛"
 
 #: menus/help.lua:31
 msgid "- write a message"
-msgstr "- написать сообщение"
+msgstr "- ┬н┬а┬п┬и┬▒┬а┬▓┬╝ ┬▒┬о┬о┬б┬╣┬е┬н┬и┬е"
 
 #: menus/help.lua:32
 msgid "- goto last event"
-msgstr "- перейти к последнему событию"
+msgstr "- ┬п┬е┬░┬е┬й┬▓┬и ┬к ┬п┬о┬▒┬л┬е┬д┬н┬е┬м┬│ ┬▒┬о┬б┬╗┬▓┬и┬╛"
 
 #: menus/help.lua:33
 msgid "- hide/unhide terrain"
-msgstr "- показать/скрыть ландшафт"
+msgstr "- ┬п┬о┬к┬а┬з┬а┬▓┬╝/┬▒┬к┬░┬╗┬▓┬╝ ┬л┬а┬н┬д┬╕┬а┬┤┬▓"
 
 #: menus/help.lua:34
 msgid "- track unit"
-msgstr "- следить за юнитом"
+msgstr "- ┬▒┬л┬е┬д┬и┬▓┬╝ ┬з┬а ┬╛┬н┬и┬▓┬о┬м"
 
 #: menus/help.lua:35
 msgid "- find idle peon"
-msgstr "- найти свободного рабочего"
+msgstr "- ┬н┬а┬й┬▓┬и ┬▒┬в┬о┬б┬о┬д┬н┬о┬г┬о ┬░┬а┬б┬о┬╖┬е┬г┬о"
 
 #: menus/help.lua:36
 msgid "- center on selected unit"
-msgstr "- центрировать на выделенном юните"
+msgstr "- ┬╢┬е┬н┬▓┬░┬и┬░┬о┬в┬а┬▓┬╝ ┬н┬а ┬в┬╗┬д┬е┬л┬е┬н┬н┬о┬м ┬╛┬н┬и┬▓┬е"
 
 #: menus/help.lua:37
 msgid "- next view port"
-msgstr "- следующая конфигурация окна просмотра"
+msgstr "- ┬▒┬л┬е┬д┬│┬╛┬╣┬а┬┐ ┬к┬о┬н┬┤┬и┬г┬│┬░┬а┬╢┬и┬┐ ┬о┬к┬н┬а ┬п┬░┬о┬▒┬м┬о┬▓┬░┬а"
 
 #: menus/help.lua:38
 msgid "- previous view port"
-msgstr "- предыдущая конфигурация окна просмотра"
+msgstr "- ┬п┬░┬е┬д┬╗┬д┬│┬╣┬а┬┐ ┬к┬о┬н┬┤┬и┬г┬│┬░┬а┬╢┬и┬┐ ┬о┬к┬н┬а ┬п┬░┬о┬▒┬м┬о┬▓┬░┬а"
 
 #: menus/help.lua:39
 msgid "- select nothing"
@@ -1486,43 +1486,43 @@ msgstr ""
 
 #: menus/help.lua:45
 msgid "- recall map position"
-msgstr "- перейти на позицию карты"
+msgstr "- ┬п┬е┬░┬е┬й┬▓┬и ┬н┬а ┬п┬о┬з┬и┬╢┬и┬╛ ┬к┬а┬░┬▓┬╗"
 
 #: menus/help.lua:46
 msgid "- save map postition"
-msgstr "- сохранить позицию карты"
+msgstr "- ┬▒┬о┬╡┬░┬а┬н┬и┬▓┬╝ ┬п┬о┬з┬и┬╢┬и┬╛ ┬к┬а┬░┬▓┬╗"
 
 #: menus/help.lua:47
 msgid "- game options"
-msgstr "- игровые опции"
+msgstr "- ┬и┬г┬░┬о┬в┬╗┬е ┬о┬п┬╢┬и┬и"
 
 #: menus/help.lua:48
 msgid "- speed options"
-msgstr "- установка скорости"
+msgstr "- ┬│┬▒┬▓┬а┬н┬о┬в┬к┬а ┬▒┬к┬о┬░┬о┬▒┬▓┬и"
 
 #: menus/help.lua:49
 msgid "- sound options"
-msgstr "- звуковые опции"
+msgstr "- ┬з┬в┬│┬к┬о┬в┬╗┬е ┬о┬п┬╢┬и┬и"
 
 #: menus/help.lua:50
 msgid "- preferences"
-msgstr "- настройки"
+msgstr "- ┬н┬а┬▒┬▓┬░┬о┬й┬к┬и"
 
 #: menus/help.lua:51
 msgid "- diplomacy"
-msgstr "- дипломатия"
+msgstr "- ┬д┬и┬п┬л┬о┬м┬а┬▓┬и┬┐"
 
 #: menus/help.lua:54
 msgid "- save game"
-msgstr "- сохранить игру"
+msgstr "- ┬▒┬о┬╡┬░┬а┬н┬и┬▓┬╝ ┬и┬г┬░┬│"
 
 #: menus/help.lua:55
 msgid "- load game"
-msgstr "- загрузить игру"
+msgstr "- ┬з┬а┬г┬░┬│┬з┬и┬▓┬╝ ┬и┬г┬░┬│"
 
 #: menus/help.lua:87
 msgid "Keystroke Help Menu"
-msgstr "Горячие Клавиши"
+msgstr "┬Г┬о┬░┬┐┬╖┬и┬е ┬К┬л┬а┬в┬и┬╕┬и"
 
 #: menus/help.lua:95
 msgid ""
@@ -1530,25 +1530,25 @@ msgid ""
 "holding down the CTRL key and selecting a unit or by \"double clicking\" on "
 "a unit."
 msgstr ""
-"Вы можете выбрать всех видимых в данный момент юнитов одного типа, удерживая "
-"клавишу CTRL и нажав левую кнопку мыши, или дважды щелкнув ЛКМ."
+"┬В┬╗ ┬м┬о┬ж┬е┬▓┬е ┬в┬╗┬б┬░┬а┬▓┬╝ ┬в┬▒┬е┬╡ ┬в┬и┬д┬и┬м┬╗┬╡ ┬в ┬д┬а┬н┬н┬╗┬й ┬м┬о┬м┬е┬н┬▓ ┬╛┬н┬и┬▓┬о┬в ┬о┬д┬н┬о┬г┬о ┬▓┬и┬п┬а, ┬│┬д┬е┬░┬ж┬и┬в┬а┬┐ "
+"┬к┬л┬а┬в┬и┬╕┬│ CTRL ┬и ┬н┬а┬ж┬а┬в ┬л┬е┬в┬│┬╛ ┬к┬н┬о┬п┬к┬│ ┬м┬╗┬╕┬и, ┬и┬л┬и ┬д┬в┬а┬ж┬д┬╗ ┬╣┬е┬л┬к┬н┬│┬в ┬Л┬К┬М."
 
 #: menus/help.lua:96
 msgid ""
 "The more workers you have collecting resources, the faster your economy will "
 "grow."
 msgstr ""
-"Чем больше работников у вас будет собирать ресурсы, тем быстрее ваша "
-"экономика будет расти."
+"┬Ч┬е┬м ┬б┬о┬л┬╝┬╕┬е ┬░┬а┬б┬о┬▓┬н┬и┬к┬о┬в ┬│ ┬в┬а┬▒ ┬б┬│┬д┬е┬▓ ┬▒┬о┬б┬и┬░┬а┬▓┬╝ ┬░┬е┬▒┬│┬░┬▒┬╗, ┬▓┬е┬м ┬б┬╗┬▒┬▓┬░┬е┬е ┬в┬а┬╕┬а "
+"┬╜┬к┬о┬н┬о┬м┬и┬к┬а ┬б┬│┬д┬е┬▓ ┬░┬а┬▒┬▓┬и."
 
 #: menus/help.lua:97
 msgid "Building more than one barracks will let you train more units faster."
 msgstr ""
-"Строительство более чем одного барака позволит вам быстрее обучать юнитов."
+"┬С┬▓┬░┬о┬и┬▓┬е┬л┬╝┬▒┬▓┬в┬о ┬б┬о┬л┬е┬е ┬╖┬е┬м ┬о┬д┬н┬о┬г┬о ┬б┬а┬░┬а┬к┬а ┬п┬о┬з┬в┬о┬л┬и┬▓ ┬в┬а┬м ┬б┬╗┬▒┬▓┬░┬е┬е ┬о┬б┬│┬╖┬а┬▓┬╝ ┬╛┬н┬и┬▓┬о┬в."
 
 #: menus/help.lua:98
 msgid "Use your workers to repair damaged buildings."
-msgstr "Используйте своих рабочих для ремонта поврежденных зданий."
+msgstr "┬И┬▒┬п┬о┬л┬╝┬з┬│┬й┬▓┬е ┬▒┬в┬о┬и┬╡ ┬░┬а┬б┬о┬╖┬и┬╡ ┬д┬л┬┐ ┬░┬е┬м┬о┬н┬▓┬а ┬п┬о┬в┬░┬е┬ж┬д┬е┬н┬н┬╗┬╡ ┬з┬д┬а┬н┬и┬й."
 
 #: menus/help.lua:99
 msgid "Explore your surroundings early in the game."
@@ -1556,12 +1556,12 @@ msgstr ""
 
 #: menus/help.lua:101
 msgid "You can demolish trees and rocks."
-msgstr "Вы можете сносить деревья и камни."
+msgstr "┬В┬╗ ┬м┬о┬ж┬е┬▓┬е ┬▒┬н┬о┬▒┬и┬▓┬╝ ┬д┬е┬░┬е┬в┬╝┬┐ ┬и ┬к┬а┬м┬н┬и."
 
 #: menus/help.lua:102
 msgid "Keep all workers working. Use ALT-I to find idle workers."
 msgstr ""
-"Держите рабочих при работе. Используйте ALT-I для поиска свободных рабочих."
+"┬Д┬е┬░┬ж┬и┬▓┬е ┬░┬а┬б┬о┬╖┬и┬╡ ┬п┬░┬и ┬░┬а┬б┬о┬▓┬е. ┬И┬▒┬п┬о┬л┬╝┬з┬│┬й┬▓┬е ALT-I ┬д┬л┬┐ ┬п┬о┬и┬▒┬к┬а ┬▒┬в┬о┬б┬о┬д┬н┬╗┬╡ ┬░┬а┬б┬о┬╖┬и┬╡."
 
 #: menus/help.lua:103
 msgid ""
@@ -1574,24 +1574,24 @@ msgid ""
 "You can give an unit an order which is executed after it finishes the "
 "current work, if you hold the SHIFT key."
 msgstr ""
-"Вы можете дать юниту задание, которое выполнится  после завершения текущего, "
-"если вы удерживаете клавишу SHIFT."
+"┬В┬╗ ┬м┬о┬ж┬е┬▓┬е ┬д┬а┬▓┬╝ ┬╛┬н┬и┬▓┬│ ┬з┬а┬д┬а┬н┬и┬е, ┬к┬о┬▓┬о┬░┬о┬е ┬в┬╗┬п┬о┬л┬н┬и┬▓┬▒┬┐  ┬п┬о┬▒┬л┬е ┬з┬а┬в┬е┬░┬╕┬е┬н┬и┬┐ ┬▓┬е┬к┬│┬╣┬е┬г┬о, "
+"┬е┬▒┬л┬и ┬в┬╗ ┬│┬д┬е┬░┬ж┬и┬в┬а┬е┬▓┬е ┬к┬л┬а┬в┬и┬╕┬│ SHIFT."
 
 #: menus/help.lua:107
 msgid ""
 "You can give way points, if you press the SHIFT key, while you click right "
 "for the move command."
 msgstr ""
-"Вы можете указать точки перемещения, если вы зажмете клавишу SHIFT, когда "
-"щелкните правой кнопкой мыши для команды перемещения."
+"┬В┬╗ ┬м┬о┬ж┬е┬▓┬е ┬│┬к┬а┬з┬а┬▓┬╝ ┬▓┬о┬╖┬к┬и ┬п┬е┬░┬е┬м┬е┬╣┬е┬н┬и┬┐, ┬е┬▒┬л┬и ┬в┬╗ ┬з┬а┬ж┬м┬е┬▓┬е ┬к┬л┬а┬в┬и┬╕┬│ SHIFT, ┬к┬о┬г┬д┬а "
+"┬╣┬е┬л┬к┬н┬и┬▓┬е ┬п┬░┬а┬в┬о┬й ┬к┬н┬о┬п┬к┬о┬й ┬м┬╗┬╕┬и ┬д┬л┬┐ ┬к┬о┬м┬а┬н┬д┬╗ ┬п┬е┬░┬е┬м┬е┬╣┬е┬н┬и┬┐."
 
 #: menus/help.lua:108
 msgid ""
 "You can order a worker to build one building after the other, if you hold "
 "the SHIFT key, while you place the building."
 msgstr ""
-"Вы можете приказать работнику построить одно здание за другим, если вы "
-"удерживаете клавишу SHIFT, когда вы размещаете здание."
+"┬В┬╗ ┬м┬о┬ж┬е┬▓┬е ┬п┬░┬и┬к┬а┬з┬а┬▓┬╝ ┬░┬а┬б┬о┬▓┬н┬и┬к┬│ ┬п┬о┬▒┬▓┬░┬о┬и┬▓┬╝ ┬о┬д┬н┬о ┬з┬д┬а┬н┬и┬е ┬з┬а ┬д┬░┬│┬г┬и┬м, ┬е┬▒┬л┬и ┬в┬╗ "
+"┬│┬д┬е┬░┬ж┬и┬в┬а┬е┬▓┬е ┬к┬л┬а┬в┬и┬╕┬│ SHIFT, ┬к┬о┬г┬д┬а ┬в┬╗ ┬░┬а┬з┬м┬е┬╣┬а┬е┬▓┬е ┬з┬д┬а┬н┬и┬е."
 
 #: menus/help.lua:109
 msgid ""
@@ -1604,36 +1604,36 @@ msgid ""
 "Use CTRL-V or ALT-V to cycle through the viewport configuration, you can "
 "then monitor your base and lead an attack."
 msgstr ""
-"Используйте CTRL-V или ALT-V для настройки окна просмотра, затем вы можете "
-"вести атаку и наблюдать за базой одновременно."
+"┬И┬▒┬п┬о┬л┬╝┬з┬│┬й┬▓┬е CTRL-V ┬и┬л┬и ALT-V ┬д┬л┬┐ ┬н┬а┬▒┬▓┬░┬о┬й┬к┬и ┬о┬к┬н┬а ┬п┬░┬о┬▒┬м┬о┬▓┬░┬а, ┬з┬а┬▓┬е┬м ┬в┬╗ ┬м┬о┬ж┬е┬▓┬е "
+"┬в┬е┬▒┬▓┬и ┬а┬▓┬а┬к┬│ ┬и ┬н┬а┬б┬л┬╛┬д┬а┬▓┬╝ ┬з┬а ┬б┬а┬з┬о┬й ┬о┬д┬н┬о┬в┬░┬е┬м┬е┬н┬н┬о."
 
 #: menus/help.lua:113
 msgid "Know a useful tip?  Then add it here!"
-msgstr "Знаете полезный совет? Добавьте его сюда!"
+msgstr "┬З┬н┬а┬е┬▓┬е ┬п┬о┬л┬е┬з┬н┬╗┬й ┬▒┬о┬в┬е┬▓? ┬Д┬о┬б┬а┬в┬╝┬▓┬е ┬е┬г┬о ┬▒┬╛┬д┬а!"
 
 #: menus/help.lua:120
 msgid "Tips"
-msgstr "Советы"
+msgstr "┬С┬о┬в┬е┬▓┬╗"
 
 #: menus/help.lua:152
 msgid "Show tips at startup"
-msgstr "Показывать при запуске"
+msgstr "┬П┬о┬к┬а┬з┬╗┬в┬а┬▓┬╝ ┬п┬░┬и ┬з┬а┬п┬│┬▒┬к┬е"
 
 #: menus/help.lua:159
 msgid "~!Next Tip"
-msgstr "~!Еще"
+msgstr "~!┬Е┬╣┬е"
 
 #: menus/help.lua:161
 msgid "~!Close"
-msgstr "~!Закрыть"
+msgstr "~!┬З┬а┬к┬░┬╗┬▓┬╝"
 
 #: menus/load.lua:40
 msgid "Load Game"
-msgstr "Прочитать игру"
+msgstr "┬П┬░┬о┬╖┬и┬▓┬а┬▓┬╝ ┬и┬г┬░┬│"
 
 #: menus/load.lua:44
 msgid "~!Load"
-msgstr "~!Прочитать"
+msgstr "~!┬П┬░┬о┬╖┬и┬▓┬а┬▓┬╝"
 
 #: menus/metaserver.lua:34
 msgid "~<Metaserver~>"
@@ -1658,7 +1658,7 @@ msgstr ""
 #: menus/metaserver.lua:87 menus/metaserver.lua:97 menus/network.lua:340
 #: menus/network.lua:446 menus/network.lua:455
 msgid "Connecting..."
-msgstr "Подключение..."
+msgstr "┬П┬о┬д┬к┬л┬╛┬╖┬е┬н┬и┬е..."
 
 #: menus/metaserver.lua:113 menus/network.lua:470
 msgid "Unable to connect"
@@ -1674,71 +1674,71 @@ msgstr ""
 
 #: menus/network.lua:119
 msgid "Players"
-msgstr "Игроки"
+msgstr "┬И┬г┬░┬о┬к┬и"
 
 #: menus/network.lua:122 menus/network.lua:144
 msgid "Preparing"
-msgstr "Готовится"
+msgstr "┬Г┬о┬▓┬о┬в┬и┬▓┬▒┬┐"
 
 #: menus/network.lua:125 menus/network.lua:162
 msgid "Open slots : "
-msgstr "Свободно : "
+msgstr "┬С┬в┬о┬б┬о┬д┬н┬о : "
 
 #: menus/network.lua:131
 msgid "Creator"
-msgstr "Сервер"
+msgstr "┬С┬е┬░┬в┬е┬░"
 
 #: menus/network.lua:142
 msgid "Ready"
-msgstr "Готов"
+msgstr "┬Г┬о┬▓┬о┬в"
 
 #: menus/network.lua:184
 msgid "Joining game: Map"
-msgstr "Подключение к игре : Карта"
+msgstr "┬П┬о┬д┬к┬л┬╛┬╖┬е┬н┬и┬е ┬к ┬и┬г┬░┬е : ┬К┬а┬░┬▓┬а"
 
 #: menus/network.lua:186 menus/network.lua:633
 msgid "Map"
-msgstr "Карта"
+msgstr "┬К┬а┬░┬▓┬а"
 
 #: menus/network.lua:187 menus/network.lua:634 menus/network.lua:877
 msgid "File:"
-msgstr "Файл:"
+msgstr "┬Ф┬а┬й┬л:"
 
 #: menus/network.lua:189 menus/network.lua:636 menus/network.lua:879
 msgid "Players:"
-msgstr "Игроков:"
+msgstr "┬И┬г┬░┬о┬к┬о┬в:"
 
 #: menus/network.lua:191 menus/network.lua:638 menus/network.lua:881
 msgid "Description:"
-msgstr "Описание:"
+msgstr "┬О┬п┬и┬▒┬а┬н┬и┬е:"
 
 #: menus/network.lua:194 menus/network.lua:646
 msgid "Fog of war"
-msgstr "Туман войны"
+msgstr "┬Т┬│┬м┬а┬н ┬в┬о┬й┬н┬╗"
 
 #: menus/network.lua:200 menus/network.lua:653
 msgid "Reveal map"
-msgstr "Открыть карту"
+msgstr "┬О┬▓┬к┬░┬╗┬▓┬╝ ┬к┬а┬░┬▓┬│"
 
 #: menus/network.lua:203
 msgid "~<Your Race:~>"
-msgstr "~<Ваша раса:~>"
+msgstr "~<┬В┬а┬╕┬а ┬░┬а┬▒┬а:~>"
 
 #: menus/network.lua:212 menus/network.lua:666 menus/results.lua:203
 msgid "Units:"
-msgstr "Воины:"
+msgstr "┬В┬о┬и┬н┬╗:"
 
 #: menus/network.lua:218 menus/network.lua:676
 msgid "Resources:"
-msgstr "Ресурсы:"
+msgstr "┬Р┬е┬▒┬│┬░┬▒┬╗:"
 
 #: menus/network.lua:250
 msgid "~!Ready"
-msgstr "~!Готов"
+msgstr "~!┬Г┬о┬▓┬о┬в"
 
 #: menus/network.lua:301 menus/network.lua:366
 msgid "Cannot reach server"
-msgstr "Сервер недоступен"
+msgstr "┬С┬е┬░┬в┬е┬░ ┬н┬е┬д┬о┬▒┬▓┬│┬п┬е┬н"
 
 #: menus/network.lua:323
 msgid "Joining Game"
@@ -1746,23 +1746,23 @@ msgstr ""
 
 #: menus/network.lua:334
 msgid "Connecting to server"
-msgstr "Подключение к серверу"
+msgstr "┬П┬о┬д┬к┬л┬╛┬╖┬е┬н┬и┬е ┬к ┬▒┬е┬░┬в┬е┬░┬│"
 
 #: menus/network.lua:360
 msgid "Map not available"
-msgstr "Карта недоступна"
+msgstr "┬К┬а┬░┬▓┬а ┬н┬е┬д┬о┬▒┬▓┬│┬п┬н┬а"
 
 #: menus/network.lua:370
 msgid "Server is full"
-msgstr "Сервер полон"
+msgstr "┬С┬е┬░┬в┬е┬░ ┬п┬о┬л┬о┬н"
 
 #: menus/network.lua:373
 msgid "Server gone"
-msgstr "Связь с сервером потеряна"
+msgstr "┬С┬в┬┐┬з┬╝ ┬▒ ┬▒┬е┬░┬в┬е┬░┬о┬м ┬п┬о┬▓┬е┬░┬┐┬н┬а"
 
 #: menus/network.lua:376
 msgid "Incompatible engine version"
-msgstr "Другая версия игры"
+msgstr "┬Д┬░┬│┬г┬а┬┐ ┬в┬е┬░┬▒┬и┬┐ ┬и┬г┬░┬╗"
 
 #: menus/network.lua:379
 msgid "Incompatible lua files"
@@ -1770,27 +1770,27 @@ msgstr ""
 
 #: menus/network.lua:398
 msgid "Servers: "
-msgstr "Сервера"
+msgstr "┬С┬е┬░┬в┬е┬░┬а"
 
 #: menus/network.lua:411 menus/network.lua:514
 msgid "Co~!nnect"
-msgstr "Соединиться"
+msgstr "┬С┬о┬е┬д┬и┬н┬и┬▓┬╝┬▒┬┐"
 
 #: menus/network.lua:419
 msgid "~!Add server"
-msgstr "Добавить сервер"
+msgstr "┬Д┬о┬б┬а┬в┬и┬▓┬╝ ┬▒┬е┬░┬в┬е┬░"
 
 #: menus/network.lua:421
 msgid "~!Edit server"
-msgstr "Редактировать"
+msgstr "┬Р┬е┬д┬а┬к┬▓┬и┬░┬о┬в┬а┬▓┬╝"
 
 #: menus/network.lua:426
 msgid "~!Delete server"
-msgstr "Удалить"
+msgstr "┬У┬д┬а┬л┬и┬▓┬╝"
 
 #: menus/network.lua:493
 msgid "Open Games: "
-msgstr "Открытые Игры:"
+msgstr "┬О┬▓┬к┬░┬╗┬▓┬╗┬е ┬И┬г┬░┬╗:"
 
 #: menus/network.lua:542 menus/network.lua:546
 msgid "Connecting via "
@@ -1798,27 +1798,27 @@ msgstr ""
 
 #: menus/network.lua:567
 msgid "Edit server"
-msgstr "Редактировать сервер"
+msgstr "┬Р┬е┬д┬а┬к┬▓┬и┬░┬о┬в┬а┬▓┬╝ ┬▒┬е┬░┬в┬е┬░"
 
 #: menus/network.lua:568 menus/network.lua:594
 msgid "Server IP: "
-msgstr "IP сервера:"
+msgstr "IP ┬▒┬е┬░┬в┬е┬░┬а:"
 
 #: menus/network.lua:571 menus/network.lua:596
 msgid "Description: "
-msgstr "Описание"
+msgstr "┬О┬п┬и┬▒┬а┬н┬и┬е"
 
 #: menus/network.lua:576 menus/network.lua:600
 msgid "Invalid server name"
-msgstr "Неверное имя сервера"
+msgstr "┬Н┬е┬в┬е┬░┬н┬о┬е ┬и┬м┬┐ ┬▒┬е┬░┬в┬е┬░┬а"
 
 #: menus/network.lua:593
 msgid "Add server"
-msgstr "Добавить сервер"
+msgstr "┬Д┬о┬б┬а┬в┬и┬▓┬╝ ┬▒┬е┬░┬в┬е┬░"
 
 #: menus/network.lua:631 menus/network.lua:875
 msgid "Create MultiPlayer game"
-msgstr "Создать многопользовательскую игру"
+msgstr "┬С┬о┬з┬д┬а┬▓┬╝ ┬м┬н┬о┬г┬о┬п┬о┬л┬╝┬з┬о┬в┬а┬▓┬е┬л┬╝┬▒┬к┬│┬╛ ┬и┬г┬░┬│"
 
 #: menus/network.lua:639
 msgid "Unknown map"
@@ -1826,7 +1826,7 @@ msgstr ""
 
 #: menus/network.lua:655
 msgid "Race:"
-msgstr "Раса:"
+msgstr "┬Р┬а┬▒┬а:"
 
 #: menus/network.lua:686
 msgid "Dedicated AI Server:"
@@ -1846,159 +1846,159 @@ msgstr ""
 
 #: menus/network.lua:771
 msgid "Waiting for players"
-msgstr "Ожидание игроков"
+msgstr "┬О┬ж┬и┬д┬а┬н┬и┬е ┬и┬г┬░┬о┬к┬о┬в"
 
 #: menus/network.lua:915 menus/network.lua:979
 msgid "~!Create Game"
-msgstr "~!Создать игру"
+msgstr "~!┬С┬о┬з┬д┬а┬▓┬╝ ┬и┬г┬░┬│"
 
 #: menus/network.lua:954
 msgid "~<Multiplayer Network Game~>"
-msgstr "~<Сетевая игра~>"
+msgstr "~<┬С┬е┬▓┬е┬в┬а┬┐ ┬и┬г┬░┬а~>"
 
 #: menus/network.lua:959
 msgid "~!Join Local Game"
-msgstr "~!По локальной сети"
+msgstr "~!┬П┬о ┬л┬о┬к┬а┬л┬╝┬н┬о┬й ┬▒┬е┬▓┬и"
 
 #: menus/network.lua:969
 msgid "Join ~!Online Game"
-msgstr "~!Онлайн игра"
+msgstr "~!┬О┬н┬л┬а┬й┬н ┬и┬г┬░┬а"
 
 #: menus/objectives.lua:4
 msgid "Objectives"
-msgstr "ЦЕЛЬ МИССИИ:"
+msgstr "┬Ц┬Е┬Л┬Ь ┬М┬И┬С┬С┬И┬И:"
 
 #: menus/options.lua:33
 msgid "Sound Options"
-msgstr "Звуковые опции"
+msgstr "┬З┬в┬│┬к┬о┬в┬╗┬е ┬о┬п┬╢┬и┬и"
 
 #: menus/options.lua:35
 msgid "Effects Volume"
-msgstr "Громкость эффектов"
+msgstr "┬Г┬░┬о┬м┬к┬о┬▒┬▓┬╝ ┬╜┬┤┬┤┬е┬к┬▓┬о┬в"
 
 #: menus/options.lua:68
 msgid "Sound:"
-msgstr "Звук:"
+msgstr "┬З┬в┬│┬к:"
 
 #: menus/options.lua:69 menus/options.lua:137
 msgid "On"
-msgstr "Вкл."
+msgstr "┬В┬к┬л."
 
 #: menus/options.lua:70 menus/options.lua:138
 msgid "Off"
-msgstr "Выкл."
+msgstr "┬В┬╗┬к┬л."
 
 #: menus/options.lua:99
 msgid "Music Volume"
-msgstr "Громкость музыки"
+msgstr "┬Г┬░┬о┬м┬к┬о┬▒┬▓┬╝ ┬м┬│┬з┬╗┬к┬и"
 
 #: menus/options.lua:129
 msgid "Stereo Sound"
-msgstr "Стереозвук"
+msgstr "┬С┬▓┬е┬░┬е┬о┬з┬в┬│┬к"
 
 #: menus/options.lua:136
 msgid "Music:"
-msgstr "Музыка:"
+msgstr "┬М┬│┬з┬╗┬к┬а:"
 
 #: menus/options.lua:201
 msgid "Preferences"
-msgstr "Настройка"
+msgstr "┬Н┬а┬▒┬▓┬░┬о┬й┬к┬а"
 
 #: menus/options.lua:203
 msgid "Show Hotkeys"
-msgstr "Гор. клавиши"
+msgstr "┬Г┬о┬░. ┬к┬л┬а┬в┬и┬╕┬и"
 
 #: menus/options.lua:212
 msgid "Grab Mouse"
-msgstr "Захват мыши"
+msgstr "┬З┬а┬╡┬в┬а┬▓ ┬м┬╗┬╕┬и"
 
 #: menus/options.lua:219
 msgid "~!*Show damage"
-msgstr "~!*Показывать урон"
+msgstr "~!*┬П┬о┬к┬а┬з┬╗┬в┬а┬▓┬╝ ┬│┬░┬о┬н"
 
 #: menus/options.lua:230
 msgid "~!*Show button popups"
-msgstr "~!*Всплыв. подсказки"
+msgstr "~!*┬В┬▒┬п┬л┬╗┬в. ┬п┬о┬д┬▒┬к┬а┬з┬к┬и"
 
 #: menus/options.lua:235
 msgid "Mine notifications"
-msgstr "Уведомл. о рудниках"
+msgstr "┬У┬в┬е┬д┬о┬м┬л. ┬о ┬░┬│┬д┬н┬и┬к┬а┬╡"
 
 #: menus/options.lua:242
 msgid "Show orders"
-msgstr "Показ. приказы"
+msgstr "┬П┬о┬к┬а┬з. ┬п┬░┬и┬к┬а┬з┬╗"
 
 #: menus/options.lua:257
 msgid "Mirrored buildings"
-msgstr "Отражать постройки"
+msgstr "┬О┬▓┬░┬а┬ж┬а┬▓┬╝ ┬п┬о┬▒┬▓┬░┬о┬й┬к┬и"
 
 #: menus/options.lua:264
 msgid "Show messages"
-msgstr "Показ. сообщения"
+msgstr "┬П┬о┬к┬а┬з. ┬▒┬о┬о┬б┬╣┬е┬н┬и┬┐"
 
 #: menus/options.lua:271
 msgid "Pause on leave"
-msgstr "Пауза при перекл."
+msgstr "┬П┬а┬│┬з┬а ┬п┬░┬и ┬п┬е┬░┬е┬к┬л."
 
 #: menus/options.lua:278
 msgid "~!*Enhanced effects"
-msgstr "~!*Улучш. эффекты"
+msgstr "~!*┬У┬л┬│┬╖┬╕. ┬╜┬┤┬┤┬е┬к┬▓┬╗"
 
 #: menus/options.lua:281
 msgid "Deselect in mines"
-msgstr "Снимать выдел. при добыче"
+msgstr "┬С┬н┬и┬м┬а┬▓┬╝ ┬в┬╗┬д┬е┬л. ┬п┬░┬и ┬д┬о┬б┬╗┬╖┬е"
 
 #: menus/options.lua:290
 msgid "Fog of War"
-msgstr "Туман войны"
+msgstr "┬Т┬│┬м┬а┬н ┬в┬о┬й┬н┬╗"
 
 #: menus/options.lua:299
 msgid "rectangle"
-msgstr "квадрат"
+msgstr "┬к┬в┬а┬д┬░┬а┬▓"
 
 #: menus/options.lua:299
 msgid "alpha-rectangle"
-msgstr "прозр. квадрат"
+msgstr "┬п┬░┬о┬з┬░. ┬к┬в┬а┬д┬░┬а┬▓"
 
 #: menus/options.lua:299
 msgid "circle"
-msgstr "круг"
+msgstr "┬к┬░┬│┬г"
 
 #: menus/options.lua:299
 msgid "alpha-circle"
-msgstr "прозр. круг"
+msgstr "┬п┬░┬о┬з┬░. ┬к┬░┬│┬г"
 
 #: menus/options.lua:299 stratagus.lua:381
 msgid "corners"
-msgstr "уголки"
+msgstr "┬│┬г┬о┬л┬к┬и"
 
 #: menus/options.lua:300
 msgid "Selection style:"
-msgstr "Тип выделения:"
+msgstr "┬Т┬и┬п ┬в┬╗┬д┬е┬л┬е┬н┬и┬┐:"
 
 #: menus/options.lua:309
 msgid "single"
-msgstr "один"
+msgstr "┬о┬д┬и┬н"
 
 #: menus/options.lua:309
 msgid "horizontal 1 + 1"
-msgstr "гориз. 1 + 1"
+msgstr "┬г┬о┬░┬и┬з. 1 + 1"
 
 #: menus/options.lua:309
 msgid "horizontal 1 + 2"
-msgstr "гориз. 1 + 2"
+msgstr "┬г┬о┬░┬и┬з. 1 + 2"
 
 #: menus/options.lua:309
 msgid "vertical 1 + 1"
-msgstr "верт. 1 + 1"
+msgstr "┬в┬е┬░┬▓. 1 + 1"
 
 #: menus/options.lua:309
 msgid "quad"
-msgstr "четыре"
+msgstr "┬╖┬е┬▓┬╗┬░┬е"
 
 #: menus/options.lua:310
 msgid "Viewport mode:"
-msgstr "Кол-во экранов:"
+msgstr "┬К┬о┬л-┬в┬о ┬╜┬к┬░┬а┬н┬о┬в:"
 
 #: menus/options.lua:325
 msgid "Pixel Shader"
@@ -2006,751 +2006,751 @@ msgstr ""
 
 #: menus/options.lua:340
 msgid "~!*SF2 soundfont path :"
-msgstr "~!*SF2 банк :"
+msgstr "~!*SF2 ┬б┬а┬н┬к :"
 
 #: menus/options.lua:343
 msgid "~!* - requires restart"
-msgstr "~!* - после рестарта"
+msgstr "~!* - ┬п┬о┬▒┬л┬е ┬░┬е┬▒┬▓┬а┬░┬▓┬а"
 
 #: menus/options.lua:388
 msgid "Speed Settings"
-msgstr "Установка скорости"
+msgstr "┬У┬▒┬▓┬а┬н┬о┬в┬к┬а ┬▒┬к┬о┬░┬о┬▒┬▓┬и"
 
 #: menus/options.lua:389
 msgid "Game Speed"
-msgstr "Скорость игры"
+msgstr "┬С┬к┬о┬░┬о┬▒┬▓┬╝ ┬и┬г┬░┬╗"
 
 #: menus/options.lua:404 menus/options.lua:425 menus/options.lua:449
 msgid "slow "
-msgstr "медленно"
+msgstr "┬м┬е┬д┬л┬е┬н┬н┬о"
 
 #: menus/options.lua:405 menus/options.lua:426 menus/options.lua:450
 msgid "fast"
-msgstr "быстро"
+msgstr "┬б┬╗┬▒┬▓┬░┬о"
 
 #: menus/options.lua:410
 msgid "Mouse Scroll Speed"
-msgstr "Скорость мыши"
+msgstr "┬С┬к┬о┬░┬о┬▒┬▓┬╝ ┬м┬╗┬╕┬и"
 
 #: menus/options.lua:431
 msgid "Key Scroll Speed"
-msgstr "Скорость клавиатуры"
+msgstr "┬С┬к┬о┬░┬о┬▒┬▓┬╝ ┬к┬л┬а┬в┬и┬а┬▓┬│┬░┬╗"
 
 #: menus/options.lua:532
 msgid "Video Options"
-msgstr "Опции видео"
+msgstr "┬О┬п┬╢┬и┬и ┬в┬и┬д┬е┬о"
 
 #: menus/options.lua:533
 msgid "Video Resolution"
-msgstr "Разрешение экрана"
+msgstr "┬Р┬а┬з┬░┬е┬╕┬е┬н┬и┬е ┬╜┬к┬░┬а┬н┬а"
 
 #: menus/options.lua:544
 msgid "Full Screen"
-msgstr "Полноэкранный режим"
+msgstr "┬П┬о┬л┬н┬о┬╜┬к┬░┬а┬н┬н┬╗┬й ┬░┬е┬ж┬и┬м"
 
 #: menus/options.lua:610
 msgid "You need to restart game to apply changes, exit now?"
-msgstr "Нужно перезагрузить игру для принятия изменений, продолжить?"
+msgstr "┬Н┬│┬ж┬н┬о ┬п┬е┬░┬е┬з┬а┬г┬░┬│┬з┬и┬▓┬╝ ┬и┬г┬░┬│ ┬д┬л┬┐ ┬п┬░┬и┬н┬┐┬▓┬и┬┐ ┬и┬з┬м┬е┬н┬е┬н┬и┬й, ┬п┬░┬о┬д┬о┬л┬ж┬и┬▓┬╝?"
 
 #: menus/options.lua:620 menus/save.lua:23
 msgid "~!Yes"
-msgstr "~!Да"
+msgstr "~!┬Д┬а"
 
 #: menus/options.lua:627 menus/save.lua:29
 msgid "~!No"
-msgstr "~!Нет"
+msgstr "~!┬Н┬е┬▓"
 
 #: menus/options.lua:646
 msgid "Language Options"
-msgstr "Настройки перевода"
+msgstr "┬Н┬а┬▒┬▓┬░┬о┬й┬к┬и ┬п┬е┬░┬е┬в┬о┬д┬а"
 
 #: menus/options.lua:648
 msgid "Available languages:"
-msgstr "Доступные переводы:"
+msgstr "┬Д┬о┬▒┬▓┬│┬п┬н┬╗┬е ┬п┬е┬░┬е┬в┬о┬д┬╗:"
 
 #: menus/options.lua:684
 msgid "Game Options"
-msgstr "Игровые опции"
+msgstr "┬И┬г┬░┬о┬в┬╗┬е ┬о┬п┬╢┬и┬и"
 
 #: menus/options.lua:685
 msgid "Speeds (~<F6~>)"
-msgstr "Скорость (~<F6~>)"
+msgstr "┬С┬к┬о┬░┬о┬▒┬▓┬╝ (~<F6~>)"
 
 #: menus/options.lua:687
 msgid "Sound (~<F7~>)"
-msgstr "Звук (~<F7~>)"
+msgstr "┬З┬в┬│┬к (~<F7~>)"
 
 #: menus/options.lua:689
 msgid "Preferences (~<F8~>)"
-msgstr "Настройка (~<F8~>)"
+msgstr "┬Н┬а┬▒┬▓┬░┬о┬й┬к┬а (~<F8~>)"
 
 #: menus/options.lua:697
 msgid "Diplomacy (~<F9~>)"
-msgstr "Дипломатия (~<F9~>)"
+msgstr "┬Д┬и┬п┬л┬о┬м┬а┬▓┬и┬┐ (~<F9~>)"
 
 #: menus/options.lua:700
 msgid "Video (~<F9~>)"
-msgstr "Видео (~<F9~>)"
+msgstr "┬В┬и┬д┬е┬о (~<F9~>)"
 
 #: menus/options.lua:702
 msgid "Language"
-msgstr "Перевод"
+msgstr "┬П┬е┬░┬е┬в┬о┬д"
 
 #: menus/replay.lua:7
 msgid "Select Game"
-msgstr "Выбор игры"
+msgstr "┬В┬╗┬б┬о┬░ ┬и┬г┬░┬╗"
 
 #: menus/replay.lua:12
 msgid "Reveal Map"
-msgstr "Открыть карту"
+msgstr "┬О┬▓┬к┬░┬╗┬▓┬╝ ┬к┬а┬░┬▓┬│"
 
 #: menus/replay.lua:35
 msgid "Save Replay"
-msgstr "Сохранить"
+msgstr "┬С┬о┬╡┬░┬а┬н┬и┬▓┬╝"
 
 #: menus/results.lua:7
 msgid "Servant"
-msgstr "Слуга"
+msgstr "┬С┬л┬│┬г┬а"
 
 #: menus/results.lua:9
 msgid "Squire"
-msgstr "Оруженосец"
+msgstr "┬О┬░┬│┬ж┬е┬н┬о┬▒┬е┬╢"
 
 #: menus/results.lua:11
 msgid "Corporal"
-msgstr "Капрал"
+msgstr "┬К┬а┬п┬░┬а┬л"
 
 #: menus/results.lua:12
 msgid "Sergeant"
-msgstr "Сержант"
+msgstr "┬С┬е┬░┬ж┬а┬н┬▓"
 
 #: menus/results.lua:13
 msgid "Lieutenant"
-msgstr "Лейтенант"
+msgstr "┬Л┬е┬й┬▓┬е┬н┬а┬н┬▓"
 
 #: menus/results.lua:14 menus/results.lua:36
 msgid "Captain"
-msgstr "Капитан"
+msgstr "┬К┬а┬п┬и┬▓┬а┬н"
 
 #: menus/results.lua:15 menus/results.lua:37
 msgid "Major"
-msgstr "Майор"
+msgstr "┬М┬а┬й┬о┬░"
 
 #: menus/results.lua:17 menus/results.lua:39
 msgid "General"
-msgstr "Генерал"
+msgstr "┬Г┬е┬н┬е┬░┬а┬л"
 
 #: menus/results.lua:18
 msgid "Admiral"
-msgstr "Адмирал"
+msgstr "┬А┬д┬м┬и┬░┬а┬л"
 
 #: menus/results.lua:19 menus/results.lua:41
 msgid "Marshall"
-msgstr "Маршал"
+msgstr "┬М┬а┬░┬╕┬а┬л"
 
 #: menus/results.lua:20
 msgid "Lord"
-msgstr "Повелитель"
+msgstr "┬П┬о┬в┬е┬л┬и┬▓┬е┬л┬╝"
 
 #: menus/results.lua:21
 msgid "Grand Admiral"
-msgstr "Адмирал Флота"
+msgstr "┬А┬д┬м┬и┬░┬а┬л ┬Ф┬л┬о┬▓┬а"
 
 #: menus/results.lua:22
 msgid "Highlord"
-msgstr "Сюзерен"
+msgstr "┬С┬╛┬з┬е┬░┬е┬н"
 
 #: menus/results.lua:23
 msgid "Thundergod"
-msgstr "Громовержец"
+msgstr "┬Г┬░┬о┬м┬о┬в┬е┬░┬ж┬е┬╢"
 
 #: menus/results.lua:24 menus/results.lua:46
 msgid "God"
-msgstr "Бог"
+msgstr "┬Б┬о┬г"
 
 #: menus/results.lua:25 menus/results.lua:47 menus/results.lua:138
 msgid "Designer"
-msgstr "Программист"
+msgstr "┬П┬░┬о┬г┬░┬а┬м┬м┬и┬▒┬▓"
 
 #: menus/results.lua:29
 msgid "Slave"
-msgstr "Раб"
+msgstr "┬Р┬а┬б"
 
 #: menus/results.lua:30 orc/units.lua:64 orc/units.lua:108
 msgid "Peon"
-msgstr "Батрак"
+msgstr "┬Б┬а┬▓┬░┬а┬к"
 
 #: menus/results.lua:31
 msgid "Rogue"
-msgstr "Негодяй"
+msgstr "┬Н┬е┬г┬о┬д┬┐┬й"
 
 #: menus/results.lua:32 orc/units.lua:35
 msgid "Grunt"
-msgstr "Пехотинец"
+msgstr "┬П┬е┬╡┬о┬▓┬и┬н┬е┬╢"
 
 #: menus/results.lua:33
 msgid "Slasher"
-msgstr "Старшина"
+msgstr "┬С┬▓┬а┬░┬╕┬и┬н┬а"
 
 #: menus/results.lua:34
 msgid "Marauder"
-msgstr "Мородер"
+msgstr "┬М┬о┬░┬о┬д┬е┬░"
 
 #: menus/results.lua:35
 msgid "Commander"
-msgstr "Командир"
+msgstr "┬К┬о┬м┬а┬н┬д┬и┬░"
 
 #: menus/results.lua:40
 msgid "Master"
-msgstr "Захватчик"
+msgstr "┬З┬а┬╡┬в┬а┬▓┬╖┬и┬к"
 
 #: menus/results.lua:42
 msgid "Chieftain"
-msgstr "Вождь"
+msgstr "┬В┬о┬ж┬д┬╝"
 
 #: menus/results.lua:43
 msgid "Overlord"
-msgstr "Владыка"
+msgstr "┬В┬л┬а┬д┬╗┬к┬а"
 
 #: menus/results.lua:44
 msgid "War Chief"
-msgstr "Военный Вождь"
+msgstr "┬В┬о┬е┬н┬н┬╗┬й ┬В┬о┬ж┬д┬╝"
 
 #: menus/results.lua:45
 msgid "Demigod"
-msgstr "Полубог"
+msgstr "┬П┬о┬л┬│┬б┬о┬г"
 
 #: menus/results.lua:65
 msgid "Victory!"
-msgstr "Победа"
+msgstr "┬П┬о┬б┬е┬д┬а"
 
 #: menus/results.lua:74
 msgid "Defeat!"
-msgstr "Разгром"
+msgstr "┬Р┬а┬з┬г┬░┬о┬м"
 
 #: menus/results.lua:83
 msgid "Draw!"
-msgstr "Ничья"
+msgstr "┬Н┬и┬╖┬╝┬┐"
 
 #: menus/results.lua:132 menus/results.lua:140
 msgid "Cheater!"
-msgstr "Обманщик!"
+msgstr "┬О┬б┬м┬а┬н┬╣┬и┬к!"
 
 #: menus/results.lua:184
 msgid " - You"
-msgstr " - Вы"
+msgstr " - ┬В┬╗"
 
 #: menus/results.lua:186
 msgid " - Ally"
-msgstr " - Союзник"
+msgstr " - ┬С┬о┬╛┬з┬н┬и┬к"
 
 #: menus/results.lua:188
 msgid " - Enemy"
-msgstr " - Враг"
+msgstr " - ┬В┬░┬а┬г"
 
 #: menus/results.lua:190
 msgid " - Neutral"
-msgstr " - Нейтрал"
+msgstr " - ┬Н┬е┬й┬▓┬░┬а┬л"
 
 #: menus/results.lua:207
 msgid "Buildings:"
-msgstr "Здания:"
+msgstr "┬З┬д┬а┬н┬и┬┐:"
 
 #: menus/results.lua:210
 msgid "Gold:"
-msgstr "Золото:"
+msgstr "┬З┬о┬л┬о┬▓┬о:"
 
 #: menus/results.lua:213
 msgid "Lumber:"
-msgstr "Лес:"
+msgstr "┬Л┬е┬▒:"
 
 #: menus/results.lua:216
 msgid "Oil:"
-msgstr "Нефть:"
+msgstr "┬Н┬е┬┤┬▓┬╝:"
 
 #: menus/results.lua:219
 msgid "Kills:"
-msgstr "Убито:"
+msgstr "┬У┬б┬и┬▓┬о:"
 
 #: menus/results.lua:222
 msgid "Razings:"
-msgstr "Снесено:"
+msgstr "┬С┬н┬е┬▒┬е┬н┬о:"
 
 #: menus/results.lua:225
 msgid "Score:"
-msgstr "Очки:"
+msgstr "┬О┬╖┬к┬и:"
 
 #: menus/results.lua:321
 msgid "Outcome"
-msgstr "Результат"
+msgstr "┬Р┬е┬з┬│┬л┬╝┬▓┬а┬▓"
 
 #: menus/results.lua:328
 msgid "Rank"
-msgstr "Звание"
+msgstr "┬З┬в┬а┬н┬и┬е"
 
 #: menus/results.lua:338
 msgid "Score"
-msgstr "Очки"
+msgstr "┬О┬╖┬к┬и"
 
 #: menus/results.lua:405
 msgid "~!Save Replay"
-msgstr "~!Сохранить"
+msgstr "~!┬С┬о┬╡┬░┬а┬н┬и┬▓┬╝"
 
 #: menus/save.lua:5
 msgid "Cannot save game to file:"
-msgstr "Нельзя сохранить игру в файл:"
+msgstr "┬Н┬е┬л┬╝┬з┬┐ ┬▒┬о┬╡┬░┬а┬н┬и┬▓┬╝ ┬и┬г┬░┬│ ┬в ┬┤┬а┬й┬л:"
 
 #: menus/save.lua:10
 msgid "Saved game to: "
-msgstr "Сохранено в: "
+msgstr "┬С┬о┬╡┬░┬а┬н┬е┬н┬о ┬в: "
 
 #: orc/buttons.lua:169 orc/buttons.lua:189
 msgid "EYE OF ~!KILROGG"
-msgstr "~!ГЛАЗ КИЛЬРОГА"
+msgstr "~!┬Г┬Л┬А┬З ┬К┬И┬Л┬Ь┬Р┬О┬Г┬А"
 
 #: orc/buttons.lua:175 orc/buttons.lua:195
 msgid "~!BLOODLUST"
-msgstr "ЖАЖДА ~!КРОВИ"
+msgstr "┬Ж┬А┬Ж┬Д┬А ~!┬К┬Р┬О┬В┬И"
 
 #: orc/buttons.lua:181 orc/buttons.lua:201
 msgid "~!RUNES"
-msgstr "~!РУНЫ"
+msgstr "~!┬Р┬У┬Н┬Ы"
 
 #: orc/buttons.lua:208
 msgid "TOUCH OF D~!ARKNESS"
-msgstr "~!АТАКОВАТЬ"
+msgstr "~!┬А┬Т┬А┬К┬О┬В┬А┬Т┬Ь"
 
 #: orc/buttons.lua:214
 msgid "DEATH ~!COIL"
-msgstr "КОЛЬ~!ЦО СМЕРТИ"
+msgstr "┬К┬О┬Л┬Ь~!┬Ц┬О ┬С┬М┬Е┬Р┬Т┬И"
 
 #: orc/buttons.lua:220
 msgid "~!HASTE"
-msgstr "УС~!КОРЕНИЕ"
+msgstr "┬У┬С~!┬К┬О┬Р┬Е┬Н┬И┬Е"
 
 #: orc/buttons.lua:226
 msgid "~!RAISE DEAD"
-msgstr "~!ВОСКРЕШЕНИЕ"
+msgstr "~!┬В┬О┬С┬К┬Р┬Е┬Ш┬Е┬Н┬И┬Е"
 
 #: orc/buttons.lua:232
 msgid "~!WHIRLWIND"
-msgstr "СМЕР~!Ч"
+msgstr "┬С┬М┬Е┬Р~!┬Ч"
 
 #: orc/buttons.lua:238
 msgid "~!UNHOLY ARMOR"
-msgstr "~!ДОСПЕХИ ЗЛА"
+msgstr "~!┬Д┬О┬С┬П┬Е┬Х┬И ┬З┬Л┬А"
 
 #: orc/buttons.lua:244
 msgid "~!DEATH AND DECAY"
-msgstr "~!УМРИ И РАЗЛОЖИСЬ!"
+msgstr "~!┬У┬М┬Р┬И ┬И ┬Р┬А┬З┬Л┬О┬Ж┬И┬С┬Ь!"
 
 #: orc/buttons.lua:281
 msgid "BUILD PIG ~!FARM"
-msgstr "СТРОИТЕЛЬСТВО ~!ФЕРМЫ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Ф┬Е┬Р┬М┬Ы"
 
 #: orc/buttons.lua:291
 msgid "BUILD GREAT ~!HALL"
-msgstr "СТРОИТЕЛЬСТВО ~!ЗАЛА ВОЖДЕЙ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬З┬А┬Л┬А ┬В┬О┬Ж┬Д┬Е┬Й"
 
 #: orc/buttons.lua:296
 msgid "BUILD TROLL ~!LUMBER MILL"
-msgstr "СТРОИТЕЛЬСТВО Ф~!АБРИКИ/ПИЛОРАМЫ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬Ф~!┬А┬Б┬Р┬И┬К┬И/┬П┬И┬Л┬О┬Р┬А┬М┬Ы"
 
 #: orc/buttons.lua:339
 msgid "BUILD GOBLIN ~!ALCHEMIST"
-msgstr "СТРОИТЕЛЬСТВО ГОБЛИНА ~!АЛХИМИКА"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬Г┬О┬Б┬Л┬И┬Н┬А ~!┬А┬Л┬Х┬И┬М┬И┬К┬А"
 
 #: orc/buttons.lua:344
 msgid "BUILD ~!OGRE MOUND"
-msgstr "СТРОИТЕЛЬСТВО ХОЛМА ~!ОГРОВ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬Х┬О┬Л┬М┬А ~!┬О┬Г┬Р┬О┬В"
 
 #: orc/buttons.lua:349
 msgid "BUILD ~!TEMPLE OF THE DAMNED"
-msgstr "СТРОИТЕЛЬСТВО ~!ХРАМА ПРОКЛЯТЫХ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Х┬Р┬А┬М┬А ┬П┬Р┬О┬К┬Л┬Я┬Т┬Ы┬Х"
 
 #: orc/buttons.lua:354
 msgid "BUILD A~!LTAR OF STORMS"
-msgstr "СТРОИТЕЛЬСТВО А~!ЛТАРЯ ВСЕХ ВЕТРОВ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ┬А~!┬Л┬Т┬А┬Р┬Я ┬В┬С┬Е┬Х ┬В┬Е┬Т┬Р┬О┬В"
 
 #: orc/buttons.lua:359
 msgid "BUILD ~!DRAGON ROOST"
-msgstr "СТРОИТЕЛЬСТВО ~!ДРАКОНЬЕГО ЛОГОВА"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Д┬Р┬А┬К┬О┬Н┬Ь┬Е┬Г┬О ┬Л┬О┬Г┬О┬В┬А"
 
 #: orc/buttons.lua:379
 msgid "TRAIN ~!PEON"
-msgstr "ОБУЧЕНИЕ ~!БАТРАКА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬Б┬А┬Т┬Р┬А┬К┬А"
 
 #: orc/buttons.lua:387
 msgid "UPGRADE TO ~!STRONGHOLD"
-msgstr "ВОЗВЕДЕНИЕ ~!ЦИТАДЕЛИ"
+msgstr "┬В┬О┬З┬В┬Е┬Д┬Е┬Н┬И┬Е ~!┬Ц┬И┬Т┬А┬Д┬Е┬Л┬И"
 
 #: orc/buttons.lua:393
 msgid "UPGRADE TO ~!FORTRESS"
-msgstr "ВОЗВЕДЕНИЕ ~!КРЕПОСТИ"
+msgstr "┬В┬О┬З┬В┬Е┬Д┬Е┬Н┬И┬Е ~!┬К┬Р┬Е┬П┬О┬С┬Т┬И"
 
 #: orc/buttons.lua:428
 msgid "TRAIN ~!GRUNT"
-msgstr "ОБУЧЕНИЕ ~!ПЕХОТИНЦА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬П┬Е┬Х┬О┬Т┬И┬Н┬Ц┬А"
 
 #: orc/buttons.lua:433
 msgid "TRAIN ~!AXETHROWER"
-msgstr "ОБУЧЕНИЕ ~!ТОПОРОМЕТАТЕЛЯ"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬Т┬О┬П┬О┬Р┬О┬М┬Е┬Т┬А┬Т┬Е┬Л┬Я"
 
 #: orc/buttons.lua:438
 msgid "TRAIN ~!BERSERKER"
-msgstr "ОБУ~!ЧЕНИЕ ЛУЧНИКА"
+msgstr "┬О┬Б┬У~!┬Ч┬Е┬Н┬И┬Е ┬Л┬У┬Ч┬Н┬И┬К┬А"
 
 #: orc/buttons.lua:443
 msgid "BUILD ~!CATAPULT"
-msgstr "СТРОИТЕЛЬСТВО ~!КАТАПУЛЬТЫ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬К┬А┬Т┬А┬П┬У┬Л┬Ь┬Т┬Ы"
 
 #: orc/buttons.lua:448
 msgid "TRAIN TWO-HEADED ~!OGRE"
-msgstr "ОБУЧЕНИЕ ДВУГЛАВОГО ~!ОГРА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ┬Д┬В┬У┬Г┬Л┬А┬В┬О┬Г┬О ~!┬О┬Г┬Р┬А"
 
 #: orc/buttons.lua:453
 msgid "TRAIN ~!OGRE MAGE"
-msgstr "ОБУЧЕНИЕ ~!ОГРА-МАГА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬О┬Г┬Р┬А-┬М┬А┬Г┬А"
 
 #: orc/buttons.lua:458
 msgid "BUILD GOBLIN ~!ZEPPELIN"
-msgstr "СТРОИТЕЛЬСТВО ~!ДИРИЖАБЛЯ ГОБЛИНОВ"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Д┬И┬Р┬И┬Ж┬А┬Б┬Л┬Я ┬Г┬О┬Б┬Л┬И┬Н┬О┬В"
 
 #: orc/buttons.lua:463
 msgid "TRAIN GOBLIN ~!SAPPERS"
-msgstr "ОБУЧЕНИЕ ГОБЛИНОВ-~!САПЕРОВ"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ┬Г┬О┬Б┬Л┬И┬Н┬О┬В-~!┬С┬А┬П┬Е┬Р┬О┬В"
 
 #: orc/buttons.lua:468
 msgid "~!TRAIN DEATH KNIGHT"
-msgstr "~!ОБУЧЕНИЕ РЫЦАРЯ СМЕРТИ"
+msgstr "~!┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ┬Р┬Ы┬Ц┬А┬Р┬Я ┬С┬М┬Е┬Р┬Т┬И"
 
 #: orc/buttons.lua:473
 msgid "BUILD ~!DRAGON"
-msgstr "ОБУЧЕНИЕ ~!ДРАКОНА"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬Д┬Р┬А┬К┬О┬Н┬А"
 
 #: orc/buttons.lua:493
 msgid "BUILD ~!GIANT TURTLE"
-msgstr "ОБУЧЕНИЕ ~!ГИГАНТСКОЙ ЧЕРЕПАХИ"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬Г┬И┬Г┬А┬Н┬Т┬С┬К┬О┬Й ┬Ч┬Е┬Р┬Е┬П┬А┬Х┬И"
 
 #: orc/buttons.lua:498
 msgid "BUILD ~!JUGGERNAUHGT"
-msgstr "СТРОИТЕЛЬСТВО ~!ДЖАГГЕРНАУТА"
+msgstr "┬С┬Т┬Р┬О┬И┬Т┬Е┬Л┬Ь┬С┬Т┬В┬О ~!┬Д┬Ж┬А┬Г┬Г┬Е┬Р┬Н┬А┬У┬Т┬А"
 
 #: orc/buttons.lua:600 orc/buttons.lua:606
 msgid "UPGRADE ~!WEAPONS (Damage +2)"
-msgstr "МОДЕРНИЗАЦИЯ ~!ОРУЖИЯ (Поврежд.+2)"
+msgstr "┬М┬О┬Д┬Е┬Р┬Н┬И┬З┬А┬Ц┬И┬Я ~!┬О┬Р┬У┬Ж┬И┬Я (┬П┬о┬в┬░┬е┬ж┬д.+2)"
 
 #: orc/buttons.lua:624 orc/buttons.lua:630
 msgid "UPGRADE ~!CATAPULT (Damage +15)"
-msgstr "МОЩЬ ~!КАТАПУЛЬТЫ (Поврежд.+15)"
+msgstr "┬М┬О┬Щ┬Ь ~!┬К┬А┬Т┬А┬П┬У┬Л┬Ь┬Т┬Ы (┬П┬о┬в┬░┬е┬ж┬д.+15)"
 
 #: orc/buttons.lua:636 orc/buttons.lua:642
 msgid "~!UPGRADE THROWING AXE (Damage +1)"
-msgstr "МОДЕРНИЗАЦИЯ ТОПОРА (Поврежд.+1)"
+msgstr "┬М┬О┬Д┬Е┬Р┬Н┬И┬З┬А┬Ц┬И┬Я ┬Т┬О┬П┬О┬Р┬А (┬П┬о┬в┬░┬е┬ж┬д.+1)"
 
 #: orc/buttons.lua:648
 msgid "TROLL ~!BERSERKER TRAINING"
-msgstr "ШКОЛА ТРОЛЛЯ-~!БЕРСЕРКА"
+msgstr "┬Ш┬К┬О┬Л┬А ┬Т┬Р┬О┬Л┬Л┬Я-~!┬Б┬Е┬Р┬С┬Е┬Р┬К┬А"
 
 #: orc/buttons.lua:654
 msgid "BERSERKER ~!SCOUTING (Sight:9)"
-msgstr "~!ЗОРКОСТЬ БЕРСЕРКА (Зрение:9)"
+msgstr "~!┬З┬О┬Р┬К┬О┬С┬Т┬Ь ┬Б┬Е┬Р┬С┬Е┬Р┬К┬А (┬З┬░┬е┬н┬и┬е:9)"
 
 #: orc/buttons.lua:660
 msgid "RESEARCH LIGHTER ~!AXES (Range +1)"
-msgstr "ЛЕГКИЙ ~!ЛУК (Дальность +1)"
+msgstr "┬Л┬Е┬Г┬К┬И┬Й ~!┬Л┬У┬К (┬Д┬а┬л┬╝┬н┬о┬▒┬▓┬╝ +1)"
 
 #: orc/buttons.lua:666
 msgid "BERSERKER ~!REGENERATION"
-msgstr "РЕ~!ГЕНЕРАЦИЯ ТРОЛЛЯ-БЕРСЕРКА"
+msgstr "┬Р┬Е~!┬Г┬Е┬Н┬Е┬Р┬А┬Ц┬И┬Я ┬Т┬Р┬О┬Л┬Л┬Я-┬Б┬Е┬Р┬С┬Е┬Р┬К┬А"
 
 #: orc/buttons.lua:672
 msgid "UPGRADES OGRES TO ~!MAGES"
-msgstr "ОБУЧЕНИЕ ~!МАГОВ"
+msgstr "┬О┬Б┬У┬Ч┬Е┬Н┬И┬Е ~!┬М┬А┬Г┬О┬В"
 
 #: orc/buttons.lua:678
 msgid "RESEARCH ~!BLOODLUST"
-msgstr "ИЗУЧЕНИЕ ЖАЖДЫ ~!КРОВИ"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ┬Ж┬А┬Ж┬Д┬Ы ~!┬К┬Р┬О┬В┬И"
 
 #: orc/buttons.lua:684
 msgid "RESEARCH ~!RUNES"
-msgstr "ИЗУЧЕНИЕ ~!РУН"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ~!┬Р┬У┬Н"
 
 #: orc/buttons.lua:690
 msgid "RESEARCH ~!HASTE"
-msgstr "ИЗУЧЕНИЕ УС~!КОРЕНИЯ"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ┬У┬С~!┬К┬О┬Р┬Е┬Н┬И┬Я"
 
 #: orc/buttons.lua:696
 msgid "RESEARCH ~!RAISE DEAD"
-msgstr "ИЗУЧЕНИЕ ~!ВОСКРЕШЕНИЯ"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ~!┬В┬О┬С┬К┬Р┬Е┬Ш┬Е┬Н┬И┬Я"
 
 #: orc/buttons.lua:702
 msgid "RESEARCH ~!WHIRLWIND"
-msgstr "ИЗУЧЕНИЕ СМЕР~!ЧА"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ┬С┬М┬Е┬Р~!┬Ч┬А"
 
 #: orc/buttons.lua:708
 msgid "RESEARCH ~!UNHOLY ARMOR"
-msgstr "ИЗУЧЕНИЕ ~!ДОСПЕХОВ ЗЛА"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ~!┬Д┬О┬С┬П┬Е┬Х┬О┬В ┬З┬Л┬А"
 
 #: orc/buttons.lua:714
 msgid "RESEARCH ~!DEATH AND DECAY"
-msgstr "ИЗУЧЕНИЕ ~!УМРИ И РАЗЛОЖИСЬ!"
+msgstr "┬И┬З┬У┬Ч┬Е┬Н┬И┬Е ~!┬У┬М┬Р┬И ┬И ┬Р┬А┬З┬Л┬О┬Ж┬И┬С┬Ь!"
 
 #: orc/campaign1.lua:34
 msgid "Seas of Blood"
-msgstr "Моря крови"
+msgstr "┬М┬о┬░┬┐ ┬к┬░┬о┬в┬и"
 
 #: orc/campaign1.lua:46
 msgid "Quel'Thalas"
-msgstr "Квель-Талас"
+msgstr "┬К┬в┬е┬л┬╝-┬Т┬а┬л┬а┬▒"
 
 #: orc/campaign1.lua:53
 msgid "Tides of Darkness"
-msgstr "Под покровом ночи"
+msgstr "┬П┬о┬д ┬п┬о┬к┬░┬о┬в┬о┬м ┬н┬о┬╖┬и"
 
 #: orc/campaign2.lua:35
 msgid "Draenor, the Red World"
-msgstr "Дренор, Красный Мир"
+msgstr "┬Д┬░┬е┬н┬о┬░, ┬К┬░┬а┬▒┬н┬╗┬й ┬М┬и┬░"
 
 #: orc/campaign2.lua:40
 msgid "The Burning of Azeroth"
-msgstr "Пламя Азерота"
+msgstr "┬П┬л┬а┬м┬┐ ┬А┬з┬е┬░┬о┬▓┬а"
 
 #: orc/campaign2.lua:45
 msgid "The Great Sea"
-msgstr "Великое Море"
+msgstr "┬В┬е┬л┬и┬к┬о┬е ┬М┬о┬░┬е"
 
 #: orc/campaign2.lua:50
 msgid "Prelude to New Worlds"
-msgstr "Пред Новыми Мирами"
+msgstr "┬П┬░┬е┬д ┬Н┬о┬в┬╗┬м┬и ┬М┬и┬░┬а┬м┬и"
 
 #: orc/units.lua:150 orc/units.lua:178
 msgid "Catapult"
-msgstr "Катапульта"
+msgstr "┬К┬а┬▓┬а┬п┬│┬л┬╝┬▓┬а"
 
 #: orc/units.lua:206
 msgid "Ogre"
-msgstr "Огр"
+msgstr "┬О┬г┬░"
 
 #: orc/units.lua:235
 msgid "Troll Axethrower"
-msgstr "Тролль метатель"
+msgstr "┬Т┬░┬о┬л┬л┬╝ ┬м┬е┬▓┬а┬▓┬е┬л┬╝"
 
 #: orc/units.lua:264
 msgid "Death Knight"
-msgstr "Рыцарь Смерти"
+msgstr "┬Р┬╗┬╢┬а┬░┬╝ ┬С┬м┬е┬░┬▓┬и"
 
 #: orc/units.lua:302
 msgid "Ogre Mage"
-msgstr "Огр-маг"
+msgstr "┬О┬г┬░-┬м┬а┬г"
 
 #: orc/units.lua:334
 msgid "Goblin Sappers"
-msgstr "Гоблины саперы"
+msgstr "┬Г┬о┬б┬л┬и┬н┬╗ ┬▒┬а┬п┬е┬░┬╗"
 
 #: orc/units.lua:364
 msgid "Berserker"
-msgstr "Берсерк"
+msgstr "┬Б┬е┬░┬▒┬е┬░┬к"
 
 #: orc/units.lua:394
 msgid "Teron Gorefiend"
-msgstr "Тирон Гоофинд"
+msgstr "┬Т┬и┬░┬о┬н ┬Г┬о┬о┬┤┬и┬н┬д"
 
 #: orc/units.lua:433
 msgid "Dentarg"
-msgstr "Дентарг"
+msgstr "┬Д┬е┬н┬▓┬а┬░┬г"
 
 #: orc/units.lua:464
 msgid "Grom Hellscream"
-msgstr "Гром Хэллскрим"
+msgstr "┬Г┬░┬о┬м ┬Х┬╜┬л┬л┬▒┬к┬░┬и┬м"
 
 #: orc/units.lua:557
 msgid "Troll Destroyer"
-msgstr "Разрушитель Троллей"
+msgstr "┬Р┬а┬з┬░┬│┬╕┬и┬▓┬е┬л┬╝ ┬Т┬░┬о┬л┬л┬е┬й"
 
 #: orc/units.lua:586
 msgid "Ogre Juggernaught"
-msgstr "Джаггернаут Огров"
+msgstr "┬Д┬ж┬а┬г┬г┬е┬░┬н┬а┬│┬▓ ┬О┬г┬░┬о┬в"
 
 #: orc/units.lua:615
 msgid "Dragon"
-msgstr "Дракон"
+msgstr "┬Д┬░┬а┬к┬о┬н"
 
 #: orc/units.lua:644
 msgid "Deathwing"
-msgstr "Крыло Смерти"
+msgstr "┬К┬░┬╗┬л┬о ┬С┬м┬е┬░┬▓┬и"
 
 #: orc/units.lua:679
 msgid "Giant Turtle"
-msgstr "Гигантская черепаха"
+msgstr "┬Г┬и┬г┬а┬н┬▓┬▒┬к┬а┬┐ ┬╖┬е┬░┬е┬п┬а┬╡┬а"
 
 #: orc/units.lua:709
 msgid "Goblin Zeppelin"
-msgstr "Дирижабль Гномов"
+msgstr "┬Д┬и┬░┬и┬ж┬а┬б┬л┬╝ ┬Г┬н┬о┬м┬о┬в"
 
 #: orc/units.lua:735
 msgid "Eye of Kilrogg"
-msgstr "Глаз Кильрога"
+msgstr "┬Г┬л┬а┬з ┬К┬и┬л┬╝┬░┬о┬г┬а"
 
 #: orc/units.lua:761
 msgid "Korgath Bladefist"
-msgstr "Коргат Блэйдфист"
+msgstr "┬К┬о┬░┬г┬а┬▓ ┬Б┬л┬╜┬й┬д┬┤┬и┬▒┬▓"
 
 #: orc/units.lua:790
 msgid "Cho'gall"
-msgstr "Шогал"
+msgstr "┬Ш┬о┬г┬а┬л"
 
 #: orc/units.lua:822
 msgid "Gul'dan"
-msgstr "Гул'дан"
+msgstr "┬Г┬│┬л'┬д┬а┬н"
 
 #: orc/units.lua:860
 msgid "Zuljin"
-msgstr "Зулин"
+msgstr "┬З┬│┬л┬и┬н"
 
 #: orc/units.lua:890
 msgid "Skeleton"
-msgstr "Скелет"
+msgstr "┬С┬к┬е┬л┬е┬▓"
 
 #: orc/units.lua:924
 msgid "Pig Farm"
-msgstr "Свиноферма"
+msgstr "┬С┬в┬и┬н┬о┬┤┬е┬░┬м┬а"
 
 #: orc/units.lua:990
 msgid "Altar of Storms"
-msgstr "Алтарь Всех Ветров"
+msgstr "┬А┬л┬▓┬а┬░┬╝ ┬В┬▒┬е┬╡ ┬В┬е┬▓┬░┬о┬в"
 
 #: orc/units.lua:1022
 msgid "Watch Tower"
-msgstr "Смотровая башня"
+msgstr "┬С┬м┬о┬▓┬░┬о┬в┬а┬┐ ┬б┬а┬╕┬н┬┐"
 
 #: orc/units.lua:1056
 msgid "Ogre Mound"
-msgstr "Холм Огров"
+msgstr "┬Х┬о┬л┬м ┬О┬г┬░┬о┬в"
 
 #: orc/units.lua:1088
 msgid "Goblin Alchemist"
-msgstr "Гоблин Алхимик"
+msgstr "┬Г┬о┬б┬л┬и┬н ┬А┬л┬╡┬и┬м┬и┬к"
 
 #: orc/units.lua:1120
 msgid "Dragon Roost"
-msgstr "Драконье Логово"
+msgstr "┬Д┬░┬а┬к┬о┬н┬╝┬е ┬Л┬о┬г┬о┬в┬о"
 
 #: orc/units.lua:1191
 msgid "Great Hall"
-msgstr "Зал Вождей"
+msgstr "┬З┬а┬л ┬В┬о┬ж┬д┬е┬й"
 
 #: orc/units.lua:1228
 msgid "Troll Lumber Mill"
-msgstr "Пилорама Троллей"
+msgstr "┬П┬и┬л┬о┬░┬а┬м┬а ┬Т┬░┬о┬л┬л┬е┬й"
 
 #: orc/units.lua:1295
 msgid "Temple of the Damned"
-msgstr "Храм Проклятых"
+msgstr "┬Х┬░┬а┬м ┬П┬░┬о┬к┬л┬┐┬▓┬╗┬╡"
 
 #: orc/units.lua:1432
 msgid "Stronghold"
-msgstr "Цитадель"
+msgstr "┬Ц┬и┬▓┬а┬д┬е┬л┬╝"
 
 #: orc/units.lua:1470
 msgid "Fortress"
-msgstr "Крепость"
+msgstr "┬К┬░┬е┬п┬о┬▒┬▓┬╝"
 
 #: scripts.lua:37
 msgid "Sheep"
-msgstr "Тварь"
+msgstr "┬Т┬в┬а┬░┬╝"
 
 #: scripts.lua:37
 msgid "Seal"
-msgstr "Тварь"
+msgstr "┬Т┬в┬а┬░┬╝"
 
 #: scripts.lua:37
 msgid "Pig"
-msgstr "Тварь"
+msgstr "┬Т┬в┬а┬░┬╝"
 
 #: scripts.lua:37
 msgid "Warthog"
-msgstr "Тварь"
+msgstr "┬Т┬в┬а┬░┬╝"
 
 #: spells.lua:88
 msgid "Demolish"
-msgstr "Разрушить"
+msgstr "┬Р┬а┬з┬░┬│┬╕┬и┬▓┬╝"
 
 #: spells.lua:99
 msgid "Holy Vision"
-msgstr "Святое зрение"
+msgstr "┬С┬в┬┐┬▓┬о┬е ┬з┬░┬е┬н┬и┬е"
 
 #: spells.lua:111
 msgid "Healing"
-msgstr "Лечение"
+msgstr "┬Л┬е┬╖┬е┬н┬и┬е"
 
 #: spells.lua:161
 msgid "Exorcism"
-msgstr "Экзорцизм"
+msgstr "┬Э┬к┬з┬о┬░┬╢┬и┬з┬м"
 
 #: spells.lua:179 spells.lua:191
 msgid "eye of vision"
-msgstr "глаз кильрога"
+msgstr "┬г┬л┬а┬з ┬к┬и┬л┬╝┬░┬о┬г┬а"
 
 #: spells.lua:202
 msgid "haste"
-msgstr "ускорение"
+msgstr "┬│┬▒┬к┬о┬░┬е┬н┬и┬е"
 
 #: spells.lua:220
 msgid "slow"
-msgstr "замедление"
+msgstr "┬з┬а┬м┬е┬д┬л┬е┬н┬и┬е"
 
 #: spells.lua:237 spells.lua:254
 msgid "bloodlust"
-msgstr "жажда крови"
+msgstr "┬ж┬а┬ж┬д┬а ┬к┬░┬о┬в┬и"
 
 #: spells.lua:270
 msgid "invisibility"
-msgstr "невидимость"
+msgstr "┬н┬е┬в┬и┬д┬и┬м┬о┬▒┬▓┬╝"
 
 #: spells.lua:301
 msgid "unholyarmor"
-msgstr "доспехи зла"
+msgstr "┬д┬о┬▒┬п┬е┬╡┬и ┬з┬л┬а"
 
 #: spells.lua:318
 msgid "flame shield"
-msgstr "защита огнем"
+msgstr "┬з┬а┬╣┬и┬▓┬а ┬о┬г┬н┬е┬м"
 
 #: spells.lua:338
 msgid "polymorph"
-msgstr "превращение"
+msgstr "┬п┬░┬е┬в┬░┬а┬╣┬е┬н┬и┬е"
 
 #: spells.lua:398
 msgid "blizzard"
-msgstr "буран"
+msgstr "┬б┬│┬░┬а┬н"
 
 #: spells.lua:416
 msgid "death and decay"
-msgstr "умри и разложись!"
+msgstr "┬│┬м┬░┬и ┬и ┬░┬а┬з┬л┬о┬ж┬и┬▒┬╝!"
 
 #: spells.lua:430
 msgid "fireball"
-msgstr "огненное ядро"
+msgstr "┬о┬г┬н┬е┬н┬н┬о┬е ┬┐┬д┬░┬о"
 
 #: spells.lua:442 spells.lua:469
 msgid "runes"
-msgstr "руны"
+msgstr "┬░┬│┬н┬╗"
 
 #: spells.lua:512
 msgid "death coil"
-msgstr "кольцо смерти"
+msgstr "┬к┬о┬л┬╝┬╢┬о ┬▒┬м┬е┬░┬▓┬и"
 
 #: spells.lua:525
 msgid "raise dead"
-msgstr "воскрешение"
+msgstr "┬в┬о┬▒┬к┬░┬е┬╕┬е┬н┬и┬е"
 
 #: spells.lua:539
 msgid "whirlwind"
-msgstr "смерч"
+msgstr "┬▒┬м┬е┬░┬╖"
 
 #: stratagus.lua:42
 msgid "Aleona's Tales"
-msgstr "Сказания Алеоны"
+msgstr "┬С┬к┬а┬з┬а┬н┬и┬┐ ┬А┬л┬е┬о┬н┬╗"
 
 #: stratagus.lua:44
 msgid "Wargus"
@@ -2762,241 +2762,241 @@ msgstr "(c) 1998-2017 by The Stratagus Project."
 
 #: stratagus.lua:200
 msgid "stop"
-msgstr "стоп"
+msgstr "┬▒┬▓┬о┬п"
 
 #: stratagus.lua:200
 msgid "mine"
-msgstr "добывайте"
+msgstr "┬д┬о┬б┬╗┬в┬а┬й┬▓┬е"
 
 #: stratagus.lua:200
 msgid "chop"
-msgstr "рубите"
+msgstr "┬░┬│┬б┬и┬▓┬е"
 
 #: stratagus.lua:200
 msgid "drill"
-msgstr "добывайте"
+msgstr "┬д┬о┬б┬╗┬в┬а┬й┬▓┬е"
 
 #: stratagus.lua:202
 msgid "Time Left: "
-msgstr "Время: "
+msgstr "┬В┬░┬е┬м┬┐: "
 
 #: stratagus.lua:202
 msgid "Gold Left: "
-msgstr "Золото: "
+msgstr "┬З┬о┬л┬о┬▓┬о: "
 
 #: stratagus.lua:202
 msgid "Wood Left: "
-msgstr "Лес: "
+msgstr "┬Л┬е┬▒: "
 
 #: stratagus.lua:202
 msgid "Oil Left: "
-msgstr "Нефть: "
+msgstr "┬Н┬е┬┤┬▓┬╝: "
 
 #: stratagus.lua:202
 msgid "Ore Left: "
-msgstr "Руда: "
+msgstr "┬Р┬│┬д┬а: "
 
 #: stratagus.lua:202
 msgid "Stone Left: "
-msgstr "Камень: "
+msgstr "┬К┬а┬м┬е┬н┬╝: "
 
 #: stratagus.lua:202
 msgid "Coal Left: "
-msgstr "Уголь: "
+msgstr "┬У┬г┬о┬л┬╝: "
 
 #: stratagus.lua:204
 msgid "time"
-msgstr "время"
+msgstr "┬в┬░┬е┬м┬┐"
 
 #: stratagus.lua:204
 msgid "ore"
-msgstr "руда"
+msgstr "┬░┬│┬д┬а"
 
 #: stratagus.lua:204
 msgid "stone"
-msgstr "камень"
+msgstr "┬к┬а┬м┬е┬н┬╝"
 
 #: stratagus.lua:204
 msgid "coal"
-msgstr "уголь"
+msgstr "┬│┬г┬о┬л┬╝"
 
 #: stratagus.lua:292
 msgid "You failed to"
-msgstr "Вы проиграли"
+msgstr "┬В┬╗ ┬п┬░┬о┬и┬г┬░┬а┬л┬и"
 
 #: stratagus.lua:293
 msgid "achieve victory!"
-msgstr "в этой битве!"
+msgstr "┬в ┬╜┬▓┬о┬й ┬б┬и┬▓┬в┬е!"
 
 #: stratagus.lua:311
 msgid "Congratulations!"
-msgstr "Поздравляем!"
+msgstr "┬П┬о┬з┬д┬░┬а┬в┬л┬┐┬е┬м!"
 
 #: stratagus.lua:312
 msgid "You are victorious!"
-msgstr "Вы победитель!"
+msgstr "┬В┬╗ ┬п┬о┬б┬е┬д┬и┬▓┬е┬л┬╝!"
 
 #: stratagus.lua:314
 msgid "Save Game (~<F11~>)"
-msgstr "Сохранить (~<F11~>)"
+msgstr "┬С┬о┬╡┬░┬а┬н┬и┬▓┬╝ (~<F11~>)"
 
 #: stratagus.lua:320
 msgid "~!Victory"
-msgstr "~!Победа"
+msgstr "~!┬П┬о┬б┬е┬д┬а"
 
 #: ui.lua:116 ui.lua:223 ui.lua:228 ui.lua:234
 msgid "% Complete"
-msgstr "% завершено"
+msgstr "% ┬з┬а┬в┬е┬░┬╕┬е┬н┬о"
 
 #: ui.lua:129
 msgid "Usage~|"
-msgstr "Пища~|"
+msgstr "┬П┬и┬╣┬а~|"
 
 #: ui.lua:130
 msgid "Supply~|: "
-msgstr "Выращено~|:"
+msgstr "┬В┬╗┬░┬а┬╣┬е┬н┬о~|:"
 
 #: ui.lua:131
 msgid "Demand~|: "
-msgstr "Расход~|:"
+msgstr "┬Р┬а┬▒┬╡┬о┬д~|:"
 
 #: ui.lua:144 ui.lua:168 ui.lua:169
 msgid "Production"
-msgstr "Добыча:"
+msgstr "┬Д┬о┬б┬╗┬╖┬а:"
 
 #: ui.lua:145
 msgid "Gold~|: 100"
-msgstr "Золото~|: 100"
+msgstr "┬З┬о┬л┬о┬▓┬о~|: 100"
 
 #: ui.lua:150 ui.lua:170
 msgid "Lumber~|: 100"
-msgstr "Лес~|: 100"
+msgstr "┬Л┬е┬▒~|: 100"
 
 #: ui.lua:155 ui.lua:175
 msgid "Oil~|: 100"
-msgstr "Нефть~|: 100"
+msgstr "┬Н┬е┬┤┬▓┬╝~|: 100"
 
 #: ui.lua:190 ui.lua:196 ui.lua:202 ui.lua:447 ui.lua:501 ui.lua:605 ui.lua:659
 msgid "Damage~|: "
-msgstr "Повреждение~|: "
+msgstr "┬П┬о┬в┬░┬е┬ж┬д┬е┬н┬и┬е~|: "
 
 #: ui.lua:209 ui.lua:259
 msgid "Armor~|: "
-msgstr "Броня~|: "
+msgstr "┬Б┬░┬о┬н┬┐~|: "
 
 #: ui.lua:212 ui.lua:262
 msgid "Sight~|: "
-msgstr "Видимость~|: "
+msgstr "┬В┬и┬д┬и┬м┬о┬▒┬▓┬╝~|: "
 
 #: ui.lua:216
 msgid "Range~|: "
-msgstr "Дальность~|: "
+msgstr "┬Д┬а┬л┬╝┬н┬о┬▒┬▓┬╝~|: "
 
 #: ui.lua:222
 msgid "Researching~|:"
-msgstr "Изучается~|:"
+msgstr "┬И┬з┬│┬╖┬а┬е┬▓┬▒┬┐~|:"
 
 #: ui.lua:233
 msgid "Upgrading~|:"
-msgstr "Улучшается~|:"
+msgstr "┬У┬л┬│┬╖┬╕┬а┬е┬▓┬▒┬┐~|:"
 
 #: ui.lua:237
 #, lua-format
 msgid "Carry~|: %d %s"
-msgstr "Несет~|: %d %s"
+msgstr "┬Н┬е┬▒┬е┬▓~|: %d %s"
 
 #: ui.lua:251
 #, lua-format
 msgid "Level ~|~<%d~>"
-msgstr "Уровень ~|~<%d~>"
+msgstr "┬У┬░┬о┬в┬е┬н┬╝ ~|~<%d~>"
 
 #: ui.lua:255
 #, lua-format
 msgid "XP:~<%d~> Kills:~|~<%d~>"
-msgstr "XP:~<%d~> Убил:~|~<%d~>"
+msgstr "XP:~<%d~> ┬У┬б┬и┬л:~|~<%d~>"
 
 #: ui.lua:265
 msgid "Speed~|: "
-msgstr "Скорость~|: "
+msgstr "┬С┬к┬о┬░┬о┬▒┬▓┬╝~|: "
 
 #: ui.lua:269
 msgid "Mana~|: "
-msgstr "Магия~|: "
+msgstr "┬М┬а┬г┬и┬┐~|: "
 
 #: ui.lua:412 ui.lua:570
 msgid "~<ALT~>-click to defend unit."
-msgstr "~<ALT~>-клик, чтобы защищать юнит."
+msgstr "~<ALT~>-┬к┬л┬и┬к, ┬╖┬▓┬о┬б┬╗ ┬з┬а┬╣┬и┬╣┬а┬▓┬╝ ┬╛┬н┬и┬▓."
 
 #: ui.lua:415 ui.lua:573
 msgid "~<SHIFT~>-click to make waypoints."
-msgstr "~<SHIFT~>-клик, чтобы создавать точки следования."
+msgstr "~<SHIFT~>-┬к┬л┬и┬к, ┬╖┬▓┬о┬б┬╗ ┬▒┬о┬з┬д┬а┬в┬а┬▓┬╝ ┬▓┬о┬╖┬к┬и ┬▒┬л┬е┬д┬о┬в┬а┬н┬и┬┐."
 
 #: ui.lua:422 ui.lua:580
 msgid ""
 "~<CTRL~>-click on button enables/disables auto-repair of damaged buildings."
 msgstr ""
-"~<CTRL~>-клик на кнопку включает/отключает авторемонт поврежденных зданий."
+"~<CTRL~>-┬к┬л┬и┬к ┬н┬а ┬к┬н┬о┬п┬к┬│ ┬в┬к┬л┬╛┬╖┬а┬е┬▓/┬о┬▓┬к┬л┬╛┬╖┬а┬е┬▓ ┬а┬в┬▓┬о┬░┬е┬м┬о┬н┬▓ ┬п┬о┬в┬░┬е┬ж┬д┬е┬н┬н┬╗┬╡ ┬з┬д┬а┬н┬и┬й."
 
 #: ui.lua:441 ui.lua:489 ui.lua:599 ui.lua:647
 msgid "Hit Points: "
-msgstr "Очки жизни: "
+msgstr "┬О┬╖┬к┬и ┬ж┬и┬з┬н┬и: "
 
 #: ui.lua:444 ui.lua:492 ui.lua:602 ui.lua:650
 msgid "Armor: "
-msgstr "Броня: "
+msgstr "┬Б┬░┬о┬н┬┐: "
 
 #: ui.lua:467 ui.lua:625
 msgid "~<SHIFT~>-click could be used to make a building queue."
 msgstr ""
-"Можно использовать ~<SHIFT~>-клик, чтобы создать очередь строительства."
+"┬М┬о┬ж┬н┬о ┬и┬▒┬п┬о┬л┬╝┬з┬о┬в┬а┬▓┬╝ ~<SHIFT~>-┬к┬л┬и┬к, ┬╖┬▓┬о┬б┬╗ ┬▒┬о┬з┬д┬а┬▓┬╝ ┬о┬╖┬е┬░┬е┬д┬╝ ┬▒┬▓┬░┬о┬и┬▓┬е┬л┬╝┬▒┬▓┬в┬а."
 
 #: ui.lua:495 ui.lua:653
 msgid "Sight: "
-msgstr "Видимость: "
+msgstr "┬В┬и┬д┬и┬м┬о┬▒┬▓┬╝: "
 
 #: ui.lua:498 ui.lua:656
 msgid "Range: "
-msgstr "Дальность: "
+msgstr "┬Д┬а┬л┬╝┬н┬о┬▒┬▓┬╝: "
 
 #: ui.lua:545 ui.lua:703
 msgid "~<CTRL~>-click on button enables/disables auto-cast ability."
-msgstr "~<CTRL~>-клик на кнопку включает/выключает автоматическое колдовство."
+msgstr "~<CTRL~>-┬к┬л┬и┬к ┬н┬а ┬к┬н┬о┬п┬к┬│ ┬в┬к┬л┬╛┬╖┬а┬е┬▓/┬в┬╗┬к┬л┬╛┬╖┬а┬е┬▓ ┬а┬в┬▓┬о┬м┬а┬▓┬и┬╖┬е┬▒┬к┬о┬е ┬к┬о┬л┬д┬о┬в┬▒┬▓┬в┬о."
 
 #: units.lua:40
 msgid "Nothing 22"
-msgstr "Ничего"
+msgstr "┬Н┬и┬╖┬е┬г┬о"
 
 #: units.lua:52
 msgid "Nothing 24"
-msgstr "Ничего"
+msgstr "┬Н┬и┬╖┬е┬г┬о"
 
 #: units.lua:68
 msgid "Nothing 25"
-msgstr "Ничего"
+msgstr "┬Н┬и┬╖┬е┬г┬о"
 
 #: units.lua:84
 msgid "Nothing 30"
-msgstr "Ничего"
+msgstr "┬Н┬и┬╖┬е┬г┬о"
 
 #: units.lua:97
 msgid "Nothing 36"
-msgstr "Ничего"
+msgstr "┬Н┬и┬╖┬е┬г┬о"
 
 #: units.lua:110
 msgid "Daemon"
-msgstr "Демон"
+msgstr "┬Д┬е┬м┬о┬н"
 
 #: units.lua:146
 msgid "Critter"
-msgstr "Тварь"
+msgstr "┬Т┬в┬а┬░┬╝"
 
 #: units.lua:180
 msgid "Gold Mine"
-msgstr "Золотой рудник"
+msgstr "┬З┬о┬л┬о┬▓┬о┬й ┬░┬│┬д┬н┬и┬к"
 
 #: units.lua:219
 msgid "Oil Patch"
-msgstr "Нефтяное пятно"
+msgstr "┬Н┬е┬┤┬▓┬┐┬н┬о┬е ┬п┬┐┬▓┬н┬о"
 
 #: units.lua:246
 msgid "The Pile"
@@ -3004,66 +3004,66 @@ msgstr ""
 
 #: units.lua:266
 msgid "Circle of Power"
-msgstr "Круг Власти"
+msgstr "┬К┬░┬│┬г ┬В┬л┬а┬▒┬▓┬и"
 
 #: units.lua:292
 msgid "Dark Portal"
-msgstr "Портал Тьмы"
+msgstr "┬П┬о┬░┬▓┬а┬л ┬Т┬╝┬м┬╗"
 
 #: units.lua:326
 msgid "Runestone"
-msgstr "Рунный камень"
+msgstr "┬Р┬│┬н┬н┬╗┬й ┬к┬а┬м┬е┬н┬╝"
 
 #: units.lua:354 units.lua:368 units.lua:382
 msgid "Dead Body"
-msgstr "Тело"
+msgstr "┬Т┬е┬л┬о"
 
 #: units.lua:403
 msgid "Destroyed 1x1 Place"
-msgstr "Разрушенное место"
+msgstr "┬Р┬а┬з┬░┬│┬╕┬е┬н┬н┬о┬е ┬м┬е┬▒┬▓┬о"
 
 #: units.lua:424
 msgid "Destroyed 2x2 Place"
-msgstr "Разрушенное место"
+msgstr "┬Р┬а┬з┬░┬│┬╕┬е┬н┬н┬о┬е ┬м┬е┬▒┬▓┬о"
 
 #: units.lua:445
 msgid "Destroyed 3x3 Place"
-msgstr "Разрушенное место"
+msgstr "┬Р┬а┬з┬░┬│┬╕┬е┬н┬н┬о┬е ┬м┬е┬▒┬▓┬о"
 
 #: units.lua:465
 msgid "Destroyed 3x3 Place Water"
-msgstr "Разрушенное место"
+msgstr "┬Р┬а┬з┬░┬│┬╕┬е┬н┬н┬о┬е ┬м┬е┬▒┬▓┬о"
 
 #: units.lua:485
 msgid "Destroyed 4x4 Place"
-msgstr "Разрушенное место"
+msgstr "┬Р┬а┬з┬░┬│┬╕┬е┬н┬н┬о┬е ┬м┬е┬▒┬▓┬о"
 
 #: units.lua:500
 msgid "Dummy unit"
-msgstr "Не юнит"
+msgstr "┬Н┬е ┬╛┬н┬и┬▓"
 
 #: wc2.lua:34
 msgid "Freemen"
-msgstr "Люди"
+msgstr "┬Л┬╛┬д┬и"
 
 #: wc2.lua:38
 msgid "Wilds"
-msgstr "Дикари"
+msgstr "┬Д┬и┬к┬а┬░┬и"
 
 #~ msgid "want to surrender"
-#~ msgstr "хотите сдаться"
+#~ msgstr "┬╡┬о┬▓┬и┬▓┬е ┬▒┬д┬а┬▓┬╝┬▒┬┐"
 
 #~ msgid "to your enemies?"
-#~ msgstr "врагу в плен?"
+#~ msgstr "┬в┬░┬а┬г┬│ ┬в ┬п┬л┬е┬н?"
 
 #~ msgid "Incompatible network version"
-#~ msgstr "Другая версия игры"
+#~ msgstr "┬Д┬░┬│┬г┬а┬┐ ┬в┬е┬░┬▒┬и┬┐ ┬и┬г┬░┬╗"
 
 #~ msgid "~!Join Game"
-#~ msgstr "~!Присоединиться"
+#~ msgstr "~!┬П┬░┬и┬▒┬о┬е┬д┬и┬н┬и┬▓┬╝┬▒┬┐"
 
 #~ msgid "Meta~!server"
-#~ msgstr "Метасервер"
+#~ msgstr "┬М┬е┬▓┬а┬▒┬е┬░┬в┬е┬░"
 
 #~ msgid "(c) 2012-2016 by The Stratagus Project."
 #~ msgstr "(c) 2012-2016 by The Stratagus Project."
@@ -3072,91 +3072,91 @@ msgstr "Дикари"
 #~ msgstr "(c) 1998-2016 by The Stratagus Project."
 
 #~ msgid "1 Opponent"
-#~ msgstr "1 Оппонент"
+#~ msgstr "1 ┬О┬п┬п┬о┬н┬е┬н┬▓"
 
 #~ msgid "2 Opponents"
-#~ msgstr "2 Оппонента"
+#~ msgstr "2 ┬О┬п┬п┬о┬н┬е┬н┬▓┬а"
 
 #~ msgid "3 Opponents"
-#~ msgstr "3 Оппонента"
+#~ msgstr "3 ┬О┬п┬п┬о┬н┬е┬н┬▓┬а"
 
 #~ msgid "4 Opponents"
-#~ msgstr "4 Оппонента"
+#~ msgstr "4 ┬О┬п┬п┬о┬н┬е┬н┬▓┬а"
 
 #~ msgid "5 Opponents"
-#~ msgstr "5 Оппонентов"
+#~ msgstr "5 ┬О┬п┬п┬о┬н┬е┬н┬▓┬о┬в"
 
 #~ msgid "6 Opponents"
-#~ msgstr "6 Оппонентов"
+#~ msgstr "6 ┬О┬п┬п┬о┬н┬е┬н┬▓┬о┬в"
 
 #~ msgid "7 Opponents"
-#~ msgstr "7 Оппонентов"
+#~ msgstr "7 ┬О┬п┬п┬о┬н┬е┬н┬▓┬о┬в"
 
 #~ msgid "~<Opponents:~>"
-#~ msgstr "~<Оппоненты:~>"
+#~ msgstr "~<┬О┬п┬п┬о┬н┬е┬н┬▓┬╗:~>"
 
 #~ msgid "Time Left~|: "
-#~ msgstr "Время~|:"
+#~ msgstr "┬В┬░┬е┬м┬┐~|:"
 
 #~ msgid "Gold Left~|: "
-#~ msgstr "Золото~|:"
+#~ msgstr "┬З┬о┬л┬о┬▓┬о~|:"
 
 #~ msgid "Wood Left~|: "
-#~ msgstr "Лес~|:"
+#~ msgstr "┬Л┬е┬▒~|:"
 
 #~ msgid "Oil Left~|: "
-#~ msgstr "Нефть~|:"
+#~ msgstr "┬Н┬е┬┤┬▓┬╝~|:"
 
 #~ msgid "Ore Left~|: "
-#~ msgstr "Руда~|:"
+#~ msgstr "┬Р┬│┬д┬а~|:"
 
 #~ msgid "Stone Left~|: "
-#~ msgstr "Камень~|:"
+#~ msgstr "┬К┬а┬м┬е┬н┬╝~|:"
 
 #~ msgid "Coal Left~|: "
-#~ msgstr "Уголь~|:"
+#~ msgstr "┬У┬г┬о┬л┬╝~|:"
 
 #~ msgid "%s Left~|:%d"
 #~ msgstr "%s: %d"
 
 #~ msgid "Damage: "
-#~ msgstr "Повреждение: "
+#~ msgstr "┬П┬о┬в┬░┬е┬ж┬д┬е┬н┬и┬е: "
 
 #~ msgid "File      : "
-#~ msgstr "Файл      : "
+#~ msgstr "┬Ф┬а┬й┬л      : "
 
 #~ msgid "Players  : "
-#~ msgstr "Игроки :"
+#~ msgstr "┬И┬г┬░┬о┬к┬и :"
 
 #~ msgid "Size      : "
-#~ msgstr "Размер     : "
+#~ msgstr "┬Р┬а┬з┬м┬е┬░     : "
 
 #~ msgid "lumber"
-#~ msgstr "лес"
+#~ msgstr "┬л┬е┬▒"
 
 #~ msgid "~!Singleplayer"
-#~ msgstr "~!Одиночная игра"
+#~ msgstr "~!┬О┬д┬и┬н┬о┬╖┬н┬а┬┐ ┬и┬г┬░┬а"
 
 #~ msgid "~!Multiplayer"
-#~ msgstr "~!Мультиплеер"
+#~ msgstr "~!┬М┬│┬л┬╝┬▓┬и┬п┬л┬е┬е┬░"
 
 #~ msgid "~!Campaign"
-#~ msgstr "~!Кампания"
+#~ msgstr "~!┬К┬а┬м┬п┬а┬н┬и┬┐"
 
 #~ msgid "~!Replay"
-#~ msgstr "~!Переиграть"
+#~ msgstr "~!┬П┬е┬░┬е┬и┬г┬░┬а┬▓┬╝"
 
 #~ msgid "~!Editor"
-#~ msgstr "Редактор"
+#~ msgstr "┬Р┬е┬д┬а┬к┬▓┬о┬░"
 
 #~ msgid "~<Reveal Map:~>"
-#~ msgstr "~<Карта:~>"
+#~ msgstr "~<┬К┬а┬░┬▓┬а:~>"
 
 #~ msgid "Usage"
-#~ msgstr "Пища"
+#~ msgstr "┬П┬и┬╣┬а"
 
 #~ msgid "Supply ~|: "
-#~ msgstr "Выращено ~|: "
+#~ msgstr "┬В┬╗┬░┬а┬╣┬е┬н┬о ~|: "
 
 #~ msgid "Demand ~|: "
-#~ msgstr "Расход ~|: "
+#~ msgstr "┬Р┬а┬▒┬╡┬о┬д ~|: "

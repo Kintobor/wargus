@@ -1063,9 +1063,11 @@ function RunSinglePlayerTypeMenu()
     function() RunSinglePlayerGameModeMenu(); menu:stop(1) end)
   menu:addFullButton(_("~!Campaign Game"), "c", offx + 208, offy + 104 + 36*4,
     function() RunModCampaignGameMenu(); menu:stop(1) end)
-  menu:addFullButton(_("~!Load Game"), "l", offx + 208, offy + 104 + 36*5,
+  menu:addFullButton(_("Scenari~!os"), "o", offx + 208, offy + 104 + 36*5,
+    function() RunScenarioGameMenu(); menu:stop(1) end)
+  menu:addFullButton(_("~!Load Game"), "l", offx + 208, offy + 104 + 36*6,
     function() RunLoadGameMenu(); menu:stop(1) end)
-  menu:addFullButton(_("Previous Menu (~<Esc~>)"), "escape", offx + 208, offy + 104 + 36*6,
+  menu:addFullButton(_("Previous Menu (~<Esc~>)"), "escape", offx + 208, offy + 104 + 36*7,
     function() menu:stop() end)
   return menu:run()
 end
@@ -1644,6 +1646,31 @@ function RunLoadModMenu()
   menu:addHalfButton("~!OK", "o", 48, 318, okFunc)
   menu:addHalfButton(_("Cancel (~<Esc~>)"), "escape", 198, 318,
     function() buttonStatut = 2; menu:stop() end)
+
+  menu:run()
+end
+
+function RunScenarioGameMenu()
+  buttonStatut = 0
+  local menu = WarMenu(nil, panel(5), false)
+  menu:setSize(352, 352)
+  menu:setPosition((Video.Width - 352) / 2, (Video.Height - 352) / 2)
+  menu:setDrawMenusUnder(true)
+
+  menu:addLabel(_("Campaign Game"), 176, 8)
+
+  local browser = menu:addBrowser("scripts/lists/scenarios/", "", 24, (24+8+8), (300+5), (318-24-8-8-24))
+
+  menu:addHalfButton(_("~!OK"), "o", 48, 318,
+    function()
+      if (browser:getSelected() < 0) then
+        return
+      end
+      Load(browser.path .. browser:getSelectedItem())
+      menu:stop()
+    end)
+  menu:addHalfButton(_("~!Cancel"), "c", 198, 318,
+    function() buttonStatut = 2; menu:stop(1); RunSinglePlayerTypeMenu() end)
 
   menu:run()
 end
